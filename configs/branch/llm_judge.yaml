@@ -1,0 +1,13 @@
+llm_judge:
+  alignment_mode: llm
+  provider: gemini
+  model_name: gemma-4-31b-it
+  base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+  api_key_env: GEMINI_API_KEY
+  timeout_sec: 120
+  fallback_to_guardrail: false
+
+rubric:
+  aligned: 1.0
+  partial_or_unclear: 0.5
+  discordant: 0.0

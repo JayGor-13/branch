@@ -1,0 +1,9 @@
+dice:
+  total_counterfactuals: 3
+  desired_class_policy: lower_risk
+  proximity_weight: 0.5
+  diversity_weight: 1.0
+  permitted_range_file: feature_metadata.json
+  immutable_features:
+    - Age
+  method: random

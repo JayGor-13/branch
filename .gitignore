@@ -1,0 +1,63 @@
+# Python caches and build output
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+credentials*.json
+secrets*.json
+
+# IDE, OS, and local agent state
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.agents/
+.codex/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.zip
+
+# Jupyter/editor checkpoints
+.ipynb_checkpoints/
+
+# Data files should not be pushed by default.
+# Keep dataset acquisition instructions in README/docs instead.
+data/raw/
+data/interim/
+data/processed/
+data/external/
+
+# Model artifacts, generated explanations, vector stores, and predictions
+artifacts/
+
+# Experiment outputs
+results/metrics/
+results/figures/
+
+# Keep final paper tables commit-friendly, but ignore lock-conflict fallbacks.
+results/tables/*_new.*

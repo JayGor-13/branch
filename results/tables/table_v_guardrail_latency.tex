@@ -1,0 +1,14 @@
+\begin{table*}[ht]
+\centering
+\caption{\textbf{Inference Latency Breakdown.} Mean seconds $\pm$ std over generated BRANCH traces. XGBoost is model prediction time, SHAP and DiCE are explanation tool times, RAG is top-3 guideline retrieval, Guardrail is clinical-alignment checking, and LLM Summary is the Gemini API generation call grounded in the retrieved chunks. Total is end-to-end inference time.}
+\label{tab:latency_breakdown}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{lccccccc}
+\toprule
+\textbf{Method} & \textbf{XGBoost} & \textbf{SHAP} & \textbf{DiCE} & \textbf{RAG} & \textbf{Guardrail} & \textbf{LLM Summary} & \textbf{Total} \\
+\midrule
+BRANCH-Gemma4-26B & 0.004 $\pm$ 0.001 & 0.170 $\pm$ 0.536 & 0.053 $\pm$ 0.119 & 0.019 $\pm$ 0.072 & 0.000 $\pm$ 0.000 & 18.071 $\pm$ 0.179 & 18.316 $\pm$ 0.706 \\
+BRANCH-Gemma4-31B & 0.005 $\pm$ 0.002 & 0.179 $\pm$ 0.461 & 0.070 $\pm$ 0.172 & 0.012 $\pm$ 0.017 & 0.000 $\pm$ 0.000 & 23.708 $\pm$ 0.987 & 23.973 $\pm$ 1.119 \\
+\bottomrule
+\end{tabular}
+\end{table*}

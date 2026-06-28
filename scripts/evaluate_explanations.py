@@ -1,0 +1,301 @@
+from __future__ import annotations
+
+import argparse
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
+
+from branch.evaluation.explanation_metrics import (
+    clinical_alignment_score,
+    completeness,
+    explanation_quality_score,
+    faithfulness,
+)
+from branch.agents.llm_client import build_llm_client, build_llm_config
+from branch.evaluation.llm_judge import judge_clinical_alignment
+from branch.evaluation.ragas_external import RagasRecord, evaluate_ragas_records
+from branch.data.dataset_specs import normalize_dataset_name
+from branch.guardrails.alignment_checker import check_clinical_alignment
+from branch.guardrails.retriever import retrieve_guidelines
+from branch.rag.embeddings import build_embedding_client, build_embedding_config
+from branch.utils.dependencies import require
+from branch.utils.io import read_json
+
+
+def _fallback_alignment_score(guardrail_result: dict) -> float:
+    return clinical_alignment_score(guardrail_result)
+
+
+def main() -> None:
+    pd = require("pandas")
+
+    parser = argparse.ArgumentParser(description="Evaluate generated explanations.")
+    parser.add_argument("--dataset", default="maternal_health")
+    parser.add_argument(
+        "--trace-dir",
+        default=None,
+    )
+    parser.add_argument(
+        "--narrative-dir",
+        default=None,
+    )
+    parser.add_argument(
+        "--output-path",
+        default="results/metrics/explanation_quality.csv",
+    )
+    parser.add_argument(
+        "--method",
+        default=None,
+        help=(
+            "Optional method label for Table IV, e.g. BRANCH-Gemma4-26B "
+            "or BRANCH-Gemma4-31B. If omitted, the label is "
+            "inferred from the trace narrative backend when possible."
+        ),
+    )
+    parser.add_argument(
+        "--alignment-mode",
+        choices=["guardrail", "llm"],
+        default="guardrail",
+    )
+    parser.add_argument(
+        "--quality-mode",
+        choices=["local", "ragas"],
+        default="local",
+        help=(
+            "Use `ragas` for the real external RAGAS package, or `local` for "
+            "the fast lightweight scorer used in offline smoke tests."
+        ),
+    )
+    parser.add_argument("--ragas-llm-model", default="gemma-4-31b-it")
+    parser.add_argument("--ragas-embedding-model", default="models/text-embedding-004")
+    parser.add_argument("--ragas-api-key-env", default="GEMINI_API_KEY")
+    parser.add_argument("--ragas-max-workers", type=int, default=1)
+    parser.add_argument("--ragas-max-retries", type=int, default=3)
+    parser.add_argument("--ragas-max-wait", type=int, default=60)
+    parser.add_argument(
+        "--ragas-record-delay-sec",
+        type=float,
+        default=20.0,
+        help=(
+            "Pause between patient-level RAGAS evaluations. This keeps the "
+            "Gemma evaluator under low RPM quotas."
+        ),
+    )
+    parser.add_argument("--llm-provider", default="gemini")
+    parser.add_argument("--llm-model", default="gemma-4-31b-it")
+    parser.add_argument("--llm-base-url", default=None)
+    parser.add_argument("--llm-api-key-env", default=None)
+    parser.add_argument("--llm-timeout-sec", type=int, default=120)
+    parser.add_argument("--no-llm-fallback", action="store_true")
+    parser.add_argument("--embedding-provider", default="local")
+    parser.add_argument("--embedding-model", default=None)
+    parser.add_argument("--embedding-base-url", default=None)
+    parser.add_argument("--embedding-api-key-env", default=None)
+    parser.add_argument("--embedding-timeout-sec", type=int, default=120)
+    parser.add_argument("--embedding-dimensions", type=int, default=768)
+    parser.add_argument(
+        "--vector-index-path",
+        default="artifacts/vector_store/clinical_guidelines",
+    )
+    parser.add_argument("--retrieval-top-k", type=int, default=3)
+    parser.add_argument("--retrieval-similarity-threshold", type=float, default=0.0)
+    args = parser.parse_args()
+    dataset = normalize_dataset_name(args.dataset)
+    trace_dir = Path(args.trace_dir or f"artifacts/explanations/branch_traces/{dataset}")
+    narrative_dir = Path(args.narrative_dir or f"artifacts/explanations/narratives/{dataset}")
+
+    judge_client = None
+    if args.alignment_mode == "llm":
+        config = build_llm_config(
+            provider=args.llm_provider,
+            model_name=args.llm_model,
+            base_url=args.llm_base_url,
+            api_key_env=args.llm_api_key_env,
+            timeout_sec=args.llm_timeout_sec,
+            fallback_to_template=not args.no_llm_fallback,
+        )
+        judge_client = build_llm_client(config)
+        if judge_client is None:
+            raise RuntimeError("LLM alignment mode requires a non-template LLM provider.")
+    embedding_config = build_embedding_config(
+        provider=args.embedding_provider,
+        model_name=args.embedding_model,
+        base_url=args.embedding_base_url,
+        api_key_env=args.embedding_api_key_env,
+        timeout_sec=args.embedding_timeout_sec,
+        dimensions=args.embedding_dimensions,
+    )
+    embedding_client = build_embedding_client(embedding_config)
+
+    rows = []
+    ragas_jobs = []
+    for trace_path in sorted(trace_dir.glob("*_trace.json")):
+        trace = read_json(trace_path)
+        patient_id = trace["patient_id"]
+        method_label = args.method or _method_label_from_trace(trace)
+        shap_path = Path(trace["shap_result_path"])
+        narrative_path = narrative_dir / f"{patient_id}.md"
+        shap_result = read_json(shap_path)
+        source_narrative = narrative_path.read_text(encoding="utf-8")
+        narrative = source_narrative
+        guideline_context = retrieve_guidelines(
+            dataset,
+            trace["prediction"],
+            shap_result,
+            narrative=narrative,
+            top_k=args.retrieval_top_k,
+            similarity_threshold=args.retrieval_similarity_threshold,
+            vector_index_path=args.vector_index_path,
+            embedding_client=embedding_client,
+        )
+        guardrail_result = check_clinical_alignment(shap_result, guideline_context)
+        evaluation_trace = dict(trace)
+        evaluation_trace["guideline_context"] = guideline_context
+        evaluation_trace["guardrail_result"] = guardrail_result
+        evaluation_trace["guardrail_status"] = guardrail_result.get("guardrail_status")
+        f_faith = faithfulness(shap_result, narrative)
+        f_answer = completeness(shap_result, narrative)
+        judge_label = None
+        judge_rationale = None
+        judge_model = None
+        judge_used_llm = False
+        try:
+            if judge_client is not None:
+                judge = judge_clinical_alignment(
+                    judge_client, narrative, evaluation_trace, shap_result
+                )
+                f_align = judge.score
+                judge_label = judge.label
+                judge_rationale = judge.rationale
+                judge_model = judge.model_name
+                judge_used_llm = judge.used_llm
+            else:
+                f_align = _fallback_alignment_score(guardrail_result)
+        except Exception:
+            if args.no_llm_fallback:
+                raise
+            f_align = _fallback_alignment_score(guardrail_result)
+            judge_label = "fallback_to_guardrail"
+            judge_rationale = "Expert LLM judge failed; used RAG fallback score."
+        row_index = len(rows)
+        rows.append(
+            {
+                "dataset": dataset,
+                "patient_id": patient_id,
+                "method": method_label,
+                "faithfulness": f_faith,
+                "answer_relevancy": f_answer,
+                "completeness": f_answer,
+                "clinical_alignment": f_align,
+                "eqs": explanation_quality_score(f_faith, f_answer, f_align),
+                "quality_mode": "local",
+                "alignment_mode": args.alignment_mode,
+                "judge_label": judge_label,
+                "judge_rationale": judge_rationale,
+                "judge_model": judge_model,
+                "judge_used_llm": judge_used_llm,
+                "rag_source": "clinical_guidelines",
+                "rag_retrieved_chunks": len(guideline_context.get("retrieved_chunks", [])),
+                "rag_retrieved_narratives": 0,
+                "rag_backend": (
+                    guideline_context.get("retrieval_backend")
+                ),
+                "embedding_provider": (
+                    guideline_context.get("embedding_provider")
+                ),
+                "embedding_model": (
+                    guideline_context.get("embedding_model")
+                ),
+                "retrieved_patient_id": None,
+                "retrieved_narrative_path": None,
+                "notes": guardrail_result.get("guardrail_status"),
+            }
+        )
+        if args.quality_mode == "ragas":
+            ragas_jobs.append(
+                {
+                    "row_index": row_index,
+                    "record": RagasRecord(
+                        user_input=_ragas_user_input(dataset, trace, shap_result),
+                        response=_narrative_for_ragas(narrative),
+                        retrieved_contexts=_ragas_contexts(guideline_context),
+                    ),
+                }
+            )
+
+    if args.quality_mode == "ragas" and ragas_jobs:
+        scores = evaluate_ragas_records(
+            [job["record"] for job in ragas_jobs],
+            llm_model=args.ragas_llm_model,
+            embedding_model=args.ragas_embedding_model,
+            api_key_env=args.ragas_api_key_env,
+            max_workers=args.ragas_max_workers,
+            max_retries=args.ragas_max_retries,
+            max_wait=args.ragas_max_wait,
+            record_delay_sec=args.ragas_record_delay_sec,
+        )
+        for job, score in zip(ragas_jobs, scores):
+            row = rows[job["row_index"]]
+            if score.faithfulness is not None:
+                row["faithfulness"] = score.faithfulness
+            if score.answer_relevancy is not None:
+                row["answer_relevancy"] = score.answer_relevancy
+                row["completeness"] = score.answer_relevancy
+            row["eqs"] = explanation_quality_score(
+                float(row["faithfulness"]),
+                float(row["answer_relevancy"]),
+                float(row["clinical_alignment"]),
+            )
+            row["quality_mode"] = "ragas"
+            row["ragas_evaluator_model"] = args.ragas_llm_model
+            row["ragas_embedding_model"] = args.ragas_embedding_model
+
+    out = Path(args.output_path)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    pd.DataFrame(rows).to_csv(out, index=False)
+    print(f"Saved explanation quality metrics to {out}")
+
+def _method_label_from_trace(trace: dict) -> str:
+    backend = trace.get("narrative_backend", {})
+    model_name = str(backend.get("model_name") or "").lower()
+    if "26b" in model_name:
+        return "BRANCH-Gemma4-26B"
+    if "31b" in model_name:
+        return "BRANCH-Gemma4-31B"
+    return "BRANCH"
+
+
+def _ragas_user_input(dataset: str, trace: dict, shap_result: dict) -> str:
+    prediction = trace.get("prediction", {})
+    features = ", ".join(
+        str(item.get("feature")) for item in shap_result.get("features", [])[:5]
+    )
+    return (
+        f"Explain the {dataset} model prediction for patient "
+        f"{trace.get('patient_id')}. Include the predicted class or value "
+        f"({prediction.get('predicted_class', prediction.get('predicted_value'))}), "
+        f"the main SHAP drivers ({features}), any counterfactual pathway when "
+        "available, retrieved clinical guideline evidence, guardrail status, "
+        "and a clinical caution."
+    )
+
+
+def _ragas_contexts(guideline_context: dict) -> list[str]:
+    contexts = []
+    for chunk in guideline_context.get("retrieved_chunks", []):
+        topic = chunk.get("topic", "")
+        source = chunk.get("source", "")
+        summary = chunk.get("summary", "")
+        text = "\n".join(part for part in [topic, source, summary] if part)
+        if text:
+            contexts.append(text)
+    return contexts
+
+
+def _narrative_for_ragas(narrative: str) -> str:
+    return narrative.replace("<thought>", "").replace("</thought>", "").strip()
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,18 @@
+xgboost:
+  objective_classification: multi:softprob
+  objective_regression: reg:squarederror
+  eval_metric_classification: mlogloss
+  eval_metric_regression: rmse
+  n_estimators: 300
+  max_depth: 4
+  learning_rate: 0.05
+  subsample: 0.9
+  colsample_bytree: 0.9
+  random_state: 42
+
+optuna_search_space:
+  max_depth: [3, 10]
+  n_estimators: [100, 600]
+  learning_rate: [0.01, 0.3]
+  subsample: [0.6, 1.0]
+  colsample_bytree: [0.5, 1.0]

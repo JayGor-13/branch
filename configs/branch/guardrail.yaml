@@ -1,0 +1,21 @@
+guardrail:
+  retrieval:
+    backend: faiss
+    source: narratives
+    vector_index_path: artifacts/vector_store/narratives/maternal_health
+    embedding_provider: local
+    embedding_model: local-hashing-embedding
+    top_k: 3
+    similarity_threshold: 0.00
+
+  anomaly_detection:
+    enabled: true
+    require_guideline_support: true
+    contradiction_policy: flag
+
+  statuses:
+    - no_anomaly
+    - possible_anomaly
+    - anomaly_detected
+    - insufficient_guideline_evidence
+    - retrieval_failed

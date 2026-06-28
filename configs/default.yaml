@@ -1,0 +1,37 @@
+project:
+  name: BRANCH
+  seed: 42
+  output_dir: artifacts
+  results_dir: results
+
+experiment:
+  seeds: [42, 123, 999]
+  test_size: 0.2
+  cv_folds: 5
+
+model:
+  primary: xgboost
+  tune_with_optuna: false
+
+explainability:
+  shap_top_k: 5
+  generate_counterfactuals_for_high_risk: true
+
+llm:
+  provider: template
+  model_name: deterministic_template_generator
+  base_url:
+  api_key_env:
+  timeout_sec: 120
+  fallback_to_template: true
+  temperature: 0.0
+  max_tokens: 800
+
+guardrail:
+  vector_store: lexical
+  top_k_retrieval: 3
+  anomaly_check: true
+
+logging:
+  level: INFO
+  save_traces: true

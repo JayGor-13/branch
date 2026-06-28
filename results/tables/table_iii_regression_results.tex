@@ -1,0 +1,15 @@
+\begin{table}[ht]
+\centering
+\caption{\textbf{Predictor Selection (Regression).} MAE, RMSE, and $R^2$ for predicting disease progression one year after baseline on \texttt{load\_diabetes}. All values are mean $\pm$ std over available seeds.}
+\label{tab:reg_results}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{lccc}
+\toprule
+\textbf{Method} & \textbf{MAE} $\downarrow$ & \textbf{RMSE} $\downarrow$ & \textbf{$R^2$} $\uparrow$ \\
+\midrule
+LR (Ridge) & 42.812 $\pm$ 0.000 & 53.777 $\pm$ 0.000 & 0.454 $\pm$ 0.000 \\
+RF & 44.089 $\pm$ 0.000 & 54.758 $\pm$ 0.000 & 0.434 $\pm$ 0.000 \\
+XGBoost & 45.134 $\pm$ 0.000 & 55.434 $\pm$ 0.000 & 0.420 $\pm$ 0.000 \\
+\bottomrule
+\end{tabular}
+\end{table}

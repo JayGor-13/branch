@@ -1,0 +1,13 @@
+llm:
+  provider: gemini
+  model_name: gemma-4-31b-it
+  base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+  api_key_env: GEMINI_API_KEY
+  temperature: 0.0
+  max_tokens: 1000
+  timeout_sec: 120
+  fallback_to_template: false
+
+notes:
+  - Replace model_name with the exact Gemma/Gemini model ID enabled in Google AI Studio.
+  - The code reads the API key from GEMINI_API_KEY by default.

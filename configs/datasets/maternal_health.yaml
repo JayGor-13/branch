@@ -1,0 +1,30 @@
+dataset:
+  name: maternal_health
+  display_name: Maternal Health Risk
+  task_type: multiclass_classification
+  raw_path: data/raw/maternal_health/Maternal Health Risk Data Set.csv
+  processed_dir: data/processed/maternal_health
+  id_column: patient_id
+  target_column: Risk Level
+  target_id_column: RiskLevelId
+  features:
+    - Age
+    - Systolic BP
+    - Diastolic
+    - BS
+    - Body Temp
+    - BMI
+    - Previous Complications
+    - Preexisting Diabetes
+    - Gestational Diabetes
+    - Mental Health
+    - Heart Rate
+  label_order:
+    - Low Risk
+    - Mid Risk
+    - High Risk
+
+preprocessing:
+  test_size: 0.2
+  random_state: 42
+  stratify: true

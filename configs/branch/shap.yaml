@@ -1,0 +1,5 @@
+shap:
+  top_k: 5
+  model: xgboost
+  explainer: TreeExplainer
+  save_json: true

@@ -1,0 +1,17 @@
+\begin{table*}[ht]
+\centering
+\caption{\textbf{Predictor Selection (Classification).} AUROC, macro-F1, and accuracy (\%) for candidate models on the three classification datasets. All values are mean $\pm$ std over available seeds.}
+\label{tab:clf_results}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{l ccc ccc ccc}
+\toprule
+& \multicolumn{3}{c}{\textbf{Gallstone}} & \multicolumn{3}{c}{\textbf{Maternal Health}} & \multicolumn{3}{c}{\textbf{NPHA}} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}
+\textbf{Method} & AUROC & F1 & Acc. & AUROC & F1 & Acc. & AUROC & F1 & Acc. \\
+\midrule
+LR & 0.884 $\pm$ 0.000 & 0.781 $\pm$ 0.000 & 78.125 $\pm$ 0.000 & 0.998 $\pm$ 0.000 & 0.987 $\pm$ 0.000 & 98.739 $\pm$ 0.000 & 0.679 $\pm$ 0.000 & 0.589 $\pm$ 0.000 & 60.839 $\pm$ 0.000 \\
+RF & 0.878 $\pm$ 0.000 & 0.812 $\pm$ 0.000 & 81.250 $\pm$ 0.000 & 0.999 $\pm$ 0.000 & 0.991 $\pm$ 0.000 & 99.160 $\pm$ 0.000 & 0.639 $\pm$ 0.000 & 0.596 $\pm$ 0.000 & 63.636 $\pm$ 0.000 \\
+XGBoost & 0.903 $\pm$ 0.000 & 0.843 $\pm$ 0.000 & 84.375 $\pm$ 0.000 & 1.000 $\pm$ 0.000 & 0.987 $\pm$ 0.000 & 98.739 $\pm$ 0.000 & 0.683 $\pm$ 0.000 & 0.620 $\pm$ 0.000 & 72.727 $\pm$ 0.000 \\
+\bottomrule
+\end{tabular}
+\end{table*}
