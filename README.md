@@ -135,14 +135,14 @@ $env:GEMINI_API_KEY="your_google_ai_studio_key"
 $env:BRANCH_GEMMA4_26B_MODEL="gemma-4-26b-a4b-it"
 $env:BRANCH_GEMMA4_31B_MODEL="gemma-4-31b-it"
 
-python .\scripts\run_gemini_variants.py --datasets gallstone maternal_health npha --limit 20 --variants 26b 31b --resume --quality-mode ragas --vector-index-path artifacts/vector_store/clinical_guidelines --embedding-provider local --llm-request-delay-sec 5 --ragas-timeout-sec 300 --ragas-max-workers 1 --ragas-record-delay-sec 20
+python .\scripts\run_gemini_variants.py --datasets gallstone maternal_health npha --limit 10 --variants 26b 31b --resume --quality-mode ragas --vector-index-path artifacts/vector_store/clinical_guidelines --embedding-provider local --llm-request-delay-sec 5 --ragas-timeout-sec 600 --ragas-embedding-provider local --ragas-llm-min-interval-sec 5 --skip-model-validation
 ```
 
 If a Gemini API run fails partway through with a transient 500/429 error, resume
 only the missing model variant instead of rerunning everything:
 
 ```powershell
-python .\scripts\run_gemini_variants.py --datasets gallstone maternal_health npha --limit 20 --variants 31b --resume --quality-mode ragas --vector-index-path artifacts/vector_store/clinical_guidelines --embedding-provider local --llm-request-delay-sec 5 --ragas-timeout-sec 300 --ragas-max-workers 1 --ragas-record-delay-sec 20
+python .\scripts\run_gemini_variants.py --datasets gallstone maternal_health npha --limit 10 --variants 31b --resume --quality-mode ragas --vector-index-path artifacts/vector_store/clinical_guidelines --embedding-provider local --llm-request-delay-sec 5 --ragas-timeout-sec 600 --ragas-embedding-provider local --ragas-llm-min-interval-sec 5 --skip-model-validation
 ```
 
 This writes one explanation-quality CSV per variant and dataset under
@@ -151,7 +151,9 @@ It also stores variant-specific BRANCH traces under
 `artifacts/gemini_variants/` so Table V can compare 26B and 31B latency without
 one run overwriting the other.
 By default, explanation quality is computed with the external `ragas` package
-using Gemini as the evaluator LLM.
+using Gemini as the evaluator LLM and BRANCH's local hashing embeddings for
+RAGAS similarity scoring. This avoids extra Gemini embedding API calls; the
+Gemini RPM throttle is applied to each internal RAGAS evaluator LLM call.
 Use `--allow-template-fallback` only for smoke tests; omit it for real paper
 runs so failed Gemini calls do not become template narratives.
 
@@ -181,10 +183,10 @@ Gemini grounded summary generation
 total end-to-end inference
 ```
 
-After the 20-patient Gemini run, regenerate the tables with:
+After the 10-patient Gemini run, regenerate the tables with:
 
 ```powershell
-python .\scripts\generate_paper_tables.py --table-iv-sample-size 20
+python .\scripts\generate_paper_tables.py --table-iv-sample-size 10
 ```
 
 To recompute only Table IV quality from existing traces/narratives with real
@@ -192,7 +194,7 @@ RAGAS, use resume mode. This skips already generated summaries but reruns the
 RAGAS evaluation CSVs:
 
 ```powershell
-python .\scripts\run_gemini_variants.py --datasets gallstone maternal_health npha --limit 20 --variants 26b 31b --resume --quality-mode ragas --vector-index-path artifacts/vector_store/clinical_guidelines --embedding-provider local --llm-request-delay-sec 5 --ragas-timeout-sec 300 --ragas-max-workers 1 --ragas-record-delay-sec 20
+python .\scripts\run_gemini_variants.py --datasets gallstone maternal_health npha --limit 10 --variants 26b 31b --resume --quality-mode ragas --vector-index-path artifacts/vector_store/clinical_guidelines --embedding-provider local --llm-request-delay-sec 5 --ragas-timeout-sec 600 --ragas-embedding-provider local --ragas-llm-min-interval-sec 5 --skip-model-validation
 ```
 
 The paper table is written to:

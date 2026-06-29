@@ -1,1 +1,1 @@
-method,dataset,patient_id,faithfulness,answer_relevancy,clinical_alignment,eqs,alignment_mode,rag_source,rag_retrieved_chunks,rag_backend,embedding_provider,embedding_model,notes
+method,dataset,patient_id,faithfulness,answer_relevancy,clinical_alignment,eqs,alignment_mode,rag_source,rag_retrieved_chunks,rag_backend,embedding_provider,embedding_model,ragas_evaluator_model,ragas_embedding_provider,ragas_embedding_model,notes

@@ -9,6 +9,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
 from branch.data.dataset_specs import default_model_path, default_processed_dir, normalize_dataset_name
 from branch.agents.react_agent import BranchAgent
+from branch.agents.narrative_generator import is_valid_narrative
 
 
 def main() -> None:
@@ -23,6 +24,7 @@ def main() -> None:
     parser.add_argument("--llm-base-url", default=None)
     parser.add_argument("--llm-api-key-env", default=None)
     parser.add_argument("--llm-timeout-sec", type=int, default=120)
+    parser.add_argument("--llm-max-tokens", type=int, default=1600)
     parser.add_argument("--llm-max-retries", type=int, default=3)
     parser.add_argument("--llm-retry-backoff-sec", type=float, default=2.0)
     parser.add_argument(
@@ -66,6 +68,7 @@ def main() -> None:
         llm_base_url=args.llm_base_url,
         llm_api_key_env=args.llm_api_key_env,
         llm_timeout_sec=args.llm_timeout_sec,
+        llm_max_tokens=args.llm_max_tokens,
         llm_max_retries=args.llm_max_retries,
         llm_retry_backoff_sec=args.llm_retry_backoff_sec,
         llm_fallback_to_template=not args.no_llm_fallback,
@@ -87,6 +90,7 @@ def main() -> None:
             args.skip_existing
             and agent._trace_path(patient_id).exists()
             and agent._narrative_path(patient_id).exists()
+            and _is_valid_existing_narrative(agent._narrative_path(patient_id))
         ):
             skipped += 1
             continue
@@ -98,6 +102,13 @@ def main() -> None:
         f"Saved BRANCH traces and narratives for {saved} patients. "
         f"Skipped {skipped} existing patients."
     )
+
+
+def _is_valid_existing_narrative(path: Path) -> bool:
+    try:
+        return is_valid_narrative(path.read_text(encoding="utf-8"))
+    except OSError:
+        return False
 
 
 if __name__ == "__main__":

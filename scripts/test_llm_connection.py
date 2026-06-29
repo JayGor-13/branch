@@ -16,6 +16,7 @@ def main() -> None:
     parser.add_argument("--llm-base-url", default=None)
     parser.add_argument("--llm-api-key-env", default=None)
     parser.add_argument("--llm-timeout-sec", type=int, default=30)
+    parser.add_argument("--llm-max-tokens", type=int, default=200)
     args = parser.parse_args()
 
     config = build_llm_config(
@@ -24,6 +25,7 @@ def main() -> None:
         base_url=args.llm_base_url,
         api_key_env=args.llm_api_key_env,
         timeout_sec=args.llm_timeout_sec,
+        max_tokens=args.llm_max_tokens,
         fallback_to_template=False,
     )
     client = build_llm_client(config)

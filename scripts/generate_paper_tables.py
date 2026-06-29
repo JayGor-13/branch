@@ -75,6 +75,9 @@ RAGAS_DETAIL_COLUMNS = [
     "rag_backend",
     "embedding_provider",
     "embedding_model",
+    "ragas_evaluator_model",
+    "ragas_embedding_provider",
+    "ragas_embedding_model",
     "notes",
 ]
 
@@ -210,7 +213,7 @@ def build_ragas_detail_table(df):
         dataset = str(row.get("dataset", ""))
         if method not in EXPLANATION_VARIANTS or dataset not in EXPLANATION_DATASETS:
             continue
-        if str(row.get("quality_mode", "local")) != "ragas":
+        if str(row.get("quality_mode", "local")) not in {"ragas", "ragas_partial"}:
             continue
         answer_relevancy = (
             row.get("answer_relevancy")
@@ -232,6 +235,9 @@ def build_ragas_detail_table(df):
                 "rag_backend": row.get("rag_backend"),
                 "embedding_provider": row.get("embedding_provider"),
                 "embedding_model": row.get("embedding_model"),
+                "ragas_evaluator_model": row.get("ragas_evaluator_model"),
+                "ragas_embedding_provider": row.get("ragas_embedding_provider"),
+                "ragas_embedding_model": row.get("ragas_embedding_model"),
                 "notes": row.get("notes"),
             }
         )

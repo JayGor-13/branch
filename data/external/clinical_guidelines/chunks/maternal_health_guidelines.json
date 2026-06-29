@@ -1,0 +1,1376 @@
+[
+  {
+    "chunk_id": "1768382528_updatedpostpartumhaemorrhage_0001",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\1768382528_updatedpostpartumhaemorrhage.pdf",
+    "topic": "1768382528 updatedpostpartumhaemorrhage",
+    "summary": "Standard Treatment Work\ufb02ow (STW) ICD-11-JA43 More than 500 ml of blood loss or any amount of bleeding which causes derangement of vital parameters is PPH RED FLAG SIGN: MANAGEMENT OF ATONIC PPH \u2022 Monitoring of vitals \u2022 Measurement of input and output \u2022 Give blood transfusion as indicated \u2022 Check for coagulation defects \u2022 If present give blood and blood components Intra uterine balloon tamponade using condom catheter PLACENTA DELIVERED \u2022 Continue Oxytocin drip \u2022 Palpate uterus \u2022 Attempt controlled cord traction if uterus is contracted Uterus well contracted but bleeding continuing Uterus \ufb02abby \u2022 Explore for cervical/ vaginal/ perineal tears. Repair if present \u2022 If bleeding persists despite repair of above, suspect inadequate repair, rupture uterus or scar dehiscence.",
+    "keywords": [],
+    "feature_directions": {},
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "1768382528_updatedpostpartumhaemorrhage_0002",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\1768382528_updatedpostpartumhaemorrhage.pdf",
+    "topic": "1768382528 updatedpostpartumhaemorrhage",
+    "summary": "ginal/ perineal tears. Repair if present \u2022 If bleeding persists despite repair of above, suspect inadequate repair, rupture uterus or scar dehiscence. \u2022 Shift to OT for exploration under GA and/or laparotomy Bimanual compression and pharmacotherapy as per details below TRAUMATIC PPH ATONIC PPH * Arrange for blood / blood product at the earliest 3 ml of crystalloid solution should be used to replace every ml of blood lost during the initial part of the acute bleeding phase PHARMACOTHERAPY Bleeding not controlled Bleeding not controlled Bleeding still not controlled Bleeding controlled Explore uterus for retained bits \u2022 Repeat uterine massage every 15 minutes for \ufb01rst two hours \u2022 Monitor vitals every 10 minutes for 30 minutes , every 15 minutes for next 30 minutes and every 30 minutes for next 3-6 hours or until stable \u2022 Continue Oxytocin infusion @5-10 units /hr (total Oxytocin not to exceed 100 IU in 24 hours) Continue bimanual compression & Oxytocin infusion @10-20 units /hr Inj Methyl Ergometrine 0.2 mg IM or IV slowly \u2219 Contraindicated in hypertension, severe anemia, heart disease \u2219 Can be repeated after 15 minutes to a maximum of 5 doses (1mg) Inj Carboprost (PGF2 alpha) 250 \u00b5g",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "1768382528_updatedpostpartumhaemorrhage_0003",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\1768382528_updatedpostpartumhaemorrhage.pdf",
+    "topic": "1768382528 updatedpostpartumhaemorrhage",
+    "summary": "ated in hypertension, severe anemia, heart disease \u2219 Can be repeated after 15 minutes to a maximum of 5 doses (1mg) Inj Carboprost (PGF2 alpha) 250 \u00b5g IM \u2022 Contraindicated in asthma \u2022 Can be repeated every 20 minutes to a maximum of 8 doses (2 mg) Tab Misoprostol (PGE1) 800 \u00b5g Per rectal or sublingual ANY OF THE FOLLOWING OPTIONS CAN BE USED EITHER ALONE OR IN COMBINATION AS PER AVAILABILITY Timely Referral to a higher centre must be considered if facilities for blood transfusion or exploration and surgical intervention are not available. Patient must be transported with I/V \ufb02uids containing oxytocin on \ufb02ow and preferably with uterine/vaginal tamponade in situ. \u2022 Aortic compression may be used as a short time measure to reduce blood loss while awaiting de\ufb01nitive steps.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "1768382528_updatedpostpartumhaemorrhage_0004",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\1768382528_updatedpostpartumhaemorrhage.pdf",
+    "topic": "1768382528 updatedpostpartumhaemorrhage",
+    "summary": "with uterine/vaginal tamponade in situ. \u2022 Aortic compression may be used as a short time measure to reduce blood loss while awaiting de\ufb01nitive steps. \u2022 Non- pneumatic anti-shock garment (NASG) should be used during transport if available \u2022 Uterine artery embolization may be offered in selected patients if facilities are available If bleeding continues without any apparent cause check for coagulopathy SUPPORTIVE MANAGEMENT Surgical intervention \u2022 Uterine compression sutures \u2022 Systematic uterine devascularisation by doing Uterine Ovarian Internal Iliac artery ligation \u2022 Hysterectomy COUNSELLING IS AN IMPORTANT ADJUNCT TO MANAGEMENT \u2022 Call for help \u2022 Rapid Initial Assessment - evaluate vital signs: PR, BP, RR and Temperature \u2022 Establish two IV lines with wide bore cannula (16-18 gauge) \u2022 Draw blood for grouping and cross matching \u2022 Start RL/ NS, infuse 1 L in 15-20 minutes * \u2022 Give Oxygen @ 6-8 L /minute by mask, \u2022 Insert indwelling Catheter and connect to urobag \u2022 Check vitals and blood loss frequently - at least every 15 minutes \u2022 Monitor input and output \u2022 Give Inj.",
+    "keywords": [],
+    "feature_directions": {},
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "1768382528_updatedpostpartumhaemorrhage_0005",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\1768382528_updatedpostpartumhaemorrhage.pdf",
+    "topic": "1768382528 updatedpostpartumhaemorrhage",
+    "summary": "indwelling Catheter and connect to urobag \u2022 Check vitals and blood loss frequently - at least every 15 minutes \u2022 Monitor input and output \u2022 Give Inj. Oxytocin 10 IU IM (if not given after delivery) \u2022 Start Oxytocin infusion : 20 IU in 500 ml RL/NS @ 40-60 drops per minute \u2022 IV bolus of oxytocin should NOT be given \u2022 Check to see if placenta has been delivered. \u2022 Fundal Massage of the uterus \u2022 Inspect placenta for completeness \u2022 Explore uterus for any retained placental bits/ membranes/ clots and evacuate PLACENTA NOT DELIVERED PLACENTA DELIVERED \u2022 Continue oxytocin and uterine massage \u2022 Check for completeness of placenta and membranes PLACENTA NOT DELIVERED Shift for manual removal of placenta (MRP) December/ 2025 This STW has been prepared by national experts of India with feasibility considerations for various levels of healthcare system in the country. These broad guidelines are advisory, and are based on expert opinions and available scienti\ufb01c evidence. There may be variations in the management of an individual patient based on his/her speci\ufb01c condition, as decided by the treating physician. There will be no indemnity for direct or indirect consequences.",
+    "keywords": [],
+    "feature_directions": {},
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "1768382528_updatedpostpartumhaemorrhage_0006",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\1768382528_updatedpostpartumhaemorrhage.pdf",
+    "topic": "1768382528 updatedpostpartumhaemorrhage",
+    "summary": "dual patient based on his/her speci\ufb01c condition, as decided by the treating physician. There will be no indemnity for direct or indirect consequences. Kindly visit our web portal (stw.icmr.org.in) for more information. \u00a9 Indian Council of Medical Research and Department of Health Research, Ministry of Health & Family Welfare, Government of India. Or Or Department of Health Research Ministry of Health and Family Welfare, Government of India Tranexamic Acid (1g slow IV) is routinely recommended as an adjunctive treatment for PPH to be used as early as possible irrespective of cause but de\ufb01nitely within three hours of delivery. It can be repeated after 30 minutes if bleeding persists Standard treatment for PPH must continue meanwhile TIMELY ACTION AND REFERRAL IS IMPORTANT TO SAVE THE LIFE OF THE MOTHER \u2022 PR > 120/min \u2022 Systolic BP < 100 mm Hg \u2022 Tachypnea < 95% \u2022 SpO2 < 95% \u2022 Shock index >1 (Shock index = pulse rate/systolic BP) \u2022 Deterioration of sensorium",
+    "keywords": [
+      "systolic"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "1768382528_updatedpostpartumhaemorrhage_0001",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\1768382528_updatedpostpartumhaemorrhage.pdf",
+    "topic": "1768382528 updatedpostpartumhaemorrhage",
+    "summary": "Standard Treatment Work\ufb02ow (STW) ICD-11-JA43 More than 500 ml of blood loss or any amount of bleeding which causes derangement of vital parameters is PPH RED FLAG SIGN: MANAGEMENT OF ATONIC PPH \u2022 Monitoring of vitals \u2022 Measurement of input and output \u2022 Give blood transfusion as indicated \u2022 Check for coagulation defects \u2022 If present give blood and blood components Intra uterine balloon tamponade using condom catheter PLACENTA DELIVERED \u2022 Continue Oxytocin drip \u2022 Palpate uterus \u2022 Attempt controlled cord traction if uterus is contracted Uterus well contracted but bleeding continuing Uterus \ufb02abby \u2022 Explore for cervical/ vaginal/ perineal tears. Repair if present \u2022 If bleeding persists despite repair of above, suspect inadequate repair, rupture uterus or scar dehiscence.",
+    "keywords": [],
+    "feature_directions": {},
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "1768382528_updatedpostpartumhaemorrhage_0002",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\1768382528_updatedpostpartumhaemorrhage.pdf",
+    "topic": "1768382528 updatedpostpartumhaemorrhage",
+    "summary": "ginal/ perineal tears. Repair if present \u2022 If bleeding persists despite repair of above, suspect inadequate repair, rupture uterus or scar dehiscence. \u2022 Shift to OT for exploration under GA and/or laparotomy Bimanual compression and pharmacotherapy as per details below TRAUMATIC PPH ATONIC PPH * Arrange for blood / blood product at the earliest 3 ml of crystalloid solution should be used to replace every ml of blood lost during the initial part of the acute bleeding phase PHARMACOTHERAPY Bleeding not controlled Bleeding not controlled Bleeding still not controlled Bleeding controlled Explore uterus for retained bits \u2022 Repeat uterine massage every 15 minutes for \ufb01rst two hours \u2022 Monitor vitals every 10 minutes for 30 minutes , every 15 minutes for next 30 minutes and every 30 minutes for next 3-6 hours or until stable \u2022 Continue Oxytocin infusion @5-10 units /hr (total Oxytocin not to exceed 100 IU in 24 hours) Continue bimanual compression & Oxytocin infusion @10-20 units /hr Inj Methyl Ergometrine 0.2 mg IM or IV slowly \u2219 Contraindicated in hypertension, severe anemia, heart disease \u2219 Can be repeated after 15 minutes to a maximum of 5 doses (1mg) Inj Carboprost (PGF2 alpha) 250 \u00b5g",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "1768382528_updatedpostpartumhaemorrhage_0003",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\1768382528_updatedpostpartumhaemorrhage.pdf",
+    "topic": "1768382528 updatedpostpartumhaemorrhage",
+    "summary": "ated in hypertension, severe anemia, heart disease \u2219 Can be repeated after 15 minutes to a maximum of 5 doses (1mg) Inj Carboprost (PGF2 alpha) 250 \u00b5g IM \u2022 Contraindicated in asthma \u2022 Can be repeated every 20 minutes to a maximum of 8 doses (2 mg) Tab Misoprostol (PGE1) 800 \u00b5g Per rectal or sublingual ANY OF THE FOLLOWING OPTIONS CAN BE USED EITHER ALONE OR IN COMBINATION AS PER AVAILABILITY Timely Referral to a higher centre must be considered if facilities for blood transfusion or exploration and surgical intervention are not available. Patient must be transported with I/V \ufb02uids containing oxytocin on \ufb02ow and preferably with uterine/vaginal tamponade in situ. \u2022 Aortic compression may be used as a short time measure to reduce blood loss while awaiting de\ufb01nitive steps.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "1768382528_updatedpostpartumhaemorrhage_0004",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\1768382528_updatedpostpartumhaemorrhage.pdf",
+    "topic": "1768382528 updatedpostpartumhaemorrhage",
+    "summary": "with uterine/vaginal tamponade in situ. \u2022 Aortic compression may be used as a short time measure to reduce blood loss while awaiting de\ufb01nitive steps. \u2022 Non- pneumatic anti-shock garment (NASG) should be used during transport if available \u2022 Uterine artery embolization may be offered in selected patients if facilities are available If bleeding continues without any apparent cause check for coagulopathy SUPPORTIVE MANAGEMENT Surgical intervention \u2022 Uterine compression sutures \u2022 Systematic uterine devascularisation by doing Uterine Ovarian Internal Iliac artery ligation \u2022 Hysterectomy COUNSELLING IS AN IMPORTANT ADJUNCT TO MANAGEMENT \u2022 Call for help \u2022 Rapid Initial Assessment - evaluate vital signs: PR, BP, RR and Temperature \u2022 Establish two IV lines with wide bore cannula (16-18 gauge) \u2022 Draw blood for grouping and cross matching \u2022 Start RL/ NS, infuse 1 L in 15-20 minutes * \u2022 Give Oxygen @ 6-8 L /minute by mask, \u2022 Insert indwelling Catheter and connect to urobag \u2022 Check vitals and blood loss frequently - at least every 15 minutes \u2022 Monitor input and output \u2022 Give Inj.",
+    "keywords": [],
+    "feature_directions": {},
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "1768382528_updatedpostpartumhaemorrhage_0005",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\1768382528_updatedpostpartumhaemorrhage.pdf",
+    "topic": "1768382528 updatedpostpartumhaemorrhage",
+    "summary": "indwelling Catheter and connect to urobag \u2022 Check vitals and blood loss frequently - at least every 15 minutes \u2022 Monitor input and output \u2022 Give Inj. Oxytocin 10 IU IM (if not given after delivery) \u2022 Start Oxytocin infusion : 20 IU in 500 ml RL/NS @ 40-60 drops per minute \u2022 IV bolus of oxytocin should NOT be given \u2022 Check to see if placenta has been delivered. \u2022 Fundal Massage of the uterus \u2022 Inspect placenta for completeness \u2022 Explore uterus for any retained placental bits/ membranes/ clots and evacuate PLACENTA NOT DELIVERED PLACENTA DELIVERED \u2022 Continue oxytocin and uterine massage \u2022 Check for completeness of placenta and membranes PLACENTA NOT DELIVERED Shift for manual removal of placenta (MRP) December/ 2025 This STW has been prepared by national experts of India with feasibility considerations for various levels of healthcare system in the country. These broad guidelines are advisory, and are based on expert opinions and available scienti\ufb01c evidence. There may be variations in the management of an individual patient based on his/her speci\ufb01c condition, as decided by the treating physician. There will be no indemnity for direct or indirect consequences.",
+    "keywords": [],
+    "feature_directions": {},
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "1768382528_updatedpostpartumhaemorrhage_0006",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\1768382528_updatedpostpartumhaemorrhage.pdf",
+    "topic": "1768382528 updatedpostpartumhaemorrhage",
+    "summary": "dual patient based on his/her speci\ufb01c condition, as decided by the treating physician. There will be no indemnity for direct or indirect consequences. Kindly visit our web portal (stw.icmr.org.in) for more information. \u00a9 Indian Council of Medical Research and Department of Health Research, Ministry of Health & Family Welfare, Government of India. Or Or Department of Health Research Ministry of Health and Family Welfare, Government of India Tranexamic Acid (1g slow IV) is routinely recommended as an adjunctive treatment for PPH to be used as early as possible irrespective of cause but de\ufb01nitely within three hours of delivery. It can be repeated after 30 minutes if bleeding persists Standard treatment for PPH must continue meanwhile TIMELY ACTION AND REFERRAL IS IMPORTANT TO SAVE THE LIFE OF THE MOTHER \u2022 PR > 120/min \u2022 Systolic BP < 100 mm Hg \u2022 Tachypnea < 95% \u2022 SpO2 < 95% \u2022 Shock index >1 (Shock index = pulse rate/systolic BP) \u2022 Deterioration of sensorium",
+    "keywords": [
+      "systolic"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "1771568619_ante_natalmanagementofnormalpregnancy_7_0001",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\1771568619_ante-natalmanagementofnormalpregnancy-7.pdf",
+    "topic": "1771568619 ante natalmanagementofnormalpregnancy 7",
+    "summary": "Standard Treatment Work\ufb02ow (STW) for ANTE-NATAL MANAGEMENT OF NORMAL PREGNANCY FIRST VISIT (PREFERABLY IN FIRST TRIMESTER) \u2022 Age \u2022 LMP \u2022 Calculate EDD \u2022 Parity & obstetric history \u2022 Any complaints especially excessive nausea & vomiting/ bleeding PV \u2022 H/o medical illness : diabetes, hypertension, cardiac problem, TB, epilepsy or any other chronic illness \u2022 Consanguinity, multiple pregnancy \u2022 H/o blood transfusion and H/o prior surgical intervention \u2022 Personal history : tobacco/ alcohol intake \u2022 Family history : diabetes, hypertension, genetic disorders/ congenital problems, multiple pregnancy, infections including tuberculosis \u2022 Height, weight \u2022 Calculate BMI (BMI=weight(kg)/height(m)\u00b2) \u2022 Pallor, Jaundice, Pedal edema \u2022 Pulse, BP, RR, temperature \u2022 Thyroid \u2022 Breast \u2022 Respiratory and CVS exam - ination \u2022 P/A examination, P/S and P/V examination # If woman presents with bleeding per vaginum do P/A & P/S to con\ufb01rm amount of bleeding & rule out local causes.",
+    "keywords": [
+      "bmi",
+      "hypertension",
+      "infection"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk",
+      "Body Temp": "high_value_increases_risk",
+      "BMI": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "1771568619_ante_natalmanagementofnormalpregnancy_7_0002",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\1771568619_ante-natalmanagementofnormalpregnancy-7.pdf",
+    "topic": "1771568619 ante natalmanagementofnormalpregnancy 7",
+    "summary": "examination, P/S and P/V examination # If woman presents with bleeding per vaginum do P/A & P/S to con\ufb01rm amount of bleeding & rule out local causes. All such cases to be referred to CHC or higher centre ASK EXAMINE \u2022 UPT if in doubt \u2022 Fill up Mother and Child protection card or ANC card, make entry on RCH portal & generate RCH number \u2022 Give \ufb01lled Mother and Child protection card & safe motherhood booklet to woman \u2022 Give Tab Folic Acid daily \u2022 Give \ufb01rst dose of Td \u2022 Single booster dose if received the \ufb01rst dose within last 3 years DO ESSENTIAL TESTS \u2022 Hemoglobin \u2022 Urine R & M \u2022 ABO & Rh grouping DESIRABLE TESTS \u2022 VDRL/ RPR \u2022 HIV \u2022 HBsAg \u2022 DIPSI test \u2022 TSH in high risk cases (BOH, goiter, obesity or residing in iodine de\ufb01ciency prone areas) OPTIONAL TESTS* Aneuploidy screen* by USG & double marker INVESTIGATIONS \u2022 Any com- plaints since last visit \u2022 Quickening foetal movements \u2022 Adherence to medications \u2022 Weight \u2022 Pallor \u2022 Pedal edema \u2022 Pulse, BP in sitting position \u2022 P/A examination for fundal height & fetal heart auscultation ASK EXAMINE \u2022 IFA tablet one (if Hb >11g%) or twice (if Hb <11g%) daily with water or lemon juice \u2022 Calcium carbonate 500 mg with vitamin D \u2022 Refer to highe",
+    "keywords": [
+      "obesity"
+    ],
+    "feature_directions": {
+      "BMI": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "1771568619_ante_natalmanagementofnormalpregnancy_7_0003",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\1771568619_ante-natalmanagementofnormalpregnancy-7.pdf",
+    "topic": "1771568619 ante natalmanagementofnormalpregnancy 7",
+    "summary": "AMINE \u2022 IFA tablet one (if Hb >11g%) or twice (if Hb <11g%) daily with water or lemon juice \u2022 Calcium carbonate 500 mg with vitamin D \u2022 Refer to higher centre if no rise in Hb after 4 weeks of oral tablets 250 units twice daily with meals. \u2022 Calcium Carbonate and IFA not to be given together \u2022 Single dose of Albendazole 400mg \u2022 Ensure compliance for investigations and treatment \u2022 Discuss birth preparedness \u2022 Give second dose Td at least four weeks after \ufb01rst dose DO ESSENTIAL TESTS \u2022 Hemoglobin \u2022 Urine albumin DESIRABLE TESTS \u2022 USG ( Level II between 18-20 weeks for gross congenital malformations) \u2022 DIPSI test if >24weeks & at least 4 weeks have elapsed after 1st test OPTIONAL TESTS* Quadruple test as per availability *Should be performed only if adequate counselling facilities are available INVESTIGATIONS SECOND VISIT (SECOND TRIMESTER) THIRD (28 \u2013 34 WEEKS) AND FOURTH VISIT (36 - 40 WEEKS) \u2022 Same as above \u2022 Record POG \u2022 Same as above \u2022 Auscultate FHS \u2022 Measurement of abdominal girth and Symphysiofundal Height BIRTH PREPAREDNESS MUST INCLUDE IDENTIFICATION OF THE FOLLOWING \u2022 Facility for delivery \u2022 Support persons \u2022 Birth companion \u2022 Means of transport in emergency (Including cont",
+    "keywords": [],
+    "feature_directions": {},
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "1771568619_ante_natalmanagementofnormalpregnancy_7_0004",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\1771568619_ante-natalmanagementofnormalpregnancy-7.pdf",
+    "topic": "1771568619 ante natalmanagementofnormalpregnancy 7",
+    "summary": "INCLUDE IDENTIFICATION OF THE FOLLOWING \u2022 Facility for delivery \u2022 Support persons \u2022 Birth companion \u2022 Means of transport in emergency (Including contact number) \u2022 Blood donors (if required in emergency) ASK EXAMINE \u2022 Continue IFA and calcium tablets and ensure compliance \u2022 If non compliant or Hb < 9g% give parenteral iron sucrose therapy (not > 200mg at one time & not > 3 times a week) and refer patient with Hb < 7g% to higher centre \u2022 Refer to higher centre if any discrepancy between fundal height and period of gestation or danger signals DO \u2022 Hemoglobin \u2022 Urine albumin \u2022 Optional USG for fetal growth and liquor INVESTIGATIONS DANGER SIGNALS FOR PATIENT TO REPORT TO HEALTH FACILITY \u2022 Fever \u2022 Persistent vomiting \u2022 Abnormal vaginal discharge \u2022 Palpitations, easy fatigability and breathlessness at rest and/ or on mild exertion.",
+    "keywords": [
+      "fever"
+    ],
+    "feature_directions": {
+      "Body Temp": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "1771568619_ante_natalmanagementofnormalpregnancy_7_0005",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\1771568619_ante-natalmanagementofnormalpregnancy-7.pdf",
+    "topic": "1771568619 ante natalmanagementofnormalpregnancy 7",
+    "summary": "LITY \u2022 Fever \u2022 Persistent vomiting \u2022 Abnormal vaginal discharge \u2022 Palpitations, easy fatigability and breathlessness at rest and/ or on mild exertion. \u2022 Vaginal bleeding \u2022 Decreased or absent fetal movements at > 28 weeks gestation \u2022 Leaking of watery \ufb02uid per vaginum (P/V) \u2022 Severe headache/ blurring of vision/ convulsion \u2022 Passing lesser amounts of urine and/ or burning sensation during micturition \u2022 Itching all over the body COUNSELLING AT ALL VISITS \u2022 \u2022 Timing and place of next ANC visit based on presence or absence of risk factor \u2022 Rest, nutrition, balanced diet and exercise \u2022 Counselling for HIV testing \u2022 Danger signs \u2219 Institutional delivery \u2219 Birth preparedness Early & exclusive breastfeeding for six months HIGH RISK PREGNANCY \u2022 Any H/o medical illness, previous caesarean section, past obstetric mishap or congenital malformation \u2022 Past H/o PPH \u2022 Age > 35 years or < 19 years or parity > 4 \u2022 Malnourished (BMI < 18.5 kg/m 2 or > 30 kg/m2) \u2022 Hemoglobin < 7g% \u2022 BP > 140/90mm Hg on 2 occasions 6 hours apart \u2022 APH \u2022 Discrepancy between fundal height and period of gestation > 4 weeks \u2022 GDM/ overt DM \u2022 Multiple pregnancy \u2022 Malpresentation at term \u2022 Previous uterine surgery * High ri",
+    "keywords": [
+      "bmi",
+      "fever"
+    ],
+    "feature_directions": {
+      "Body Temp": "high_value_increases_risk",
+      "BMI": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "1771568619_ante_natalmanagementofnormalpregnancy_7_0006",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\1771568619_ante-natalmanagementofnormalpregnancy-7.pdf",
+    "topic": "1771568619 ante natalmanagementofnormalpregnancy 7",
+    "summary": "en fundal height and period of gestation > 4 weeks \u2022 GDM/ overt DM \u2022 Multiple pregnancy \u2022 Malpresentation at term \u2022 Previous uterine surgery * High risk pregnancy to be delivered at district hospital/medical college * Preferably to have antenatal care also at these centres At 12 th week : Just palpable above the symphysis pubis At 16 th week : At lower one-third of the distance between the symphysis pubis and umbilicus At 20th week : At two-thirds of the distance between symphysis pubis and umbilicus WHO Standard Of Care for Antenatal Care At 24th week : At the level of umbilicus At 28th week : At lower one-third of the distance between the umbilicus and xiphisternum At 32 nd week : At two-thirds of the distance between the umbilicus and xiphisternum At 36th week : At the level of xiphisternum At 40th week : Sinks back to the level of the 32 nd week, but the \ufb02anks are full, unlike that in the 32 nd week ASSESSMENT OF FUNDAL HEIGHT & ITS CORRELATION WITH GESTATIONAL AGE December/ 2025 This STW has been prepared by national experts of India with feasibility considerations for various levels of healthcare system in the country.",
+    "keywords": [],
+    "feature_directions": {},
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "1771568619_ante_natalmanagementofnormalpregnancy_7_0007",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\1771568619_ante-natalmanagementofnormalpregnancy-7.pdf",
+    "topic": "1771568619 ante natalmanagementofnormalpregnancy 7",
+    "summary": "/ 2025 This STW has been prepared by national experts of India with feasibility considerations for various levels of healthcare system in the country. These broad guidelines are advisory, and are based on expert opinions and available scienti\ufb01c evidence. There may be variations in the management of an individual patient based on his/her speci\ufb01c condition, as decided by the treating physician. There will be no indemnity for direct or indirect consequences. Kindly visit our web portal (stw.icmr.org.in) for more information. \u00a9 Indian Council of Medical Research and Department of Health Research, Ministry of Health & Family Welfare, Government of India.",
+    "keywords": [],
+    "feature_directions": {},
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "1771568619_ante_natalmanagementofnormalpregnancy_7_0008",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\1771568619_ante-natalmanagementofnormalpregnancy-7.pdf",
+    "topic": "1771568619 ante natalmanagementofnormalpregnancy 7",
+    "summary": "or more information. \u00a9 Indian Council of Medical Research and Department of Health Research, Ministry of Health & Family Welfare, Government of India. \u2022 Post partum contraception CARING FOR EVERY STEP OF YOUR MOTHERHOOD JOURNEY ABBREVIATIONS REFERENCES ANC: Antenatal Care APH: Antepartum Haemorrhage BOH: Bad Obstetrics History CVS: Chorionic Villus Sampling EDD: Estimated Due Date FHS: Foetal Head Station GDM: Gestational Diabetes Mellitus PPH: Post Partum Haemorrhage RCH: Reproductive and Child Health Td: Tetanus Diphtheria TSH: Thyroid Stimulating Hormone UPT: Urine Pregnancy Test USG: Ultrasound Sonography ICD-11-QA42 \u2022 Department of Health Research Ministry of Health and Family Welfare, Government of India",
+    "keywords": [
+      "gestational diabetes"
+    ],
+    "feature_directions": {
+      "BS": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "1771568619_ante_natalmanagementofnormalpregnancy_7_0001",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\1771568619_ante-natalmanagementofnormalpregnancy-7.pdf",
+    "topic": "1771568619 ante natalmanagementofnormalpregnancy 7",
+    "summary": "Standard Treatment Work\ufb02ow (STW) for ANTE-NATAL MANAGEMENT OF NORMAL PREGNANCY FIRST VISIT (PREFERABLY IN FIRST TRIMESTER) \u2022 Age \u2022 LMP \u2022 Calculate EDD \u2022 Parity & obstetric history \u2022 Any complaints especially excessive nausea & vomiting/ bleeding PV \u2022 H/o medical illness : diabetes, hypertension, cardiac problem, TB, epilepsy or any other chronic illness \u2022 Consanguinity, multiple pregnancy \u2022 H/o blood transfusion and H/o prior surgical intervention \u2022 Personal history : tobacco/ alcohol intake \u2022 Family history : diabetes, hypertension, genetic disorders/ congenital problems, multiple pregnancy, infections including tuberculosis \u2022 Height, weight \u2022 Calculate BMI (BMI=weight(kg)/height(m)\u00b2) \u2022 Pallor, Jaundice, Pedal edema \u2022 Pulse, BP, RR, temperature \u2022 Thyroid \u2022 Breast \u2022 Respiratory and CVS exam - ination \u2022 P/A examination, P/S and P/V examination # If woman presents with bleeding per vaginum do P/A & P/S to con\ufb01rm amount of bleeding & rule out local causes.",
+    "keywords": [
+      "bmi",
+      "hypertension",
+      "infection"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk",
+      "Body Temp": "high_value_increases_risk",
+      "BMI": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "1771568619_ante_natalmanagementofnormalpregnancy_7_0002",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\1771568619_ante-natalmanagementofnormalpregnancy-7.pdf",
+    "topic": "1771568619 ante natalmanagementofnormalpregnancy 7",
+    "summary": "examination, P/S and P/V examination # If woman presents with bleeding per vaginum do P/A & P/S to con\ufb01rm amount of bleeding & rule out local causes. All such cases to be referred to CHC or higher centre ASK EXAMINE \u2022 UPT if in doubt \u2022 Fill up Mother and Child protection card or ANC card, make entry on RCH portal & generate RCH number \u2022 Give \ufb01lled Mother and Child protection card & safe motherhood booklet to woman \u2022 Give Tab Folic Acid daily \u2022 Give \ufb01rst dose of Td \u2022 Single booster dose if received the \ufb01rst dose within last 3 years DO ESSENTIAL TESTS \u2022 Hemoglobin \u2022 Urine R & M \u2022 ABO & Rh grouping DESIRABLE TESTS \u2022 VDRL/ RPR \u2022 HIV \u2022 HBsAg \u2022 DIPSI test \u2022 TSH in high risk cases (BOH, goiter, obesity or residing in iodine de\ufb01ciency prone areas) OPTIONAL TESTS* Aneuploidy screen* by USG & double marker INVESTIGATIONS \u2022 Any com- plaints since last visit \u2022 Quickening foetal movements \u2022 Adherence to medications \u2022 Weight \u2022 Pallor \u2022 Pedal edema \u2022 Pulse, BP in sitting position \u2022 P/A examination for fundal height & fetal heart auscultation ASK EXAMINE \u2022 IFA tablet one (if Hb >11g%) or twice (if Hb <11g%) daily with water or lemon juice \u2022 Calcium carbonate 500 mg with vitamin D \u2022 Refer to highe",
+    "keywords": [
+      "obesity"
+    ],
+    "feature_directions": {
+      "BMI": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "1771568619_ante_natalmanagementofnormalpregnancy_7_0003",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\1771568619_ante-natalmanagementofnormalpregnancy-7.pdf",
+    "topic": "1771568619 ante natalmanagementofnormalpregnancy 7",
+    "summary": "AMINE \u2022 IFA tablet one (if Hb >11g%) or twice (if Hb <11g%) daily with water or lemon juice \u2022 Calcium carbonate 500 mg with vitamin D \u2022 Refer to higher centre if no rise in Hb after 4 weeks of oral tablets 250 units twice daily with meals. \u2022 Calcium Carbonate and IFA not to be given together \u2022 Single dose of Albendazole 400mg \u2022 Ensure compliance for investigations and treatment \u2022 Discuss birth preparedness \u2022 Give second dose Td at least four weeks after \ufb01rst dose DO ESSENTIAL TESTS \u2022 Hemoglobin \u2022 Urine albumin DESIRABLE TESTS \u2022 USG ( Level II between 18-20 weeks for gross congenital malformations) \u2022 DIPSI test if >24weeks & at least 4 weeks have elapsed after 1st test OPTIONAL TESTS* Quadruple test as per availability *Should be performed only if adequate counselling facilities are available INVESTIGATIONS SECOND VISIT (SECOND TRIMESTER) THIRD (28 \u2013 34 WEEKS) AND FOURTH VISIT (36 - 40 WEEKS) \u2022 Same as above \u2022 Record POG \u2022 Same as above \u2022 Auscultate FHS \u2022 Measurement of abdominal girth and Symphysiofundal Height BIRTH PREPAREDNESS MUST INCLUDE IDENTIFICATION OF THE FOLLOWING \u2022 Facility for delivery \u2022 Support persons \u2022 Birth companion \u2022 Means of transport in emergency (Including cont",
+    "keywords": [],
+    "feature_directions": {},
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "1771568619_ante_natalmanagementofnormalpregnancy_7_0004",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\1771568619_ante-natalmanagementofnormalpregnancy-7.pdf",
+    "topic": "1771568619 ante natalmanagementofnormalpregnancy 7",
+    "summary": "INCLUDE IDENTIFICATION OF THE FOLLOWING \u2022 Facility for delivery \u2022 Support persons \u2022 Birth companion \u2022 Means of transport in emergency (Including contact number) \u2022 Blood donors (if required in emergency) ASK EXAMINE \u2022 Continue IFA and calcium tablets and ensure compliance \u2022 If non compliant or Hb < 9g% give parenteral iron sucrose therapy (not > 200mg at one time & not > 3 times a week) and refer patient with Hb < 7g% to higher centre \u2022 Refer to higher centre if any discrepancy between fundal height and period of gestation or danger signals DO \u2022 Hemoglobin \u2022 Urine albumin \u2022 Optional USG for fetal growth and liquor INVESTIGATIONS DANGER SIGNALS FOR PATIENT TO REPORT TO HEALTH FACILITY \u2022 Fever \u2022 Persistent vomiting \u2022 Abnormal vaginal discharge \u2022 Palpitations, easy fatigability and breathlessness at rest and/ or on mild exertion.",
+    "keywords": [
+      "fever"
+    ],
+    "feature_directions": {
+      "Body Temp": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "1771568619_ante_natalmanagementofnormalpregnancy_7_0005",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\1771568619_ante-natalmanagementofnormalpregnancy-7.pdf",
+    "topic": "1771568619 ante natalmanagementofnormalpregnancy 7",
+    "summary": "LITY \u2022 Fever \u2022 Persistent vomiting \u2022 Abnormal vaginal discharge \u2022 Palpitations, easy fatigability and breathlessness at rest and/ or on mild exertion. \u2022 Vaginal bleeding \u2022 Decreased or absent fetal movements at > 28 weeks gestation \u2022 Leaking of watery \ufb02uid per vaginum (P/V) \u2022 Severe headache/ blurring of vision/ convulsion \u2022 Passing lesser amounts of urine and/ or burning sensation during micturition \u2022 Itching all over the body COUNSELLING AT ALL VISITS \u2022 \u2022 Timing and place of next ANC visit based on presence or absence of risk factor \u2022 Rest, nutrition, balanced diet and exercise \u2022 Counselling for HIV testing \u2022 Danger signs \u2219 Institutional delivery \u2219 Birth preparedness Early & exclusive breastfeeding for six months HIGH RISK PREGNANCY \u2022 Any H/o medical illness, previous caesarean section, past obstetric mishap or congenital malformation \u2022 Past H/o PPH \u2022 Age > 35 years or < 19 years or parity > 4 \u2022 Malnourished (BMI < 18.5 kg/m 2 or > 30 kg/m2) \u2022 Hemoglobin < 7g% \u2022 BP > 140/90mm Hg on 2 occasions 6 hours apart \u2022 APH \u2022 Discrepancy between fundal height and period of gestation > 4 weeks \u2022 GDM/ overt DM \u2022 Multiple pregnancy \u2022 Malpresentation at term \u2022 Previous uterine surgery * High ri",
+    "keywords": [
+      "bmi",
+      "fever"
+    ],
+    "feature_directions": {
+      "Body Temp": "high_value_increases_risk",
+      "BMI": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "1771568619_ante_natalmanagementofnormalpregnancy_7_0006",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\1771568619_ante-natalmanagementofnormalpregnancy-7.pdf",
+    "topic": "1771568619 ante natalmanagementofnormalpregnancy 7",
+    "summary": "en fundal height and period of gestation > 4 weeks \u2022 GDM/ overt DM \u2022 Multiple pregnancy \u2022 Malpresentation at term \u2022 Previous uterine surgery * High risk pregnancy to be delivered at district hospital/medical college * Preferably to have antenatal care also at these centres At 12 th week : Just palpable above the symphysis pubis At 16 th week : At lower one-third of the distance between the symphysis pubis and umbilicus At 20th week : At two-thirds of the distance between symphysis pubis and umbilicus WHO Standard Of Care for Antenatal Care At 24th week : At the level of umbilicus At 28th week : At lower one-third of the distance between the umbilicus and xiphisternum At 32 nd week : At two-thirds of the distance between the umbilicus and xiphisternum At 36th week : At the level of xiphisternum At 40th week : Sinks back to the level of the 32 nd week, but the \ufb02anks are full, unlike that in the 32 nd week ASSESSMENT OF FUNDAL HEIGHT & ITS CORRELATION WITH GESTATIONAL AGE December/ 2025 This STW has been prepared by national experts of India with feasibility considerations for various levels of healthcare system in the country.",
+    "keywords": [],
+    "feature_directions": {},
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "1771568619_ante_natalmanagementofnormalpregnancy_7_0007",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\1771568619_ante-natalmanagementofnormalpregnancy-7.pdf",
+    "topic": "1771568619 ante natalmanagementofnormalpregnancy 7",
+    "summary": "/ 2025 This STW has been prepared by national experts of India with feasibility considerations for various levels of healthcare system in the country. These broad guidelines are advisory, and are based on expert opinions and available scienti\ufb01c evidence. There may be variations in the management of an individual patient based on his/her speci\ufb01c condition, as decided by the treating physician. There will be no indemnity for direct or indirect consequences. Kindly visit our web portal (stw.icmr.org.in) for more information. \u00a9 Indian Council of Medical Research and Department of Health Research, Ministry of Health & Family Welfare, Government of India.",
+    "keywords": [],
+    "feature_directions": {},
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "1771568619_ante_natalmanagementofnormalpregnancy_7_0008",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\1771568619_ante-natalmanagementofnormalpregnancy-7.pdf",
+    "topic": "1771568619 ante natalmanagementofnormalpregnancy 7",
+    "summary": "or more information. \u00a9 Indian Council of Medical Research and Department of Health Research, Ministry of Health & Family Welfare, Government of India. \u2022 Post partum contraception CARING FOR EVERY STEP OF YOUR MOTHERHOOD JOURNEY ABBREVIATIONS REFERENCES ANC: Antenatal Care APH: Antepartum Haemorrhage BOH: Bad Obstetrics History CVS: Chorionic Villus Sampling EDD: Estimated Due Date FHS: Foetal Head Station GDM: Gestational Diabetes Mellitus PPH: Post Partum Haemorrhage RCH: Reproductive and Child Health Td: Tetanus Diphtheria TSH: Thyroid Stimulating Hormone UPT: Urine Pregnancy Test USG: Ultrasound Sonography ICD-11-QA42 \u2022 Department of Health Research Ministry of Health and Family Welfare, Government of India",
+    "keywords": [
+      "gestational diabetes"
+    ],
+    "feature_directions": {
+      "BS": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "antihypertensive_treatment_during_the_postnatal_period_pdf_313945610004_0001",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\antihypertensive-treatment-during-the-postnatal-period-pdf-313945610004.pdf",
+    "topic": "antihypertensive treatment during the postnatal period pdf 313945610004",
+    "summary": "Hypertension in pregnancy: antihypertensive treatment during the postnatal period Choice of treatment \u2022 Offer enalapril and monitor maternal renal function and maternal serum potassium. \u2022 For women of black African or Caribbean family origin, consider: \u055f nifedipine, or \u055f amlodipine, if the woman has previously used this to successfully control her BP. Additional treatment \u2022 If BP is not controlled with a single medicine consider a combination of nifedipine (or amlodipine) and enalapril. If this combination is not tolerated or is ineffective, consider either: \u055f adding atenolol or labetalol to the combination treatment or \u055f swapping one of the medicines already being used for atenolol or labetalol. \u2022 Use medicines that are taken once daily when possible. \u2022 Where possible, avoid using diuretics or angiotensin receptor blockers to treat hypertension in breastfeeding women. Information Enalapril and angiotensin receptor blockers: in 2009, the MHRA issued a drug safety update on \u2018ACE inhibitors and angiotensin II receptor antagonists: recommendations on how to use during breastfeeding\u2019 and a subsequent clarification was issued in 2014.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "antihypertensive_treatment_during_the_postnatal_period_pdf_313945610004_0002",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\antihypertensive-treatment-during-the-postnatal-period-pdf-313945610004.pdf",
+    "topic": "antihypertensive treatment during the postnatal period pdf 313945610004",
+    "summary": "bitors and angiotensin II receptor antagonists: recommendations on how to use during breastfeeding\u2019 and a subsequent clarification was issued in 2014. This clarification states: \u2018although ACE inhibitors and angiotensin II receptor antagonists are generally not recommended for use by breastfeeding mothers, they are not absolutely contra\u00ad indicated. Healthcare professionals may prescribe these medicines during breastfeeding if they consider that this treatment is essential for the lactating mother. In mothers who are breastfeeding older infants, the use of captopril, enalapril, or quinapril may be considered if an ACE inhibitor is necessary for the mother. Careful follow\u00adup of the infant for possible signs of hypotension is recommended. Nifedipine: at the time of publication (June 2019), some brands of nifedipine were specifically contraindicated during pregnancy by the manufacturer in its summary of product characteristics (SPC). Refer to the individual SPCs for each preparation of nifedipine for further details.",
+    "keywords": [],
+    "feature_directions": {},
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "antihypertensive_treatment_during_the_postnatal_period_pdf_313945610004_0003",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\antihypertensive-treatment-during-the-postnatal-period-pdf-313945610004.pdf",
+    "topic": "antihypertensive treatment during the postnatal period pdf 313945610004",
+    "summary": "the manufacturer in its summary of product characteristics (SPC). Refer to the individual SPCs for each preparation of nifedipine for further details. Advice to women \u2022 Advise women with hypertension who wish to breastfeed that: \u055f their treatment can be adapted to accommodate breastfeeding, and that the need to take antihypertensive medication does not prevent them from breastfeeding \u055f antihypertensive medicines can pass into breast milk \u055f most antihypertensive medicines taken while breastfeeding only lead to very low levels in breast milk, so the amounts taken in by babies are very small and would be unlikely to have any clinical effect \u055f most medicines are not tested in pregnant or breastfeeding women, so disclaimers in the manufacturer\u2019s information are not because of any specific safety concerns or evidence of harm. \u2022 Make decisions on treatment together with the woman, based on her preferences.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "antihypertensive_treatment_during_the_postnatal_period_pdf_313945610004_0004",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\antihypertensive-treatment-during-the-postnatal-period-pdf-313945610004.pdf",
+    "topic": "antihypertensive treatment during the postnatal period pdf 313945610004",
+    "summary": "are not because of any specific safety concerns or evidence of harm. \u2022 Make decisions on treatment together with the woman, based on her preferences. \u2022 As antihypertensive agents have the potential to transfer into breast milk: \u055f consider monitoring the BP of a baby, especially one born preterm, who has symptoms of low BP \u055f when discharged home, advise women to monitor their baby for drowsiness, lethargy, pallor, cold peripheries or poor feeding. This is a summary of advice on antihypertensive treatment during the postnatal period from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-4731-5126-0. Subject to Notice of rights.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "antihypertensive_treatment_during_the_postnatal_period_pdf_313945610004_0001",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\antihypertensive-treatment-during-the-postnatal-period-pdf-313945610004.pdf",
+    "topic": "antihypertensive treatment during the postnatal period pdf 313945610004",
+    "summary": "Hypertension in pregnancy: antihypertensive treatment during the postnatal period Choice of treatment \u2022 Offer enalapril and monitor maternal renal function and maternal serum potassium. \u2022 For women of black African or Caribbean family origin, consider: \u055f nifedipine, or \u055f amlodipine, if the woman has previously used this to successfully control her BP. Additional treatment \u2022 If BP is not controlled with a single medicine consider a combination of nifedipine (or amlodipine) and enalapril. If this combination is not tolerated or is ineffective, consider either: \u055f adding atenolol or labetalol to the combination treatment or \u055f swapping one of the medicines already being used for atenolol or labetalol. \u2022 Use medicines that are taken once daily when possible. \u2022 Where possible, avoid using diuretics or angiotensin receptor blockers to treat hypertension in breastfeeding women. Information Enalapril and angiotensin receptor blockers: in 2009, the MHRA issued a drug safety update on \u2018ACE inhibitors and angiotensin II receptor antagonists: recommendations on how to use during breastfeeding\u2019 and a subsequent clarification was issued in 2014.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "antihypertensive_treatment_during_the_postnatal_period_pdf_313945610004_0002",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\antihypertensive-treatment-during-the-postnatal-period-pdf-313945610004.pdf",
+    "topic": "antihypertensive treatment during the postnatal period pdf 313945610004",
+    "summary": "bitors and angiotensin II receptor antagonists: recommendations on how to use during breastfeeding\u2019 and a subsequent clarification was issued in 2014. This clarification states: \u2018although ACE inhibitors and angiotensin II receptor antagonists are generally not recommended for use by breastfeeding mothers, they are not absolutely contra\u00ad indicated. Healthcare professionals may prescribe these medicines during breastfeeding if they consider that this treatment is essential for the lactating mother. In mothers who are breastfeeding older infants, the use of captopril, enalapril, or quinapril may be considered if an ACE inhibitor is necessary for the mother. Careful follow\u00adup of the infant for possible signs of hypotension is recommended. Nifedipine: at the time of publication (June 2019), some brands of nifedipine were specifically contraindicated during pregnancy by the manufacturer in its summary of product characteristics (SPC). Refer to the individual SPCs for each preparation of nifedipine for further details.",
+    "keywords": [],
+    "feature_directions": {},
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "antihypertensive_treatment_during_the_postnatal_period_pdf_313945610004_0003",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\antihypertensive-treatment-during-the-postnatal-period-pdf-313945610004.pdf",
+    "topic": "antihypertensive treatment during the postnatal period pdf 313945610004",
+    "summary": "the manufacturer in its summary of product characteristics (SPC). Refer to the individual SPCs for each preparation of nifedipine for further details. Advice to women \u2022 Advise women with hypertension who wish to breastfeed that: \u055f their treatment can be adapted to accommodate breastfeeding, and that the need to take antihypertensive medication does not prevent them from breastfeeding \u055f antihypertensive medicines can pass into breast milk \u055f most antihypertensive medicines taken while breastfeeding only lead to very low levels in breast milk, so the amounts taken in by babies are very small and would be unlikely to have any clinical effect \u055f most medicines are not tested in pregnant or breastfeeding women, so disclaimers in the manufacturer\u2019s information are not because of any specific safety concerns or evidence of harm. \u2022 Make decisions on treatment together with the woman, based on her preferences.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "antihypertensive_treatment_during_the_postnatal_period_pdf_313945610004_0004",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\antihypertensive-treatment-during-the-postnatal-period-pdf-313945610004.pdf",
+    "topic": "antihypertensive treatment during the postnatal period pdf 313945610004",
+    "summary": "are not because of any specific safety concerns or evidence of harm. \u2022 Make decisions on treatment together with the woman, based on her preferences. \u2022 As antihypertensive agents have the potential to transfer into breast milk: \u055f consider monitoring the BP of a baby, especially one born preterm, who has symptoms of low BP \u055f when discharged home, advise women to monitor their baby for drowsiness, lethargy, pallor, cold peripheries or poor feeding. This is a summary of advice on antihypertensive treatment during the postnatal period from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-4731-5126-0. Subject to Notice of rights.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "assessment_of_proteinuria_and_care_plans_pdf_8720711391_0001",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\assessment-of-proteinuria-and-care-plans-pdf-8720711391.pdf",
+    "topic": "assessment of proteinuria and care plans pdf 8720711391",
+    "summary": "Hypertension in pregnancy: assessment of proteinuria and care plans Assessment of proteinurea \u2022 Interpret proteinuria measurements in context of full clinical review and other investigations for pre-eclampsia. \u2022 Use an automated reagent-strip reading device in secondary care. \u2022 If dipstick screening is positive (1+ or more), use protein:creatinine ratio (PCR) or albumin:creatinine ratio (ACR) to quantify proteinuria. \u2022 Do not use first morning urine void. \u2022 Do not routinely use 24-hour urine collection. \u2022 If using PCR: \u055f use 30 mg/mmol as a threshold for significant proteinuria \u055f if the result is 30 mg/mmol or more and uncertainty about the diagnosis remains, re-test on a new sample. \u2022 If using ACR: \u055f use 8 mg/mmol as a diagnostic threshold for pre-eclampsia \u055f if the result is 8 mg/mmol or more and uncertainty about the diagnosis, re-test on a new sample.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "assessment_of_proteinuria_and_care_plans_pdf_8720711391_0002",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\assessment-of-proteinuria-and-care-plans-pdf-8720711391.pdf",
+    "topic": "assessment of proteinuria and care plans pdf 8720711391",
+    "summary": "mg/mmol as a diagnostic threshold for pre-eclampsia \u055f if the result is 8 mg/mmol or more and uncertainty about the diagnosis, re-test on a new sample. Fetal monitoring plans for women with pre-eclampsia or severe gestational hypertension Write a care plan that includes: \u2022 timing and nature of future fetal monitoring \u2022 fetal indications for birth and if and when antenatal corticosteroids should be given \u2022 plans for discussion with neonatal paediatricians and obstetric anaesthetists. This is a summary of advice on assessment of proteinurea and care plans from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-1-4731-5119-2. Subject to Notice of rights.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "assessment_of_proteinuria_and_care_plans_pdf_8720711391_0001",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\assessment-of-proteinuria-and-care-plans-pdf-8720711391.pdf",
+    "topic": "assessment of proteinuria and care plans pdf 8720711391",
+    "summary": "Hypertension in pregnancy: assessment of proteinuria and care plans Assessment of proteinurea \u2022 Interpret proteinuria measurements in context of full clinical review and other investigations for pre-eclampsia. \u2022 Use an automated reagent-strip reading device in secondary care. \u2022 If dipstick screening is positive (1+ or more), use protein:creatinine ratio (PCR) or albumin:creatinine ratio (ACR) to quantify proteinuria. \u2022 Do not use first morning urine void. \u2022 Do not routinely use 24-hour urine collection. \u2022 If using PCR: \u055f use 30 mg/mmol as a threshold for significant proteinuria \u055f if the result is 30 mg/mmol or more and uncertainty about the diagnosis remains, re-test on a new sample. \u2022 If using ACR: \u055f use 8 mg/mmol as a diagnostic threshold for pre-eclampsia \u055f if the result is 8 mg/mmol or more and uncertainty about the diagnosis, re-test on a new sample.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "assessment_of_proteinuria_and_care_plans_pdf_8720711391_0002",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\assessment-of-proteinuria-and-care-plans-pdf-8720711391.pdf",
+    "topic": "assessment of proteinuria and care plans pdf 8720711391",
+    "summary": "mg/mmol as a diagnostic threshold for pre-eclampsia \u055f if the result is 8 mg/mmol or more and uncertainty about the diagnosis, re-test on a new sample. Fetal monitoring plans for women with pre-eclampsia or severe gestational hypertension Write a care plan that includes: \u2022 timing and nature of future fetal monitoring \u2022 fetal indications for birth and if and when antenatal corticosteroids should be given \u2022 plans for discussion with neonatal paediatricians and obstetric anaesthetists. This is a summary of advice on assessment of proteinurea and care plans from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-1-4731-5119-2. Subject to Notice of rights.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "chronic_hypertension_antenatal_care_pdf_8720711393_0001",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\chronic-hypertension-antenatal-care-pdf-8720711393.pdf",
+    "topic": "chronic hypertension antenatal care pdf 8720711393",
+    "summary": "Hypertension in pregnancy: chronic hypertension - antenatal care Consultations Schedule additional antenatal appointments (weekly, or every 2 to 4 weeks) based on individual needs and BP control. Antihypertensive treatment \u2022 Stop ACE inhibitors or ARBs within 2 working days of notification of pregnancy and offer alternatives. \u2022 Start aspirin, 75 mg to 150 mg once daily, from 12 weeks. \u2022 Offer antihypertensive treatment to women with sustained blood pressure of 140/90 mmHg or more. \u2022 Use labetalol, nifedipine or methyldopa. Base the choice on any pre-existing treatment, side- effect profiles, risks (including fetal effects) and the woman\u2019s preference. \u2022 Aim for target BP of 135/85 mmHg or less. Fetal monitoring At 28, 32 and 36 weeks carry out: \u2022 ultrasound fetal growth and amniotic fluid volume assessment \u2022 umbilical artery doppler velocimetry. Only carry out cardiotocography if clinically indicated. Suspected pre-eclampsia Offer placental growth factor (PlGF)-based testing if suspected pre-eclampsia between 20 weeks of pregnancy and 36 weeks and 6 days of pregnancy. Mode of birth Choose mode of birth according to clinical circumstances and a woman\u2019s preference.",
+    "keywords": [
+      "blood pressure",
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "chronic_hypertension_antenatal_care_pdf_8720711393_0002",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\chronic-hypertension-antenatal-care-pdf-8720711393.pdf",
+    "topic": "chronic hypertension antenatal care pdf 8720711393",
+    "summary": "ks of pregnancy and 36 weeks and 6 days of pregnancy. Mode of birth Choose mode of birth according to clinical circumstances and a woman\u2019s preference. Timing of birth \u2022 If BP less than 160/110 mmHg with or without antihypertensive treatment: \u055f do not offer birth before 37 weeks \u055f after 37 weeks, indications for birth and timing should be agreed between woman and senior obstetrician. \u2022 If planned early birth, offer antenatal corticosteroids and magnesium sulfate if indicated, in line with the NICE guideline on preterm labour and birth. Information Aspirin: although aspirin use for antihypertensive treatment is common in UK clinical practice, at the time of publication (June 2019), aspirin did not have a UK marketing authorisation for this indication. Community pharmacies cannot legally sell aspirin as a Pharmacy medicine for prevention of pre-eclampsia in pregnancy in England. Aspirin for this indication must be prescribed. The prescriber should see the summary of product characteristics for the manufacturer\u2019s advice on use in pregnancy. The prescriber should follow relevant professional guidance, taking full responsibility for the decision.",
+    "keywords": [],
+    "feature_directions": {},
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "chronic_hypertension_antenatal_care_pdf_8720711393_0003",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\chronic-hypertension-antenatal-care-pdf-8720711393.pdf",
+    "topic": "chronic hypertension antenatal care pdf 8720711393",
+    "summary": "e manufacturer\u2019s advice on use in pregnancy. The prescriber should follow relevant professional guidance, taking full responsibility for the decision. Informed consent should be obtained and documented. See the General Medical Council\u2019s Prescribing guidance: prescribing unlicensed medicines for further information. Nifedipine: at the time of publication (June 2019), some brands of nifedipine were specifically contraindicated during pregnancy by the manufacturer in its summary of product characteristics (SPC). Refer to the individual SPCs for each preparation of nifedipine for further details. This is a summary of advice on chronic hypertension - antenatal care from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. Last updated March 2023. ISBN: 978-4731-5121-5. Subject to Notice of rights.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "chronic_hypertension_antenatal_care_pdf_8720711393_0001",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\chronic-hypertension-antenatal-care-pdf-8720711393.pdf",
+    "topic": "chronic hypertension antenatal care pdf 8720711393",
+    "summary": "Hypertension in pregnancy: chronic hypertension - antenatal care Consultations Schedule additional antenatal appointments (weekly, or every 2 to 4 weeks) based on individual needs and BP control. Antihypertensive treatment \u2022 Stop ACE inhibitors or ARBs within 2 working days of notification of pregnancy and offer alternatives. \u2022 Start aspirin, 75 mg to 150 mg once daily, from 12 weeks. \u2022 Offer antihypertensive treatment to women with sustained blood pressure of 140/90 mmHg or more. \u2022 Use labetalol, nifedipine or methyldopa. Base the choice on any pre-existing treatment, side- effect profiles, risks (including fetal effects) and the woman\u2019s preference. \u2022 Aim for target BP of 135/85 mmHg or less. Fetal monitoring At 28, 32 and 36 weeks carry out: \u2022 ultrasound fetal growth and amniotic fluid volume assessment \u2022 umbilical artery doppler velocimetry. Only carry out cardiotocography if clinically indicated. Suspected pre-eclampsia Offer placental growth factor (PlGF)-based testing if suspected pre-eclampsia between 20 weeks of pregnancy and 36 weeks and 6 days of pregnancy. Mode of birth Choose mode of birth according to clinical circumstances and a woman\u2019s preference.",
+    "keywords": [
+      "blood pressure",
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "chronic_hypertension_antenatal_care_pdf_8720711393_0002",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\chronic-hypertension-antenatal-care-pdf-8720711393.pdf",
+    "topic": "chronic hypertension antenatal care pdf 8720711393",
+    "summary": "ks of pregnancy and 36 weeks and 6 days of pregnancy. Mode of birth Choose mode of birth according to clinical circumstances and a woman\u2019s preference. Timing of birth \u2022 If BP less than 160/110 mmHg with or without antihypertensive treatment: \u055f do not offer birth before 37 weeks \u055f after 37 weeks, indications for birth and timing should be agreed between woman and senior obstetrician. \u2022 If planned early birth, offer antenatal corticosteroids and magnesium sulfate if indicated, in line with the NICE guideline on preterm labour and birth. Information Aspirin: although aspirin use for antihypertensive treatment is common in UK clinical practice, at the time of publication (June 2019), aspirin did not have a UK marketing authorisation for this indication. Community pharmacies cannot legally sell aspirin as a Pharmacy medicine for prevention of pre-eclampsia in pregnancy in England. Aspirin for this indication must be prescribed. The prescriber should see the summary of product characteristics for the manufacturer\u2019s advice on use in pregnancy. The prescriber should follow relevant professional guidance, taking full responsibility for the decision.",
+    "keywords": [],
+    "feature_directions": {},
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "chronic_hypertension_antenatal_care_pdf_8720711393_0003",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\chronic-hypertension-antenatal-care-pdf-8720711393.pdf",
+    "topic": "chronic hypertension antenatal care pdf 8720711393",
+    "summary": "e manufacturer\u2019s advice on use in pregnancy. The prescriber should follow relevant professional guidance, taking full responsibility for the decision. Informed consent should be obtained and documented. See the General Medical Council\u2019s Prescribing guidance: prescribing unlicensed medicines for further information. Nifedipine: at the time of publication (June 2019), some brands of nifedipine were specifically contraindicated during pregnancy by the manufacturer in its summary of product characteristics (SPC). Refer to the individual SPCs for each preparation of nifedipine for further details. This is a summary of advice on chronic hypertension - antenatal care from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. Last updated March 2023. ISBN: 978-4731-5121-5. Subject to Notice of rights.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "chronic_hypertension_prepregnancy_advice_pdf_8720711392_0001",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\chronic-hypertension-prepregnancy-advice-pdf-8720711392.pdf",
+    "topic": "chronic hypertension prepregnancy advice pdf 8720711392",
+    "summary": "Hypertension in pregnancy: chronic hypertension - pre-pregnancy advice Refer to a specialist in hypertensive disorders of pregnancy. Antihypertensive treatment \u2022 Advise that angiotensin-converting enzyme (ACE) inhibitors or angiotensin II receptor blockers (ARBs) increase risk of congenital abnormalities. \u2022 Discuss alternative treatment if ACE inhibitors or ARBs are being taken for other conditions such as renal disease. \u2022 Advise that thiazide or thiazide-like diuretics may increase risk of congenital abnormalities and neonatal complications. \u2022 Discuss alternative antihypertensive treatment for planned pregnancy. \u2022 Advise that other antihypertensive treatments have not shown an increased risk of congenital malformation (but limited evidence). Lifestyle advice \u2022 Offer pregnant women with chronic hypertension advice on: \u055f weight management \u055f exercise \u055f healthy eating \u055f lowering the amount of salt in their diet. \u2022 Provide this advice in line with the NICE guideline on hypertension in adults: diagnosis and treatment.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "chronic_hypertension_prepregnancy_advice_pdf_8720711392_0002",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\chronic-hypertension-prepregnancy-advice-pdf-8720711392.pdf",
+    "topic": "chronic hypertension prepregnancy advice pdf 8720711392",
+    "summary": "\u055f lowering the amount of salt in their diet. \u2022 Provide this advice in line with the NICE guideline on hypertension in adults: diagnosis and treatment. Information In 2014, the MHRA issued a drug safety update on \u2018ACE inhibitors and angiotensin II receptor antagonists: not for use in pregnancy\u2019 that states \u2018Use in women who are planning pregnancy should be avoided unless absolutely necessary, in which case the potential risks and benefits should be discussed\u2019. This is a summary of advice on chronic hypertension - pre-pregnancy advice from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-1-4731-5120-8. Subject to Notice of rights.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "chronic_hypertension_prepregnancy_advice_pdf_8720711392_0001",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\chronic-hypertension-prepregnancy-advice-pdf-8720711392.pdf",
+    "topic": "chronic hypertension prepregnancy advice pdf 8720711392",
+    "summary": "Hypertension in pregnancy: chronic hypertension - pre-pregnancy advice Refer to a specialist in hypertensive disorders of pregnancy. Antihypertensive treatment \u2022 Advise that angiotensin-converting enzyme (ACE) inhibitors or angiotensin II receptor blockers (ARBs) increase risk of congenital abnormalities. \u2022 Discuss alternative treatment if ACE inhibitors or ARBs are being taken for other conditions such as renal disease. \u2022 Advise that thiazide or thiazide-like diuretics may increase risk of congenital abnormalities and neonatal complications. \u2022 Discuss alternative antihypertensive treatment for planned pregnancy. \u2022 Advise that other antihypertensive treatments have not shown an increased risk of congenital malformation (but limited evidence). Lifestyle advice \u2022 Offer pregnant women with chronic hypertension advice on: \u055f weight management \u055f exercise \u055f healthy eating \u055f lowering the amount of salt in their diet. \u2022 Provide this advice in line with the NICE guideline on hypertension in adults: diagnosis and treatment.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "chronic_hypertension_prepregnancy_advice_pdf_8720711392_0002",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\chronic-hypertension-prepregnancy-advice-pdf-8720711392.pdf",
+    "topic": "chronic hypertension prepregnancy advice pdf 8720711392",
+    "summary": "\u055f lowering the amount of salt in their diet. \u2022 Provide this advice in line with the NICE guideline on hypertension in adults: diagnosis and treatment. Information In 2014, the MHRA issued a drug safety update on \u2018ACE inhibitors and angiotensin II receptor antagonists: not for use in pregnancy\u2019 that states \u2018Use in women who are planning pregnancy should be avoided unless absolutely necessary, in which case the potential risks and benefits should be discussed\u2019. This is a summary of advice on chronic hypertension - pre-pregnancy advice from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-1-4731-5120-8. Subject to Notice of rights.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "criteria_for_choice_of_critical_care_level_hypertension_preeclampsia_and_eclampsia_pdf_8720711396_0001",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\criteria-for-choice-of-critical-care-level-hypertension-preeclampsia-and-eclampsia-pdf-8720711396.pdf",
+    "topic": "criteria for choice of critical care level hypertension preeclampsia and eclampsia pdf 8720711396",
+    "summary": "Hypertension in pregnancy: criteria for choice of critical care level (hypertension, pre-eclampsia and eclampsia) Level 1 \u2022 Pre-eclampsia with mild or moderate hypertension. \u2022 Ongoing conservative antenatal management of severe preterm hypertension. \u2022 Step-down treatment after the birth. Level 2 Step-down from level 3 or severe pre-eclampsia with any of following additional features: \u2022 eclampsia \u2022 HELLP syndrome \u2022 haemorrhage \u2022 hyperkalaemia \u2022 severe oliguria \u2022 coagulation support \u2022 intravenous anti- hypertensive treatment \u2022 initial stabilisation of severe hypertension \u2022 evidence of cardiac failure \u2022 abnormal neurology. See visual summary 12 on severe hypertension, severe pre-eclampsia and eclampsia in critical care Level 3 Severe pre-eclampsia and needing ventilation. See the next page on severe hypertension, severe pre-eclampsia and eclampsia in critical care Information Originally adapted by the 2010 Guideline Development Group for NICE guideline CG107 from Intensive Care Society (2002) Standards and Guidelines.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "criteria_for_choice_of_critical_care_level_hypertension_preeclampsia_and_eclampsia_pdf_8720711396_0002",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\criteria-for-choice-of-critical-care-level-hypertension-preeclampsia-and-eclampsia-pdf-8720711396.pdf",
+    "topic": "criteria for choice of critical care level hypertension preeclampsia and eclampsia pdf 8720711396",
+    "summary": "ation Originally adapted by the 2010 Guideline Development Group for NICE guideline CG107 from Intensive Care Society (2002) Standards and Guidelines. This is a summary of advice on criteria for choice of critical care level (hypertension, pre-eclampsia and eclampsia) from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-4731-5124-6. Subject to Notice of rights. Hypertension in pregnancy: severe hypertension, severe pre\u2011eclampsia and eclampsia in critical care Medical management \u2022 Measure BP hourly in women with hypertension, and every 15 to 30 minutes until BP is less than 160/110 mmHg in women with severe hyper tension \u2022 Treat women admitted to critical care during pregnancy or after birth immediately with one of: \u055f labetalol (oral or intravenous) \u055f oral nifedipine \u055f intravenous hydralazine \u2022 Continue appropriate ongoing antihypertensive treatment after initial management \u2022 Monitor response to treatment to: \u055f ensure BP falls \u055f identify adverse effects for woman and fetus \u055f modify treatment according to response \u2022 If BP controlled within target ranges, do not routinely limit duration of second stage of labour \u2022 If BP does not respond to",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "criteria_for_choice_of_critical_care_level_hypertension_preeclampsia_and_eclampsia_pdf_8720711396_0003",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\criteria-for-choice-of-critical-care-level-hypertension-preeclampsia-and-eclampsia-pdf-8720711396.pdf",
+    "topic": "criteria for choice of critical care level hypertension preeclampsia and eclampsia pdf 8720711396",
+    "summary": "according to response \u2022 If BP controlled within target ranges, do not routinely limit duration of second stage of labour \u2022 If BP does not respond to initial treatment, consider operative or assisted birth Fluid balance and volume expansion In women with severe pre-clampsia: \u2022 limit maintenance fluids to 80 ml/hour unless there are other ongoing fluid losses (for example, haemorrhage) \u2022 do not preload with intra venous fluids befor e establishing low-dose epidural analgesia and combined spinal epidural analgesia \u2022 do not use volume expansion unless hydralazine is ante natal antihypert ensive; consider using 500 ml or less crystalloid fluid before or at same time as first dose of hydralazine in antenatal period. Magnesium sulfate \u2022 Give intravenous magnesium sulfate if a woman with severe hypertension or severe preeclampsia is having or has recently had an eclamptic fit. \u2022 Consider giving intravenous magnesium sulfate if birth planned within 24 hours in woman with severe pre-eclampsia. \u2022 Do not use diazepam, phenytoin or other anti convulsants as alt ernatives to magnesium sulfate in women with eclampsia.",
+    "keywords": [
+      "hypertension",
+      "preeclampsia"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "criteria_for_choice_of_critical_care_level_hypertension_preeclampsia_and_eclampsia_pdf_8720711396_0004",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\criteria-for-choice-of-critical-care-level-hypertension-preeclampsia-and-eclampsia-pdf-8720711396.pdf",
+    "topic": "criteria for choice of critical care level hypertension preeclampsia and eclampsia pdf 8720711396",
+    "summary": "n with severe pre-eclampsia. \u2022 Do not use diazepam, phenytoin or other anti convulsants as alt ernatives to magnesium sulfate in women with eclampsia. Regimen for magnesium sulfate \u2022 Loading dose of 4 g given intravenously over 5 to 15 minutes, followed by infusion of 1 g/hour for 24 hours \u2022 Further dose of 2 to 4 g given over 5 to 15 minutes if recurrent seizures Information Nifedipine: at the time of publication (June 2019), some brands of nifedipine were specifically contraindicated during pregnancy by the manufacturer in its summary of product characteristics (SPC). Refer to the individual SPCs for each preparation of nifedipine for further details. Magnesium sulfate regimen: also see The Eclampsia Trial Collaborative Group (1995) Which anticonvulsant for women with eclampsia? Evidence from the Collaborative Eclampsia Trial. Lancet 345:1455\u055f1463. The MHRA has issued a warning about the risk of skeletal adverse effects in the neonate following prolonged or repeated use of magnesium sulfate in pregnancy.",
+    "keywords": [],
+    "feature_directions": {},
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "criteria_for_choice_of_critical_care_level_hypertension_preeclampsia_and_eclampsia_pdf_8720711396_0005",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\criteria-for-choice-of-critical-care-level-hypertension-preeclampsia-and-eclampsia-pdf-8720711396.pdf",
+    "topic": "criteria for choice of critical care level hypertension preeclampsia and eclampsia pdf 8720711396",
+    "summary": "has issued a warning about the risk of skeletal adverse effects in the neonate following prolonged or repeated use of magnesium sulfate in pregnancy. Maternal administration of magnesium sulfate for longer than 5 to 7 days in pregnancy has been associated with skeletal adverse effects and hypocalcaemia and hypermagnesemia in neonates. If use of magnesium sulfate in pregnancy is prolonged or repeated, consider monitoring of neonates for abnormal calcium and magnesium levels and skeletal adverse effects. This is a summary of advice on severe hypertension, severe pre-eclampsia and eclampsia in critical care from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-4731-5124-6. Subject to Notice of rights.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "criteria_for_choice_of_critical_care_level_hypertension_preeclampsia_and_eclampsia_pdf_8720711396_0001",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\criteria-for-choice-of-critical-care-level-hypertension-preeclampsia-and-eclampsia-pdf-8720711396.pdf",
+    "topic": "criteria for choice of critical care level hypertension preeclampsia and eclampsia pdf 8720711396",
+    "summary": "Hypertension in pregnancy: criteria for choice of critical care level (hypertension, pre-eclampsia and eclampsia) Level 1 \u2022 Pre-eclampsia with mild or moderate hypertension. \u2022 Ongoing conservative antenatal management of severe preterm hypertension. \u2022 Step-down treatment after the birth. Level 2 Step-down from level 3 or severe pre-eclampsia with any of following additional features: \u2022 eclampsia \u2022 HELLP syndrome \u2022 haemorrhage \u2022 hyperkalaemia \u2022 severe oliguria \u2022 coagulation support \u2022 intravenous anti- hypertensive treatment \u2022 initial stabilisation of severe hypertension \u2022 evidence of cardiac failure \u2022 abnormal neurology. See visual summary 12 on severe hypertension, severe pre-eclampsia and eclampsia in critical care Level 3 Severe pre-eclampsia and needing ventilation. See the next page on severe hypertension, severe pre-eclampsia and eclampsia in critical care Information Originally adapted by the 2010 Guideline Development Group for NICE guideline CG107 from Intensive Care Society (2002) Standards and Guidelines.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "criteria_for_choice_of_critical_care_level_hypertension_preeclampsia_and_eclampsia_pdf_8720711396_0002",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\criteria-for-choice-of-critical-care-level-hypertension-preeclampsia-and-eclampsia-pdf-8720711396.pdf",
+    "topic": "criteria for choice of critical care level hypertension preeclampsia and eclampsia pdf 8720711396",
+    "summary": "ation Originally adapted by the 2010 Guideline Development Group for NICE guideline CG107 from Intensive Care Society (2002) Standards and Guidelines. This is a summary of advice on criteria for choice of critical care level (hypertension, pre-eclampsia and eclampsia) from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-4731-5124-6. Subject to Notice of rights. Hypertension in pregnancy: severe hypertension, severe pre\u2011eclampsia and eclampsia in critical care Medical management \u2022 Measure BP hourly in women with hypertension, and every 15 to 30 minutes until BP is less than 160/110 mmHg in women with severe hyper tension \u2022 Treat women admitted to critical care during pregnancy or after birth immediately with one of: \u055f labetalol (oral or intravenous) \u055f oral nifedipine \u055f intravenous hydralazine \u2022 Continue appropriate ongoing antihypertensive treatment after initial management \u2022 Monitor response to treatment to: \u055f ensure BP falls \u055f identify adverse effects for woman and fetus \u055f modify treatment according to response \u2022 If BP controlled within target ranges, do not routinely limit duration of second stage of labour \u2022 If BP does not respond to",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "criteria_for_choice_of_critical_care_level_hypertension_preeclampsia_and_eclampsia_pdf_8720711396_0003",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\criteria-for-choice-of-critical-care-level-hypertension-preeclampsia-and-eclampsia-pdf-8720711396.pdf",
+    "topic": "criteria for choice of critical care level hypertension preeclampsia and eclampsia pdf 8720711396",
+    "summary": "according to response \u2022 If BP controlled within target ranges, do not routinely limit duration of second stage of labour \u2022 If BP does not respond to initial treatment, consider operative or assisted birth Fluid balance and volume expansion In women with severe pre-clampsia: \u2022 limit maintenance fluids to 80 ml/hour unless there are other ongoing fluid losses (for example, haemorrhage) \u2022 do not preload with intra venous fluids befor e establishing low-dose epidural analgesia and combined spinal epidural analgesia \u2022 do not use volume expansion unless hydralazine is ante natal antihypert ensive; consider using 500 ml or less crystalloid fluid before or at same time as first dose of hydralazine in antenatal period. Magnesium sulfate \u2022 Give intravenous magnesium sulfate if a woman with severe hypertension or severe preeclampsia is having or has recently had an eclamptic fit. \u2022 Consider giving intravenous magnesium sulfate if birth planned within 24 hours in woman with severe pre-eclampsia. \u2022 Do not use diazepam, phenytoin or other anti convulsants as alt ernatives to magnesium sulfate in women with eclampsia.",
+    "keywords": [
+      "hypertension",
+      "preeclampsia"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "criteria_for_choice_of_critical_care_level_hypertension_preeclampsia_and_eclampsia_pdf_8720711396_0004",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\criteria-for-choice-of-critical-care-level-hypertension-preeclampsia-and-eclampsia-pdf-8720711396.pdf",
+    "topic": "criteria for choice of critical care level hypertension preeclampsia and eclampsia pdf 8720711396",
+    "summary": "n with severe pre-eclampsia. \u2022 Do not use diazepam, phenytoin or other anti convulsants as alt ernatives to magnesium sulfate in women with eclampsia. Regimen for magnesium sulfate \u2022 Loading dose of 4 g given intravenously over 5 to 15 minutes, followed by infusion of 1 g/hour for 24 hours \u2022 Further dose of 2 to 4 g given over 5 to 15 minutes if recurrent seizures Information Nifedipine: at the time of publication (June 2019), some brands of nifedipine were specifically contraindicated during pregnancy by the manufacturer in its summary of product characteristics (SPC). Refer to the individual SPCs for each preparation of nifedipine for further details. Magnesium sulfate regimen: also see The Eclampsia Trial Collaborative Group (1995) Which anticonvulsant for women with eclampsia? Evidence from the Collaborative Eclampsia Trial. Lancet 345:1455\u055f1463. The MHRA has issued a warning about the risk of skeletal adverse effects in the neonate following prolonged or repeated use of magnesium sulfate in pregnancy.",
+    "keywords": [],
+    "feature_directions": {},
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "criteria_for_choice_of_critical_care_level_hypertension_preeclampsia_and_eclampsia_pdf_8720711396_0005",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\criteria-for-choice-of-critical-care-level-hypertension-preeclampsia-and-eclampsia-pdf-8720711396.pdf",
+    "topic": "criteria for choice of critical care level hypertension preeclampsia and eclampsia pdf 8720711396",
+    "summary": "has issued a warning about the risk of skeletal adverse effects in the neonate following prolonged or repeated use of magnesium sulfate in pregnancy. Maternal administration of magnesium sulfate for longer than 5 to 7 days in pregnancy has been associated with skeletal adverse effects and hypocalcaemia and hypermagnesemia in neonates. If use of magnesium sulfate in pregnancy is prolonged or repeated, consider monitoring of neonates for abnormal calcium and magnesium levels and skeletal adverse effects. This is a summary of advice on severe hypertension, severe pre-eclampsia and eclampsia in critical care from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-4731-5124-6. Subject to Notice of rights.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "followup_care_and_postnatal_review_pdf_8720711397_0001",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\followup-care-and-postnatal-review-pdf-8720711397.pdf",
+    "topic": "followup care and postnatal review pdf 8720711397",
+    "summary": "Hypertension in pregnancy: follow-up care and postnatal review Antihypertensive treatment in all women \u2022 If methyldopa used to treat hypertension, stop within 2 days after birth and change to an alternative treatment. \u2022 Continue (or start if necessary) antihypertensive treatment. \u2022 Aim to keep BP under 140/90 mmHg. \u2022 Measure BP: \u055f pre-eclampsia: at least 4 times a day while an inpatient \u055f chronic or gestational hypertension: daily for the first 2 days after birth \u055f all women: at least once 3 to 5 days after birth. In women with pre-eclampsia \u2022 Ask the woman about severe headache and epigastric pain each time BP measured. \u2022 If mild or moderate pre-eclampsia or after stepdown from critical care, measure platelet count, trans aminases and serum creatinine 48 to 72 hours after birth or stepdown. Repeat as clinically indicated. \u2022 Do not repeat if results normal. \u2022 Offer transfer to community mid wifery care if BP under 150/100 mmHg, blood test results stable or improving, and no symptoms of pre-eclampsia.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "followup_care_and_postnatal_review_pdf_8720711397_0002",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\followup-care-and-postnatal-review-pdf-8720711397.pdf",
+    "topic": "followup care and postnatal review pdf 8720711397",
+    "summary": "mal. \u2022 Offer transfer to community mid wifery care if BP under 150/100 mmHg, blood test results stable or improving, and no symptoms of pre-eclampsia. Follow-up for all women \u2022 Agree a care plan with the woman that includes: \u055f who will provide follow-up care, including medical review if needed \u055f frequency of BP monitoring \u055f thresholds for reducing or stopping treatment \u055f indications for referral to primary care for BP review \u055f self-monitoring for symptoms. \u2022 Offer a medical review 2 weeks after transfer to community care if anti hypert ensive treatment is to be continued. \u2022 Offer a medical review at 6\u055f8 week post natal review with their GP or specialist. In women with pre-eclampsia \u2022 If biochemical and haematological indices improving but within abnormal range, or not improving relative to pregnancy ranges, repeat platelet count, transaminases and serum creatinine measurements as clinically indicated. \u2022 Carry out urine dipstick test 6 to 8 weeks after birth. \u2022 If proteinuria still 1+ or more: offer further review at 3 months to assess kidney function, and if abnormal consider offering referral for specialist kidney assessment.",
+    "keywords": [],
+    "feature_directions": {},
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "followup_care_and_postnatal_review_pdf_8720711397_0003",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\followup-care-and-postnatal-review-pdf-8720711397.pdf",
+    "topic": "followup care and postnatal review pdf 8720711397",
+    "summary": "l 1+ or more: offer further review at 3 months to assess kidney function, and if abnormal consider offering referral for specialist kidney assessment. This is a summary of advice on follow-up care and postnatal review from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-4731-5125-3. Subject to Notice of rights.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "followup_care_and_postnatal_review_pdf_8720711397_0001",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\followup-care-and-postnatal-review-pdf-8720711397.pdf",
+    "topic": "followup care and postnatal review pdf 8720711397",
+    "summary": "Hypertension in pregnancy: follow-up care and postnatal review Antihypertensive treatment in all women \u2022 If methyldopa used to treat hypertension, stop within 2 days after birth and change to an alternative treatment. \u2022 Continue (or start if necessary) antihypertensive treatment. \u2022 Aim to keep BP under 140/90 mmHg. \u2022 Measure BP: \u055f pre-eclampsia: at least 4 times a day while an inpatient \u055f chronic or gestational hypertension: daily for the first 2 days after birth \u055f all women: at least once 3 to 5 days after birth. In women with pre-eclampsia \u2022 Ask the woman about severe headache and epigastric pain each time BP measured. \u2022 If mild or moderate pre-eclampsia or after stepdown from critical care, measure platelet count, trans aminases and serum creatinine 48 to 72 hours after birth or stepdown. Repeat as clinically indicated. \u2022 Do not repeat if results normal. \u2022 Offer transfer to community mid wifery care if BP under 150/100 mmHg, blood test results stable or improving, and no symptoms of pre-eclampsia.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "followup_care_and_postnatal_review_pdf_8720711397_0002",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\followup-care-and-postnatal-review-pdf-8720711397.pdf",
+    "topic": "followup care and postnatal review pdf 8720711397",
+    "summary": "mal. \u2022 Offer transfer to community mid wifery care if BP under 150/100 mmHg, blood test results stable or improving, and no symptoms of pre-eclampsia. Follow-up for all women \u2022 Agree a care plan with the woman that includes: \u055f who will provide follow-up care, including medical review if needed \u055f frequency of BP monitoring \u055f thresholds for reducing or stopping treatment \u055f indications for referral to primary care for BP review \u055f self-monitoring for symptoms. \u2022 Offer a medical review 2 weeks after transfer to community care if anti hypert ensive treatment is to be continued. \u2022 Offer a medical review at 6\u055f8 week post natal review with their GP or specialist. In women with pre-eclampsia \u2022 If biochemical and haematological indices improving but within abnormal range, or not improving relative to pregnancy ranges, repeat platelet count, transaminases and serum creatinine measurements as clinically indicated. \u2022 Carry out urine dipstick test 6 to 8 weeks after birth. \u2022 If proteinuria still 1+ or more: offer further review at 3 months to assess kidney function, and if abnormal consider offering referral for specialist kidney assessment.",
+    "keywords": [],
+    "feature_directions": {},
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "followup_care_and_postnatal_review_pdf_8720711397_0003",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\followup-care-and-postnatal-review-pdf-8720711397.pdf",
+    "topic": "followup care and postnatal review pdf 8720711397",
+    "summary": "l 1+ or more: offer further review at 3 months to assess kidney function, and if abnormal consider offering referral for specialist kidney assessment. This is a summary of advice on follow-up care and postnatal review from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-4731-5125-3. Subject to Notice of rights.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "gestational_hypertension_antenatal_care_pdf_8720711394_0001",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\gestational-hypertension-antenatal-care-pdf-8720711394.pdf",
+    "topic": "gestational hypertension antenatal care pdf 8720711394",
+    "summary": "Hypertension in pregnancy: gestational hypertension - antenatal care Assessment in secondary care \u2022 Arrange for a healthcare professional trained in the management of hypertensive disorders of pregnancy to assess the woman. \u2022 Take into account previous history of pre-eclampsia or gestational hypertension, pre-existing vascular or kidney disease, risk factors for pre-eclampsia (for example, nulliparity, age 40 years or over, pregnancy interval more than 10 years, family history of pre-eclampsia, multi-fetal pregnancy, BMI 35 kg/m2 or more) and gestational age at presentation. Factor Hypertension: BP 140/90 to 159/109 mmHg Severe hypertension: BP of 160/110 mmHg or more Admission to hospital Do not routinely admit to hospital Admit, but if BP falls below 160/110 mmHg then manage as for hypertension Antihypertensive pharmacological treatment Offer pharmacological treatment if BP remains over 140/90 mmHg Offer pharmacological treatment to all women Target BP on antihypertensive treatment Aim for BP of 135/85 mmHg or less Aim for BP of 135/85 mmHg or less BP measurement Once or twice a week (depending on BP) until BP is 135/85 mmHg or less Every 15 to 30 minutes until BP is less than 16",
+    "keywords": [
+      "bmi",
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk",
+      "BMI": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "gestational_hypertension_antenatal_care_pdf_8720711394_0002",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\gestational-hypertension-antenatal-care-pdf-8720711394.pdf",
+    "topic": "gestational hypertension antenatal care pdf 8720711394",
+    "summary": "/85 mmHg or less BP measurement Once or twice a week (depending on BP) until BP is 135/85 mmHg or less Every 15 to 30 minutes until BP is less than 160/110 mmHg Dipstick proteinuria testing Once or twice a week (with BP measurement) Daily while admitted Blood tests Measure full blood count, liver function and renal function at presentation and then weekly Measure full blood count, liver function and renal function at presentation and then weekly Placental growth factor (PlGF)-based testing Carry out PlGF-based testing on 1 occasion (NICE diagnostic guidance DG49) if there is suspicion of pre- eclampsia Carry out PlGF-based testing on 1 occasion (NICE diagnostic guidance DG49) if there is suspicion of pre- eclampsia Fetal heart auscultation Offer fetal heart auscultation at every antenatal appointment Offer fetal heart auscultation at every antenatal appointment Fetal ultrasound Carry out ultrasound assessment of the fetus at diagnosis and, if normal, repeat every 2 to 4 weeks, if clinically indicated Carry out ultrasound assessment of the fetus at diagnosis and, if normal, repeat every 2 weeks, if severe hypertension persists Cardiotocography (CTG) Carry out a CTG only if clinicall",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "gestational_hypertension_antenatal_care_pdf_8720711394_0003",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\gestational-hypertension-antenatal-care-pdf-8720711394.pdf",
+    "topic": "gestational hypertension antenatal care pdf 8720711394",
+    "summary": "the fetus at diagnosis and, if normal, repeat every 2 weeks, if severe hypertension persists Cardiotocography (CTG) Carry out a CTG only if clinically indicated Carry out a CTG at diagnosis and then only if clinically indicated This is a summary of advice on gestational hypertension - antenatal care from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-4731-5122-2. Subject to Notice of rights. Hypertension in pregnancy: gestational hypertension - antenatal care (continued) Antihypertensive treatment Use labetalol, nifedipine or methyldopa. Base the choice on any pre-existing treatment, side-effect profiles, risks (including fetal effects) and the woman\u2019s preference. Mode of birth Choose mode of birth according to clinical circumstances and a woman\u2019s preference. Timing of birth \u2022 Do not offer planned early birth before 37 weeks unless there are other medical indications. \u2022 After 37 weeks, timing of and maternal and fetal indications for birth should be agreed between woman and senior obstetrician.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "gestational_hypertension_antenatal_care_pdf_8720711394_0004",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\gestational-hypertension-antenatal-care-pdf-8720711394.pdf",
+    "topic": "gestational hypertension antenatal care pdf 8720711394",
+    "summary": "medical indications. \u2022 After 37 weeks, timing of and maternal and fetal indications for birth should be agreed between woman and senior obstetrician. \u2022 If planned early birth offer antenatal corticosteroids and magnesium sulfate if indicated, in line with the NICE guideline on preterm labour and birth. Information Nifedipine: at the time of publication (June 2019), some brands of nifedipine were specifically contraindicated during pregnancy by the manufacturer in its summary of product characteristics (SPC). Refer to the individual SPCs for each preparation of nifedipine for further details. This is a summary of advice on gestational hypertension - antenatal care from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-4731-5122-2. Subject to Notice of rights.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "gestational_hypertension_antenatal_care_pdf_8720711394_0001",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\gestational-hypertension-antenatal-care-pdf-8720711394.pdf",
+    "topic": "gestational hypertension antenatal care pdf 8720711394",
+    "summary": "Hypertension in pregnancy: gestational hypertension - antenatal care Assessment in secondary care \u2022 Arrange for a healthcare professional trained in the management of hypertensive disorders of pregnancy to assess the woman. \u2022 Take into account previous history of pre-eclampsia or gestational hypertension, pre-existing vascular or kidney disease, risk factors for pre-eclampsia (for example, nulliparity, age 40 years or over, pregnancy interval more than 10 years, family history of pre-eclampsia, multi-fetal pregnancy, BMI 35 kg/m2 or more) and gestational age at presentation. Factor Hypertension: BP 140/90 to 159/109 mmHg Severe hypertension: BP of 160/110 mmHg or more Admission to hospital Do not routinely admit to hospital Admit, but if BP falls below 160/110 mmHg then manage as for hypertension Antihypertensive pharmacological treatment Offer pharmacological treatment if BP remains over 140/90 mmHg Offer pharmacological treatment to all women Target BP on antihypertensive treatment Aim for BP of 135/85 mmHg or less Aim for BP of 135/85 mmHg or less BP measurement Once or twice a week (depending on BP) until BP is 135/85 mmHg or less Every 15 to 30 minutes until BP is less than 16",
+    "keywords": [
+      "bmi",
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk",
+      "BMI": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "gestational_hypertension_antenatal_care_pdf_8720711394_0002",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\gestational-hypertension-antenatal-care-pdf-8720711394.pdf",
+    "topic": "gestational hypertension antenatal care pdf 8720711394",
+    "summary": "/85 mmHg or less BP measurement Once or twice a week (depending on BP) until BP is 135/85 mmHg or less Every 15 to 30 minutes until BP is less than 160/110 mmHg Dipstick proteinuria testing Once or twice a week (with BP measurement) Daily while admitted Blood tests Measure full blood count, liver function and renal function at presentation and then weekly Measure full blood count, liver function and renal function at presentation and then weekly Placental growth factor (PlGF)-based testing Carry out PlGF-based testing on 1 occasion (NICE diagnostic guidance DG49) if there is suspicion of pre- eclampsia Carry out PlGF-based testing on 1 occasion (NICE diagnostic guidance DG49) if there is suspicion of pre- eclampsia Fetal heart auscultation Offer fetal heart auscultation at every antenatal appointment Offer fetal heart auscultation at every antenatal appointment Fetal ultrasound Carry out ultrasound assessment of the fetus at diagnosis and, if normal, repeat every 2 to 4 weeks, if clinically indicated Carry out ultrasound assessment of the fetus at diagnosis and, if normal, repeat every 2 weeks, if severe hypertension persists Cardiotocography (CTG) Carry out a CTG only if clinicall",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "gestational_hypertension_antenatal_care_pdf_8720711394_0003",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\gestational-hypertension-antenatal-care-pdf-8720711394.pdf",
+    "topic": "gestational hypertension antenatal care pdf 8720711394",
+    "summary": "the fetus at diagnosis and, if normal, repeat every 2 weeks, if severe hypertension persists Cardiotocography (CTG) Carry out a CTG only if clinically indicated Carry out a CTG at diagnosis and then only if clinically indicated This is a summary of advice on gestational hypertension - antenatal care from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-4731-5122-2. Subject to Notice of rights. Hypertension in pregnancy: gestational hypertension - antenatal care (continued) Antihypertensive treatment Use labetalol, nifedipine or methyldopa. Base the choice on any pre-existing treatment, side-effect profiles, risks (including fetal effects) and the woman\u2019s preference. Mode of birth Choose mode of birth according to clinical circumstances and a woman\u2019s preference. Timing of birth \u2022 Do not offer planned early birth before 37 weeks unless there are other medical indications. \u2022 After 37 weeks, timing of and maternal and fetal indications for birth should be agreed between woman and senior obstetrician.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "gestational_hypertension_antenatal_care_pdf_8720711394_0004",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\gestational-hypertension-antenatal-care-pdf-8720711394.pdf",
+    "topic": "gestational hypertension antenatal care pdf 8720711394",
+    "summary": "medical indications. \u2022 After 37 weeks, timing of and maternal and fetal indications for birth should be agreed between woman and senior obstetrician. \u2022 If planned early birth offer antenatal corticosteroids and magnesium sulfate if indicated, in line with the NICE guideline on preterm labour and birth. Information Nifedipine: at the time of publication (June 2019), some brands of nifedipine were specifically contraindicated during pregnancy by the manufacturer in its summary of product characteristics (SPC). Refer to the individual SPCs for each preparation of nifedipine for further details. This is a summary of advice on gestational hypertension - antenatal care from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-4731-5122-2. Subject to Notice of rights.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "intrapartum_care_and_place_of_care_pdf_8720711395_0001",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\intrapartum-care-and-place-of-care-pdf-8720711395.pdf",
+    "topic": "intrapartum care and place of care pdf 8720711395",
+    "summary": "Hypertension in pregnancy: intrapartum care and place of care Hypertension (BP 159/109 mmHg or less) \u2022 Continue antenatal antihypertensive treatment. \u2022 Measure BP hourly. \u2022 Determine the need for haematological and biochemical monitoring according to criteria from antenatal period. \u2022 If BP stable do not routinely limit duration of second stage. Severe hypertension (BP 160/110 mmHg or more) \u2022 Continue antenatal antihypertensive treatment. \u2022 Measure BP every 15 to 30 minutes until BP is less than 160/110 mmHg. \u2022 If BP controlled within target ranges do not routinely limit duration of second stage. \u2022 If BP does not respond to treatment advise operative or assisted birth. See visual summary 12 on severe hypertension, severe pre-eclampsia and eclampsia in critical care Features of severe pre-eclampsia \u2022 Severe hypertension that does not respond to treatment. \u2022 Ongoing or recurring severe headaches. \u2022 Visual scotomata. \u2022 Nausea or vomiting. \u2022 Epigastric pain. \u2022 Oliguria and severe hypertension. \u2022 Progressive deterioration in laboratory blood tests (such as rising creatinine, or liver transaminases or falling platelet count). \u2022 Failure of fetal growth or abnormal doppler findings.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "intrapartum_care_and_place_of_care_pdf_8720711395_0002",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\intrapartum-care-and-place-of-care-pdf-8720711395.pdf",
+    "topic": "intrapartum care and place of care pdf 8720711395",
+    "summary": "ory blood tests (such as rising creatinine, or liver transaminases or falling platelet count). \u2022 Failure of fetal growth or abnormal doppler findings. See visual summary 7 on severe hypertension, severe pre-eclampsia and eclampsia in critical care This is a summary of advice on intrapartum care and place of care from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-4731-5123-9. Subject to Notice of rights.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "intrapartum_care_and_place_of_care_pdf_8720711395_0001",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\intrapartum-care-and-place-of-care-pdf-8720711395.pdf",
+    "topic": "intrapartum care and place of care pdf 8720711395",
+    "summary": "Hypertension in pregnancy: intrapartum care and place of care Hypertension (BP 159/109 mmHg or less) \u2022 Continue antenatal antihypertensive treatment. \u2022 Measure BP hourly. \u2022 Determine the need for haematological and biochemical monitoring according to criteria from antenatal period. \u2022 If BP stable do not routinely limit duration of second stage. Severe hypertension (BP 160/110 mmHg or more) \u2022 Continue antenatal antihypertensive treatment. \u2022 Measure BP every 15 to 30 minutes until BP is less than 160/110 mmHg. \u2022 If BP controlled within target ranges do not routinely limit duration of second stage. \u2022 If BP does not respond to treatment advise operative or assisted birth. See visual summary 12 on severe hypertension, severe pre-eclampsia and eclampsia in critical care Features of severe pre-eclampsia \u2022 Severe hypertension that does not respond to treatment. \u2022 Ongoing or recurring severe headaches. \u2022 Visual scotomata. \u2022 Nausea or vomiting. \u2022 Epigastric pain. \u2022 Oliguria and severe hypertension. \u2022 Progressive deterioration in laboratory blood tests (such as rising creatinine, or liver transaminases or falling platelet count). \u2022 Failure of fetal growth or abnormal doppler findings.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "intrapartum_care_and_place_of_care_pdf_8720711395_0002",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\intrapartum-care-and-place-of-care-pdf-8720711395.pdf",
+    "topic": "intrapartum care and place of care pdf 8720711395",
+    "summary": "ory blood tests (such as rising creatinine, or liver transaminases or falling platelet count). \u2022 Failure of fetal growth or abnormal doppler findings. See visual summary 7 on severe hypertension, severe pre-eclampsia and eclampsia in critical care This is a summary of advice on intrapartum care and place of care from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-4731-5123-9. Subject to Notice of rights.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "planning_care_for_women_at_moderate_and_high_risk_of_preeclampsia_pdf_8720711390_0001",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\planning-care-for-women-at-moderate-and-high-risk-of-preeclampsia-pdf-8720711390.pdf",
+    "topic": "planning care for women at moderate and high risk of preeclampsia pdf 8720711390",
+    "summary": "Hypertension in pregnancy: planning care for women at moderate and high risk of pre-eclampsia Risk factors for pre\u2011eclampsia Moderate \u2022 First pregnancy \u2022 Age 40 or over \u2022 Pregnancy interval of 10 years or more \u2022 BMI of 35 kg/m2 or more at first visit \u2022 Family history of pre\u2011eclampsia \u2022 Multi\u2011fetal pregnancy High \u2022 Hypertensive disease during previous pregnancy \u2022 Chronic kidney disease \u2022 Autoimmune disease such as systemic lupus erythematosus or antiphospholipid syndrome \u2022 Type 1 or type 2 diabetes \u2022 Chronic hypertension 2 or more moderate risk factors, or 1 or more high risk factors? Give aspirin 75 to 150 mg/day from 12 weeks until birth Information Although this use of aspirin is common in UK clinical practice, at the time of publication (June 2019), aspirin did not have a UK marketing authorisation for this indication. Community pharmacies cannot legally sell aspirin as a Pharmacy medicine for prevention of pre\u2011eclampsia in pregnancy in England. Aspirin for this indication must be prescribed. The prescriber should see the summary of product characteristics for the manufacturer\u2019s advice on use in pregnancy.",
+    "keywords": [
+      "bmi",
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk",
+      "BMI": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "planning_care_for_women_at_moderate_and_high_risk_of_preeclampsia_pdf_8720711390_0002",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\planning-care-for-women-at-moderate-and-high-risk-of-preeclampsia-pdf-8720711390.pdf",
+    "topic": "planning care for women at moderate and high risk of preeclampsia pdf 8720711390",
+    "summary": "his indication must be prescribed. The prescriber should see the summary of product characteristics for the manufacturer\u2019s advice on use in pregnancy. The prescriber should follow relevant professional guidance, taking full responsibility for the decision. Informed consent should be obtained and documented. See the General Medical Council\u2019s Prescribing guidance: prescribing unlicensed medicines for further information. If any previous: \u2022 severe eclampsia \u2022 pre\u2011eclampsia needing birth before 34 weeks \u2022 pre\u2011eclampsia with baby\u2019s birthweight below the 10th centile \u2022 intrauterine death \u2022 placental abruption Do ultrasound fetal growth, amniotic fluid volume assessment, umbilical artery doppler velocimetry: \u2022 start at 28 to 30 weeks, or at least 2 weeks before previous gestational age of onset of hypertensive disorder if less than 28 weeks \u2022 repeat 4 weeks later. Use cardiotocography only if clinically indicated This is a summary of advice on planning care for women at moderate and high risk of pre-eclampsia from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-1-4731-5118-5. Subject to Notice of rights.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "planning_care_for_women_at_moderate_and_high_risk_of_preeclampsia_pdf_8720711390_0001",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\planning-care-for-women-at-moderate-and-high-risk-of-preeclampsia-pdf-8720711390.pdf",
+    "topic": "planning care for women at moderate and high risk of preeclampsia pdf 8720711390",
+    "summary": "Hypertension in pregnancy: planning care for women at moderate and high risk of pre-eclampsia Risk factors for pre\u2011eclampsia Moderate \u2022 First pregnancy \u2022 Age 40 or over \u2022 Pregnancy interval of 10 years or more \u2022 BMI of 35 kg/m2 or more at first visit \u2022 Family history of pre\u2011eclampsia \u2022 Multi\u2011fetal pregnancy High \u2022 Hypertensive disease during previous pregnancy \u2022 Chronic kidney disease \u2022 Autoimmune disease such as systemic lupus erythematosus or antiphospholipid syndrome \u2022 Type 1 or type 2 diabetes \u2022 Chronic hypertension 2 or more moderate risk factors, or 1 or more high risk factors? Give aspirin 75 to 150 mg/day from 12 weeks until birth Information Although this use of aspirin is common in UK clinical practice, at the time of publication (June 2019), aspirin did not have a UK marketing authorisation for this indication. Community pharmacies cannot legally sell aspirin as a Pharmacy medicine for prevention of pre\u2011eclampsia in pregnancy in England. Aspirin for this indication must be prescribed. The prescriber should see the summary of product characteristics for the manufacturer\u2019s advice on use in pregnancy.",
+    "keywords": [
+      "bmi",
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk",
+      "BMI": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "planning_care_for_women_at_moderate_and_high_risk_of_preeclampsia_pdf_8720711390_0002",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\planning-care-for-women-at-moderate-and-high-risk-of-preeclampsia-pdf-8720711390.pdf",
+    "topic": "planning care for women at moderate and high risk of preeclampsia pdf 8720711390",
+    "summary": "his indication must be prescribed. The prescriber should see the summary of product characteristics for the manufacturer\u2019s advice on use in pregnancy. The prescriber should follow relevant professional guidance, taking full responsibility for the decision. Informed consent should be obtained and documented. See the General Medical Council\u2019s Prescribing guidance: prescribing unlicensed medicines for further information. If any previous: \u2022 severe eclampsia \u2022 pre\u2011eclampsia needing birth before 34 weeks \u2022 pre\u2011eclampsia with baby\u2019s birthweight below the 10th centile \u2022 intrauterine death \u2022 placental abruption Do ultrasound fetal growth, amniotic fluid volume assessment, umbilical artery doppler velocimetry: \u2022 start at 28 to 30 weeks, or at least 2 weeks before previous gestational age of onset of hypertensive disorder if less than 28 weeks \u2022 repeat 4 weeks later. Use cardiotocography only if clinically indicated This is a summary of advice on planning care for women at moderate and high risk of pre-eclampsia from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-1-4731-5118-5. Subject to Notice of rights.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "preeclampsia_antenatal_care_pdf_313945610006_0001",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\preeclampsia-antenatal-care-pdf-313945610006.pdf",
+    "topic": "preeclampsia antenatal care pdf 313945610006",
+    "summary": "Hypertension in pregnancy: pre-eclampsia - antenatal care Assessment Arrange for a healthcare professional trained in management of hypertensive disorders of pregnancy to assess the woman at each consultation. Place of care Carry out a full clinical assessment at each antenatal appointment and offer admission to hospital for surveillance and any interventions needed if there are concerns for the wellbeing of the woman or baby. Concerns could include any of the following: \u2022 Sustained systolic BP of 160 mmHg or more. \u2022 Any maternal biochemical or haematological investigations that cause concern, for example a new and persistent: \u055f rise in creatinine (90 micromol/l or more, 1 mg/100 ml or more), or \u055f rise in alanine transaminase (over 70 IU/l, or twice upper limit of normal range), or \u055f fall in platelet count (less than 150,000/microlitre). \u2022 Signs of impending eclampsia, pulmonary oedema, or other signs of severe pre\u2011eclampsia \u2022 Suspected fetal compromise. \u2022 Any other clinical signs that cause concern.",
+    "keywords": [
+      "hypertension",
+      "systolic"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "preeclampsia_antenatal_care_pdf_313945610006_0002",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\preeclampsia-antenatal-care-pdf-313945610006.pdf",
+    "topic": "preeclampsia antenatal care pdf 313945610006",
+    "summary": "nding eclampsia, pulmonary oedema, or other signs of severe pre\u2011eclampsia \u2022 Suspected fetal compromise. \u2022 Any other clinical signs that cause concern. Use of risk\u2011prediction t ools \u2022 Consider using either the fullPIERS or PREP-S validated risk prediction models to help guide decisions about the most appropriate place of care (such as the need for in utero transfer) and thresholds for intervention. \u2022 When using a risk prediction model, take into account: \u055f fullPIERS is intended for use at any time during pregnancy \u055f PREP-S is intended for use only up to 34 weeks of pregnancy \u055f fullPIERS and PREP-S models do not predict outcomes for babies. This is a summary of advice on pre-eclampsia - antenatal care from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-4731-5128-4. Subject to Notice of rights.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "preeclampsia_antenatal_care_pdf_313945610006_0003",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\preeclampsia-antenatal-care-pdf-313945610006.pdf",
+    "topic": "preeclampsia antenatal care pdf 313945610006",
+    "summary": "natal care from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-4731-5128-4. Subject to Notice of rights. Hypertension in pregnancy: pre-eclampsia - antenatal care Factor Hypertension: BP 140/90 to 159/109 mmHg Severe hypertension: BP of 160/110 mmHg or more Admission to hospital Admit if clinical concerns for woman or baby or if high risk of adverse events suggested by the fullPIERS or PREP-S risk prediction models Admit, but if BP falls below 160/110 mmHg then manage as for hypertension Antihypertensive pharmacological treatment Offer pharmacological treatment if BP is over 140/90 mmHg Offer pharmacological treatment to all women Target BP on antihypertensive treatment Aim for BP of 135/85 mmHg or less Aim for BP of 135/85 mmHg or less BP measurement At least every 48 hours, and more frequently if the woman is admitted to hospital Every 15\u055f30 minutes until BP is under 160/110 mmHg, then at least 4 times daily while the woman is an inpatient, depending on clinical circumstances Dipstick proteinuria testing Only repeat if clinically indicated, for example if new symptoms and signs develop or if there is uncertainty over diagnosis Only re",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "preeclampsia_antenatal_care_pdf_313945610006_0004",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\preeclampsia-antenatal-care-pdf-313945610006.pdf",
+    "topic": "preeclampsia antenatal care pdf 313945610006",
+    "summary": "oteinuria testing Only repeat if clinically indicated, for example if new symptoms and signs develop or if there is uncertainty over diagnosis Only repeat if clinically indicated, for example if new symptoms and signs develop or if there is uncertainty over diagnosis Blood tests Measure full blood count, liver function and renal function twice a week Measure full blood count, liver function and renal function 3 times a week Fetal heart auscultation Offer fetal heart auscultation at every antenatal appointment Offer fetal heart auscultation at every antenatal appointment Fetal ultrasound Carry out ultrasound assessment of the fetus at diagnosis and, if normal, repeat every 2 weeks Carry out ultrasound assessment of the fetus at diagnosis and, if normal, repeat every 2 weeks Cardiotocography (CTG) Carry out a CTG at diagnosis and then only if clinically indicated Carry out a CTG at diagnosis and then only if clinically indicated This is a summary of advice on pre-eclampsia - antenatal care from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-4731-5128-4. Subject to Notice of rights.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "preeclampsia_antenatal_care_pdf_313945610006_0005",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\preeclampsia-antenatal-care-pdf-313945610006.pdf",
+    "topic": "preeclampsia antenatal care pdf 313945610006",
+    "summary": "natal care from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-4731-5128-4. Subject to Notice of rights. Hypertension in pregnancy: pre-eclampsia - antenatal care Antihypertensive treatment Use labetalol, nifedipine or methyldopa. Base the choice on any pre\u2011existing treatment, side\u2011 effect profiles, risks (including fetal effects) and the woman\u2019s preference. Mode of birth Choose mode of birth according to clinical circumstances and a woman\u2019s preference. Timing of birth \u2022 Involve a senior obstetrician in any birth timing decisions. \u2022 Before 37 weeks: consider planned early birth in women with severe pre-eclampsia. \u2022 After 37 weeks: initiate birth within 24 to 48 hours. \u2022 If planned early birth offer antenatal corticosteroids and magnesium sulfate if indicated, in line with the NICE guideline on preterm labour and birth. Planning birth Record maternal and fetal thresholds for planned early birth before 37 weeks in women with pre- eclampsia. Other features not listed may also be considered in the decision to plan early birth.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "preeclampsia_antenatal_care_pdf_313945610006_0006",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\preeclampsia-antenatal-care-pdf-313945610006.pdf",
+    "topic": "preeclampsia antenatal care pdf 313945610006",
+    "summary": "lanned early birth before 37 weeks in women with pre- eclampsia. Other features not listed may also be considered in the decision to plan early birth. Thresholds for considering planned early birth could include (but are not limited to) any of the following: \u2022 inability to control maternal BP despite using 3 or more classes of antihypertensives in appropriate doses \u2022 maternal pulse oximetry less than 90% \u2022 progressive deterioration in liver function, renal function, haemolysis, or platelet count \u2022 ongoing neurological features, such as severe intractable headache, repeated visual scotomata, or eclampsia \u2022 placental abruption \u2022 reversed end\u2011diastolic flow in the umbilical artery Doppler velocimetry, a non\u2011reassuring cardiotocograph, or stillbirth. Information Nifedipine: at the time of publication (June 2019), some brands of nifedipine were specifically contraindicated during pregnancy by the manufacturer in its summary of product characteristics (SPC). Refer to the individual SPCs for each preparation of nifedipine for further details. This is a summary of advice on pre-eclampsia - antenatal care from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023.",
+    "keywords": [
+      "diastolic",
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "preeclampsia_antenatal_care_pdf_313945610006_0007",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\preeclampsia-antenatal-care-pdf-313945610006.pdf",
+    "topic": "preeclampsia antenatal care pdf 313945610006",
+    "summary": "for further details. This is a summary of advice on pre-eclampsia - antenatal care from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-4731-5128-4. Subject to Notice of rights.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "preeclampsia_antenatal_care_pdf_313945610006_0001",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\preeclampsia-antenatal-care-pdf-313945610006.pdf",
+    "topic": "preeclampsia antenatal care pdf 313945610006",
+    "summary": "Hypertension in pregnancy: pre-eclampsia - antenatal care Assessment Arrange for a healthcare professional trained in management of hypertensive disorders of pregnancy to assess the woman at each consultation. Place of care Carry out a full clinical assessment at each antenatal appointment and offer admission to hospital for surveillance and any interventions needed if there are concerns for the wellbeing of the woman or baby. Concerns could include any of the following: \u2022 Sustained systolic BP of 160 mmHg or more. \u2022 Any maternal biochemical or haematological investigations that cause concern, for example a new and persistent: \u055f rise in creatinine (90 micromol/l or more, 1 mg/100 ml or more), or \u055f rise in alanine transaminase (over 70 IU/l, or twice upper limit of normal range), or \u055f fall in platelet count (less than 150,000/microlitre). \u2022 Signs of impending eclampsia, pulmonary oedema, or other signs of severe pre\u2011eclampsia \u2022 Suspected fetal compromise. \u2022 Any other clinical signs that cause concern.",
+    "keywords": [
+      "hypertension",
+      "systolic"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "preeclampsia_antenatal_care_pdf_313945610006_0002",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\preeclampsia-antenatal-care-pdf-313945610006.pdf",
+    "topic": "preeclampsia antenatal care pdf 313945610006",
+    "summary": "nding eclampsia, pulmonary oedema, or other signs of severe pre\u2011eclampsia \u2022 Suspected fetal compromise. \u2022 Any other clinical signs that cause concern. Use of risk\u2011prediction t ools \u2022 Consider using either the fullPIERS or PREP-S validated risk prediction models to help guide decisions about the most appropriate place of care (such as the need for in utero transfer) and thresholds for intervention. \u2022 When using a risk prediction model, take into account: \u055f fullPIERS is intended for use at any time during pregnancy \u055f PREP-S is intended for use only up to 34 weeks of pregnancy \u055f fullPIERS and PREP-S models do not predict outcomes for babies. This is a summary of advice on pre-eclampsia - antenatal care from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-4731-5128-4. Subject to Notice of rights.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "preeclampsia_antenatal_care_pdf_313945610006_0003",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\preeclampsia-antenatal-care-pdf-313945610006.pdf",
+    "topic": "preeclampsia antenatal care pdf 313945610006",
+    "summary": "natal care from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-4731-5128-4. Subject to Notice of rights. Hypertension in pregnancy: pre-eclampsia - antenatal care Factor Hypertension: BP 140/90 to 159/109 mmHg Severe hypertension: BP of 160/110 mmHg or more Admission to hospital Admit if clinical concerns for woman or baby or if high risk of adverse events suggested by the fullPIERS or PREP-S risk prediction models Admit, but if BP falls below 160/110 mmHg then manage as for hypertension Antihypertensive pharmacological treatment Offer pharmacological treatment if BP is over 140/90 mmHg Offer pharmacological treatment to all women Target BP on antihypertensive treatment Aim for BP of 135/85 mmHg or less Aim for BP of 135/85 mmHg or less BP measurement At least every 48 hours, and more frequently if the woman is admitted to hospital Every 15\u055f30 minutes until BP is under 160/110 mmHg, then at least 4 times daily while the woman is an inpatient, depending on clinical circumstances Dipstick proteinuria testing Only repeat if clinically indicated, for example if new symptoms and signs develop or if there is uncertainty over diagnosis Only re",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "preeclampsia_antenatal_care_pdf_313945610006_0004",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\preeclampsia-antenatal-care-pdf-313945610006.pdf",
+    "topic": "preeclampsia antenatal care pdf 313945610006",
+    "summary": "oteinuria testing Only repeat if clinically indicated, for example if new symptoms and signs develop or if there is uncertainty over diagnosis Only repeat if clinically indicated, for example if new symptoms and signs develop or if there is uncertainty over diagnosis Blood tests Measure full blood count, liver function and renal function twice a week Measure full blood count, liver function and renal function 3 times a week Fetal heart auscultation Offer fetal heart auscultation at every antenatal appointment Offer fetal heart auscultation at every antenatal appointment Fetal ultrasound Carry out ultrasound assessment of the fetus at diagnosis and, if normal, repeat every 2 weeks Carry out ultrasound assessment of the fetus at diagnosis and, if normal, repeat every 2 weeks Cardiotocography (CTG) Carry out a CTG at diagnosis and then only if clinically indicated Carry out a CTG at diagnosis and then only if clinically indicated This is a summary of advice on pre-eclampsia - antenatal care from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-4731-5128-4. Subject to Notice of rights.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "preeclampsia_antenatal_care_pdf_313945610006_0005",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\preeclampsia-antenatal-care-pdf-313945610006.pdf",
+    "topic": "preeclampsia antenatal care pdf 313945610006",
+    "summary": "natal care from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-4731-5128-4. Subject to Notice of rights. Hypertension in pregnancy: pre-eclampsia - antenatal care Antihypertensive treatment Use labetalol, nifedipine or methyldopa. Base the choice on any pre\u2011existing treatment, side\u2011 effect profiles, risks (including fetal effects) and the woman\u2019s preference. Mode of birth Choose mode of birth according to clinical circumstances and a woman\u2019s preference. Timing of birth \u2022 Involve a senior obstetrician in any birth timing decisions. \u2022 Before 37 weeks: consider planned early birth in women with severe pre-eclampsia. \u2022 After 37 weeks: initiate birth within 24 to 48 hours. \u2022 If planned early birth offer antenatal corticosteroids and magnesium sulfate if indicated, in line with the NICE guideline on preterm labour and birth. Planning birth Record maternal and fetal thresholds for planned early birth before 37 weeks in women with pre- eclampsia. Other features not listed may also be considered in the decision to plan early birth.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "preeclampsia_antenatal_care_pdf_313945610006_0006",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\preeclampsia-antenatal-care-pdf-313945610006.pdf",
+    "topic": "preeclampsia antenatal care pdf 313945610006",
+    "summary": "lanned early birth before 37 weeks in women with pre- eclampsia. Other features not listed may also be considered in the decision to plan early birth. Thresholds for considering planned early birth could include (but are not limited to) any of the following: \u2022 inability to control maternal BP despite using 3 or more classes of antihypertensives in appropriate doses \u2022 maternal pulse oximetry less than 90% \u2022 progressive deterioration in liver function, renal function, haemolysis, or platelet count \u2022 ongoing neurological features, such as severe intractable headache, repeated visual scotomata, or eclampsia \u2022 placental abruption \u2022 reversed end\u2011diastolic flow in the umbilical artery Doppler velocimetry, a non\u2011reassuring cardiotocograph, or stillbirth. Information Nifedipine: at the time of publication (June 2019), some brands of nifedipine were specifically contraindicated during pregnancy by the manufacturer in its summary of product characteristics (SPC). Refer to the individual SPCs for each preparation of nifedipine for further details. This is a summary of advice on pre-eclampsia - antenatal care from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023.",
+    "keywords": [
+      "diastolic",
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "preeclampsia_antenatal_care_pdf_313945610006_0007",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\preeclampsia-antenatal-care-pdf-313945610006.pdf",
+    "topic": "preeclampsia antenatal care pdf 313945610006",
+    "summary": "for further details. This is a summary of advice on pre-eclampsia - antenatal care from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-4731-5128-4. Subject to Notice of rights.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "risk_of_longterm_cardiovascular_disease_pdf_313945610005_0001",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\risk-of-longterm-cardiovascular-disease-pdf-313945610005.pdf",
+    "topic": "risk of longterm cardiovascular disease pdf 313945610005",
+    "summary": "Hypertension in pregnancy: risk of long\u2011term cardiovascular disease Advise women who have had a hypertensive disorder of pregnancy that this is associated with an increased risk of hypertension and cardiovascular disease in later life Risk of future cardiovascular disease Any hypertension in pregnancy Pre-eclampsia Gestational hypertension Chronic hypertension Major adverse cardiovascular event Risk increased (up to approximately 2 times) Risk increased (approximately 1.5 to 3 times) Risk increased (approximately 1.5 to 3 times) Risk increased (approximately 1.7 times) Cardiovascular mortality Risk increased (up to approximately 2 times) Risk increased (approximately 2 times) No data No data Stroke Risk increased (up to approximately 1.5 times) Risk increased (approximately 2 to 3 times) Risk may be increased Risk increased (approximately 1.8 times) Hypertension Risk increased (approximately 2 to 4 times) Risk increased (approximately 2 to 5 times) Risk increased (approximately 2 to 4 times) Not applicable Information Risks described are overall estimates, summarised from risk ratios, odds ratios and hazard ratios.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "risk_of_longterm_cardiovascular_disease_pdf_313945610005_0002",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\risk-of-longterm-cardiovascular-disease-pdf-313945610005.pdf",
+    "topic": "risk of longterm cardiovascular disease pdf 313945610005",
+    "summary": "roximately 2 to 4 times) Not applicable Information Risks described are overall estimates, summarised from risk ratios, odds ratios and hazard ratios. Increased risk is compared to the background risk in women who did not have hypertensive disorders during pregnancy. Absolute risks are not reported, as these will vary considerably, depending on the follow up time (range from 1 to 40 years postpartum). This is a summary of advice on risk of long-term cardiovascular disease from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-4731-5127-7. Subject to Notice of rights.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "risk_of_longterm_cardiovascular_disease_pdf_313945610005_0001",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\risk-of-longterm-cardiovascular-disease-pdf-313945610005.pdf",
+    "topic": "risk of longterm cardiovascular disease pdf 313945610005",
+    "summary": "Hypertension in pregnancy: risk of long\u2011term cardiovascular disease Advise women who have had a hypertensive disorder of pregnancy that this is associated with an increased risk of hypertension and cardiovascular disease in later life Risk of future cardiovascular disease Any hypertension in pregnancy Pre-eclampsia Gestational hypertension Chronic hypertension Major adverse cardiovascular event Risk increased (up to approximately 2 times) Risk increased (approximately 1.5 to 3 times) Risk increased (approximately 1.5 to 3 times) Risk increased (approximately 1.7 times) Cardiovascular mortality Risk increased (up to approximately 2 times) Risk increased (approximately 2 times) No data No data Stroke Risk increased (up to approximately 1.5 times) Risk increased (approximately 2 to 3 times) Risk may be increased Risk increased (approximately 1.8 times) Hypertension Risk increased (approximately 2 to 4 times) Risk increased (approximately 2 to 5 times) Risk increased (approximately 2 to 4 times) Not applicable Information Risks described are overall estimates, summarised from risk ratios, odds ratios and hazard ratios.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "risk_of_longterm_cardiovascular_disease_pdf_313945610005_0002",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\risk-of-longterm-cardiovascular-disease-pdf-313945610005.pdf",
+    "topic": "risk of longterm cardiovascular disease pdf 313945610005",
+    "summary": "roximately 2 to 4 times) Not applicable Information Risks described are overall estimates, summarised from risk ratios, odds ratios and hazard ratios. Increased risk is compared to the background risk in women who did not have hypertensive disorders during pregnancy. Absolute risks are not reported, as these will vary considerably, depending on the follow up time (range from 1 to 40 years postpartum). This is a summary of advice on risk of long-term cardiovascular disease from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-4731-5127-7. Subject to Notice of rights.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "risk_of_recurrence_of_hypertensive_disorders_of_pregnancy_pdf_313945610007_0001",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\risk-of-recurrence-of-hypertensive-disorders-of-pregnancy-pdf-313945610007.pdf",
+    "topic": "risk of recurrence of hypertensive disorders of pregnancy pdf 313945610007",
+    "summary": "Hypertension in pregnancy: risk of recurrence of hypertensive disorders of pregnancy Advise women with antihypertensive disorders of pregnancy that the overall risk of recurrence in future pregnancies is approximately 1 in 5 Prevalence of hypertensive disorder in a future pregnancy Any hypertension in pregnancy Pre-eclampsia Gestational hypertension Any hypertension Approximately 21% (1 in 5 women) Approximately 20% (1 in 5 women) Approximately 22% (1 in 5 women) Pre-eclampsia Approximately 14% (1 in 7 women) Up to approximately 16% (1 in 6 women) If birth was at 28 to 34 weeks: approximately 33% (1 in 3 women) If birth was at 34 to 37 weeks: approximately 23% (1 in 4 women) Approximately 7% (1 in 14 women) Gestational hypertension Approximately 9% (1 in 11 women) Approximately 6% to 12% (up to 1 in 8 women) Approximately 11% to 15% (up to 1 in 7 women) Chronic hypertension Not applicable Approximately 2% (up to 1 in 50 women) Approximately 3% (up to 1 in 34 women) This is a summary of advice on risk of recurrence of hypertensive disorders of pregnancy from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-4731-5129-1.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "risk_of_recurrence_of_hypertensive_disorders_of_pregnancy_pdf_313945610007_0002",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\risk-of-recurrence-of-hypertensive-disorders-of-pregnancy-pdf-313945610007.pdf",
+    "topic": "risk of recurrence of hypertensive disorders of pregnancy pdf 313945610007",
+    "summary": "of hypertensive disorders of pregnancy from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-4731-5129-1. Subject to Notice of rights. Information For pre-eclampsia, no evidence was identified for women who gave birth at less than 28 weeks, but the committee for the 2010 guideline (NICE guideline CG107) agreed that the risk was likely to be at least as high, if not higher, than that for women who gave birth between 28 and 34 weeks.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "risk_of_recurrence_of_hypertensive_disorders_of_pregnancy_pdf_313945610007_0001",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\risk-of-recurrence-of-hypertensive-disorders-of-pregnancy-pdf-313945610007.pdf",
+    "topic": "risk of recurrence of hypertensive disorders of pregnancy pdf 313945610007",
+    "summary": "Hypertension in pregnancy: risk of recurrence of hypertensive disorders of pregnancy Advise women with antihypertensive disorders of pregnancy that the overall risk of recurrence in future pregnancies is approximately 1 in 5 Prevalence of hypertensive disorder in a future pregnancy Any hypertension in pregnancy Pre-eclampsia Gestational hypertension Any hypertension Approximately 21% (1 in 5 women) Approximately 20% (1 in 5 women) Approximately 22% (1 in 5 women) Pre-eclampsia Approximately 14% (1 in 7 women) Up to approximately 16% (1 in 6 women) If birth was at 28 to 34 weeks: approximately 33% (1 in 3 women) If birth was at 34 to 37 weeks: approximately 23% (1 in 4 women) Approximately 7% (1 in 14 women) Gestational hypertension Approximately 9% (1 in 11 women) Approximately 6% to 12% (up to 1 in 8 women) Approximately 11% to 15% (up to 1 in 7 women) Chronic hypertension Not applicable Approximately 2% (up to 1 in 50 women) Approximately 3% (up to 1 in 34 women) This is a summary of advice on risk of recurrence of hypertensive disorders of pregnancy from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-4731-5129-1.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "risk_of_recurrence_of_hypertensive_disorders_of_pregnancy_pdf_313945610007_0002",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\maternal_health\\risk-of-recurrence-of-hypertensive-disorders-of-pregnancy-pdf-313945610007.pdf",
+    "topic": "risk of recurrence of hypertensive disorders of pregnancy pdf 313945610007",
+    "summary": "of hypertensive disorders of pregnancy from the NICE guideline on hypertension in pregnancy. \u00a9 NICE 2023. All rights reserved. ISBN: 978-4731-5129-1. Subject to Notice of rights. Information For pre-eclampsia, no evidence was identified for women who gave birth at less than 28 weeks, but the committee for the 2010 guideline (NICE guideline CG107) agreed that the risk was likely to be at least as high, if not higher, than that for women who gave birth between 28 and 34 weeks.",
+    "keywords": [
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  }
+]

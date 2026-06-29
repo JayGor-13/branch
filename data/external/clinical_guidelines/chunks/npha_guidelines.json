@@ -1,0 +1,180 @@
+[
+  {
+    "chunk_id": "steadi_algorithm_508_0001",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\npha\\STEADI-Algorithm-508.pdf",
+    "topic": "STEADI Algorithm 508",
+    "summary": "Algorithm for Fall Risk Screening, Assessment, and Intervention RESOURCE As a healthcare provider, you are already aware that falls are a serious threat to the health and well-being of your older patients. More than one out of four people 65 and older fall each year, and over 3 million are treated in emergency departments annually for fall injuries. The CDC\u2019s STEADI initiative offers a coordinated approach to implementing the American and British Geriatrics Societies\u2019 clinical practice guideline for fall prevention. STEADI consists of three core elements: Screen, Assess, and Intervene to reduce fall risk. The STEADI Algorithm for Fall Risk Screening, Assessment, and Intervention outlines how to implement these three elements.",
+    "keywords": [],
+    "feature_directions": {},
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "steadi_algorithm_508_0002",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\npha\\STEADI-Algorithm-508.pdf",
+    "topic": "STEADI Algorithm 508",
+    "summary": "ervene to reduce fall risk. The STEADI Algorithm for Fall Risk Screening, Assessment, and Intervention outlines how to implement these three elements. Additional tools and resources include: Centers for Disease Control and Prevention National Center for Injury Prevention and Control Information about falls Case studies Conversation starters Screening tools Standardized gait and balance assessment tests (with instructional videos) Educational materials for providers, patients, and caregivers Online continuing education Information on medications linked to falls Clinical decision support for electronic health record systems You play an important role in caring for older adults, and you can help reduce these devastating injuries. CDC\u2019s STEADI tools and resources can help you screen, assess, and intervene to reduce your patient\u2019s fall risk. For more information, visit www.cdc.gov/steadi. Stopping Elderly Accidents, 2019 Deaths & Injuries \u2019 - - STEADI Algorithm for Fall Risk Screening, Assessment, and Intervention among Community-Dwelling Adults 65 years and older START HERE 1 SCREEN for fall risk yearly, or any time patient presents with an acute fall.",
+    "keywords": [],
+    "feature_directions": {},
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "steadi_algorithm_508_0003",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\npha\\STEADI-Algorithm-508.pdf",
+    "topic": "STEADI Algorithm 508",
+    "summary": "rvention among Community-Dwelling Adults 65 years and older START HERE 1 SCREEN for fall risk yearly, or any time patient presents with an acute fall. Available Fall Risk Screening Tools: -- \u2022Stay Independent: a 12-question tool [at risk if score \u2265 4] - Important: If score < 4, ask if patient fell in the past year (If YES \uf061 patient is at risk) \u2022 Three key questions for patients [at risk if YES to any question] - Feels unsteady when standing or walking? - W orries about falling? - Has fallen in past year? \u00bb If YES ask, \u201cHow many times?\u201d \u201cWere you injured?\u201d SCREENED NOT AT RISK PREVENT future risk by recommending effective prevention strategies. \u2022 Educate patient on fall prevention \u2022 Assess vitamin D intake If deficient, recommend daily vitamin D supplement \u2022 Refer to community exercise or fall prevention program \u2022 Reassess yearly, or any time patient presents with an acute fall SCREENED AT RISK 2 ASSESS patient\u2019s modifiable risk factors and fall history.",
+    "keywords": [],
+    "feature_directions": {},
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "steadi_algorithm_508_0004",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\npha\\STEADI-Algorithm-508.pdf",
+    "topic": "STEADI Algorithm 508",
+    "summary": "ogram \u2022 Reassess yearly, or any time patient presents with an acute fall SCREENED AT RISK 2 ASSESS patient\u2019s modifiable risk factors and fall history. Common ways to assess fall risk factors are listed below: Evaluate gait, strength, & balance Common assessments: \u2022 \u2022 Timed Up & Go 30-Second Chair Stand 4-Stage Balance Test Identify medications that increase fall risk (e.g., Beers Criteria) Ask about potential home hazards (e.g., throw rugs, slippery tub floor) Measure orthostatic blood pressure (Lying and standing positions) Check visual acuity Common assessment tool: \u2022 Snellen eye test Assess feet/footwear Assess vitamin D intake Identify comorbidities (e.g., depression, osteoporosis) 3 INTERVENE to reduce identified risk factors using effective strategies.",
+    "keywords": [
+      "depression"
+    ],
+    "feature_directions": {
+      "Mental Health": "poor_status_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "steadi_algorithm_508_0005",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\npha\\STEADI-Algorithm-508.pdf",
+    "topic": "STEADI Algorithm 508",
+    "summary": "ess vitamin D intake Identify comorbidities (e.g., depression, osteoporosis) 3 INTERVENE to reduce identified risk factors using effective strategies. Reduce identified fall risk \u2022 Discuss patient and provider health goals Below are common interventions used to reduce fall risk: \u2022 Develop an individualized patient care plan (see below) Poor gait, strength, & balance observed \u2022 Refer for physical therapy \u2022 Refer to evidence-based exercise or fall prevention program (e.g., Tai Chi) Medication(s) likely to increase fall risk \u2022 Optimize medications by stopping, switching, or reducing dosage of medications that increase fall risk Home hazards likely \u2022 Refer to occupational therapist to evaluate home safety Orthostatic hypotension observed \u2022 Stop, switch, or reduce the dose of medications that increase fall risk \u2022 Educate about importance of exercises (e.g., foot pumps) \u2022 Establish appropriate blood pressure goal \u2022 Encourage adequate hydration \u2022 Consider compres sion stockings Visual impairment observed \u2022 Refer to ophthalmologist/optometrist \u2022 Stop, switch, or reduce the dose of medication affecting vision (e.g., anticholinergics) \u2022 Consider benefits of cataract surgery \u2022 Provide educati",
+    "keywords": [
+      "depression"
+    ],
+    "feature_directions": {
+      "Mental Health": "poor_status_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "steadi_algorithm_508_0006",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\npha\\STEADI-Algorithm-508.pdf",
+    "topic": "STEADI Algorithm 508",
+    "summary": "t \u2022 Stop, switch, or reduce the dose of medication affecting vision (e.g., anticholinergics) \u2022 Consider benefits of cataract surgery \u2022 Provide education on depth perception and single vs. multifocal lenses Feet/footwear issues identified \u2022 Provide education on shoe fit, traction, insoles, and heel height \u2022 Refer to podiatrist Vitamin D deficiency observed or likely \u2022 Recommend daily vitamin D supplement Comorbidities documented \u2022 Optimize treatment of conditions identified \u2022 Be mindful of medications that increase fall risk FOLLOW UP with patient in 30-90 days. Discuss ways to improve patient receptiveness to the care plan and address barrier(s) Centers for Disease Control and Prevention National Center for Injury Prevention and Control \u2022",
+    "keywords": [],
+    "feature_directions": {},
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "steadi_algorithm_508_0001",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\npha\\STEADI-Algorithm-508.pdf",
+    "topic": "STEADI Algorithm 508",
+    "summary": "Algorithm for Fall Risk Screening, Assessment, and Intervention RESOURCE As a healthcare provider, you are already aware that falls are a serious threat to the health and well-being of your older patients. More than one out of four people 65 and older fall each year, and over 3 million are treated in emergency departments annually for fall injuries. The CDC\u2019s STEADI initiative offers a coordinated approach to implementing the American and British Geriatrics Societies\u2019 clinical practice guideline for fall prevention. STEADI consists of three core elements: Screen, Assess, and Intervene to reduce fall risk. The STEADI Algorithm for Fall Risk Screening, Assessment, and Intervention outlines how to implement these three elements.",
+    "keywords": [],
+    "feature_directions": {},
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "steadi_algorithm_508_0002",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\npha\\STEADI-Algorithm-508.pdf",
+    "topic": "STEADI Algorithm 508",
+    "summary": "ervene to reduce fall risk. The STEADI Algorithm for Fall Risk Screening, Assessment, and Intervention outlines how to implement these three elements. Additional tools and resources include: Centers for Disease Control and Prevention National Center for Injury Prevention and Control Information about falls Case studies Conversation starters Screening tools Standardized gait and balance assessment tests (with instructional videos) Educational materials for providers, patients, and caregivers Online continuing education Information on medications linked to falls Clinical decision support for electronic health record systems You play an important role in caring for older adults, and you can help reduce these devastating injuries. CDC\u2019s STEADI tools and resources can help you screen, assess, and intervene to reduce your patient\u2019s fall risk. For more information, visit www.cdc.gov/steadi. Stopping Elderly Accidents, 2019 Deaths & Injuries \u2019 - - STEADI Algorithm for Fall Risk Screening, Assessment, and Intervention among Community-Dwelling Adults 65 years and older START HERE 1 SCREEN for fall risk yearly, or any time patient presents with an acute fall.",
+    "keywords": [],
+    "feature_directions": {},
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "steadi_algorithm_508_0003",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\npha\\STEADI-Algorithm-508.pdf",
+    "topic": "STEADI Algorithm 508",
+    "summary": "rvention among Community-Dwelling Adults 65 years and older START HERE 1 SCREEN for fall risk yearly, or any time patient presents with an acute fall. Available Fall Risk Screening Tools: -- \u2022Stay Independent: a 12-question tool [at risk if score \u2265 4] - Important: If score < 4, ask if patient fell in the past year (If YES \uf061 patient is at risk) \u2022 Three key questions for patients [at risk if YES to any question] - Feels unsteady when standing or walking? - W orries about falling? - Has fallen in past year? \u00bb If YES ask, \u201cHow many times?\u201d \u201cWere you injured?\u201d SCREENED NOT AT RISK PREVENT future risk by recommending effective prevention strategies. \u2022 Educate patient on fall prevention \u2022 Assess vitamin D intake If deficient, recommend daily vitamin D supplement \u2022 Refer to community exercise or fall prevention program \u2022 Reassess yearly, or any time patient presents with an acute fall SCREENED AT RISK 2 ASSESS patient\u2019s modifiable risk factors and fall history.",
+    "keywords": [],
+    "feature_directions": {},
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "steadi_algorithm_508_0004",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\npha\\STEADI-Algorithm-508.pdf",
+    "topic": "STEADI Algorithm 508",
+    "summary": "ogram \u2022 Reassess yearly, or any time patient presents with an acute fall SCREENED AT RISK 2 ASSESS patient\u2019s modifiable risk factors and fall history. Common ways to assess fall risk factors are listed below: Evaluate gait, strength, & balance Common assessments: \u2022 \u2022 Timed Up & Go 30-Second Chair Stand 4-Stage Balance Test Identify medications that increase fall risk (e.g., Beers Criteria) Ask about potential home hazards (e.g., throw rugs, slippery tub floor) Measure orthostatic blood pressure (Lying and standing positions) Check visual acuity Common assessment tool: \u2022 Snellen eye test Assess feet/footwear Assess vitamin D intake Identify comorbidities (e.g., depression, osteoporosis) 3 INTERVENE to reduce identified risk factors using effective strategies.",
+    "keywords": [
+      "depression"
+    ],
+    "feature_directions": {
+      "Mental Health": "poor_status_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "steadi_algorithm_508_0005",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\npha\\STEADI-Algorithm-508.pdf",
+    "topic": "STEADI Algorithm 508",
+    "summary": "ess vitamin D intake Identify comorbidities (e.g., depression, osteoporosis) 3 INTERVENE to reduce identified risk factors using effective strategies. Reduce identified fall risk \u2022 Discuss patient and provider health goals Below are common interventions used to reduce fall risk: \u2022 Develop an individualized patient care plan (see below) Poor gait, strength, & balance observed \u2022 Refer for physical therapy \u2022 Refer to evidence-based exercise or fall prevention program (e.g., Tai Chi) Medication(s) likely to increase fall risk \u2022 Optimize medications by stopping, switching, or reducing dosage of medications that increase fall risk Home hazards likely \u2022 Refer to occupational therapist to evaluate home safety Orthostatic hypotension observed \u2022 Stop, switch, or reduce the dose of medications that increase fall risk \u2022 Educate about importance of exercises (e.g., foot pumps) \u2022 Establish appropriate blood pressure goal \u2022 Encourage adequate hydration \u2022 Consider compres sion stockings Visual impairment observed \u2022 Refer to ophthalmologist/optometrist \u2022 Stop, switch, or reduce the dose of medication affecting vision (e.g., anticholinergics) \u2022 Consider benefits of cataract surgery \u2022 Provide educati",
+    "keywords": [
+      "depression"
+    ],
+    "feature_directions": {
+      "Mental Health": "poor_status_increases_risk"
+    },
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "steadi_algorithm_508_0006",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\npha\\STEADI-Algorithm-508.pdf",
+    "topic": "STEADI Algorithm 508",
+    "summary": "t \u2022 Stop, switch, or reduce the dose of medication affecting vision (e.g., anticholinergics) \u2022 Consider benefits of cataract surgery \u2022 Provide education on depth perception and single vs. multifocal lenses Feet/footwear issues identified \u2022 Provide education on shoe fit, traction, insoles, and heel height \u2022 Refer to podiatrist Vitamin D deficiency observed or likely \u2022 Recommend daily vitamin D supplement Comorbidities documented \u2022 Optimize treatment of conditions identified \u2022 Be mindful of medications that increase fall risk FOLLOW UP with patient in 30-90 days. Discuss ways to improve patient receptiveness to the care plan and address barrier(s) Centers for Disease Control and Prevention National Center for Injury Prevention and Control \u2022",
+    "keywords": [],
+    "feature_directions": {},
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "steadi_factsheet_safemedreview_508_0001",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\npha\\STEADI-FactSheet-SAFEMedReview-508.pdf",
+    "topic": "STEADI FactSheet SAFEMedReview 508",
+    "summary": "Stopping Elderly Accidents, Deaths & Injuries2017 Centers for Disease Control and Prevention National Center for Injury Prevention and Control Use this framework to conduct a medication review to help prevent older adult falls. A Team-based Approach Medication Review Framework SCREEN for medications that may increase fall risk.S A ASSESS the patient to best manage health conditions. F FORMULATE the patient\u2019s medication action plan. E EDUCATE the patient and caregiver about medication changes and fall prevention strategies. Consider working with pharmacists, who are trained speci\ufb01cally in medication review and management. Pharmacists are a valuable resource available to your healthcare team. FACT SHEET SAFE Adapted from existing medication therapy management tools developed and used by pharmacists, this review framework uses the SAFE process: Screen, Assess, Formulate, and Educate. 2017 2017 SCREEN for medications that may increase fall risk.",
+    "keywords": [],
+    "feature_directions": {},
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "steadi_factsheet_safemedreview_508_0002",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\npha\\STEADI-FactSheet-SAFEMedReview-508.pdf",
+    "topic": "STEADI FactSheet SAFEMedReview 508",
+    "summary": "ts, this review framework uses the SAFE process: Screen, Assess, Formulate, and Educate. 2017 2017 SCREEN for medications that may increase fall risk. \u2022 Obtain and reconcile the medication list1 \u2022 Group medications based on medical conditions \u2022 Identify medications that may increase fall risk or have potential interactions \u2022 Consider adjusting medications based on age, kidney, and liver function \u2022 Use labs, health and prescription history, and prescription monitoring data ASSESS the patient to best manage health conditions. Discuss the following: \u2022 Treatment goals \u2022 Current medication regimen \u2022 Side effects experienced \u2022 Non-pharmacologic options \u2022 Patient values and preferences \u2022 Barriers to care2 FORMULATE the patient\u2019s medication action plan. \u2022 STOP medications when possible3 \u2022 SWITCH to safer alternatives \u2022 REDUCE medications to the lowest effective dose \u2022 Simplify the dosing regimen \u2022 Develop a monitoring plan for medication side effects \u2022 Explore non-pharmacologic options to manage medical conditions \u2022 Incorporate patient preferences and solutions to identi\ufb01ed barriers EDUCATE the patient and caregiver about medication changes and fall prevention strategies.",
+    "keywords": [],
+    "feature_directions": {},
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "steadi_factsheet_safemedreview_508_0003",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\npha\\STEADI-FactSheet-SAFEMedReview-508.pdf",
+    "topic": "STEADI FactSheet SAFEMedReview 508",
+    "summary": "ate patient preferences and solutions to identi\ufb01ed barriers EDUCATE the patient and caregiver about medication changes and fall prevention strategies. Discuss the following: \u2022 Steps for implementing an action plan \u2022 Reasons for medication changes \u2022 Importance of referrals to specialists \u2022 Other approaches to reduce fall risk CDC\u2019s STEADI tools and resources can help you screen, assess, and intervene to reduce your patient\u2019s fall risk. For more information, visit www.cdc.gov/steadi 1. Include information about prescription drugs, over-the-counter medications, supplements, allergies, alcohol use, and recreational drug use. 2. Examples include low health literacy, physical or cognitive impairment, and socioeconomic barriers that may aff ect medication adherence. 3. In some instances, gradual dose reduction (tapering) may be advisable. Centers for Disease Stopping Elderly Accidents, Control and Prevention 2017 Deaths & Injuries National Center for Injury Prevention and Control 2017",
+    "keywords": [],
+    "feature_directions": {},
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "steadi_factsheet_safemedreview_508_0001",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\npha\\STEADI-FactSheet-SAFEMedReview-508.pdf",
+    "topic": "STEADI FactSheet SAFEMedReview 508",
+    "summary": "Stopping Elderly Accidents, Deaths & Injuries2017 Centers for Disease Control and Prevention National Center for Injury Prevention and Control Use this framework to conduct a medication review to help prevent older adult falls. A Team-based Approach Medication Review Framework SCREEN for medications that may increase fall risk.S A ASSESS the patient to best manage health conditions. F FORMULATE the patient\u2019s medication action plan. E EDUCATE the patient and caregiver about medication changes and fall prevention strategies. Consider working with pharmacists, who are trained speci\ufb01cally in medication review and management. Pharmacists are a valuable resource available to your healthcare team. FACT SHEET SAFE Adapted from existing medication therapy management tools developed and used by pharmacists, this review framework uses the SAFE process: Screen, Assess, Formulate, and Educate. 2017 2017 SCREEN for medications that may increase fall risk.",
+    "keywords": [],
+    "feature_directions": {},
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "steadi_factsheet_safemedreview_508_0002",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\npha\\STEADI-FactSheet-SAFEMedReview-508.pdf",
+    "topic": "STEADI FactSheet SAFEMedReview 508",
+    "summary": "ts, this review framework uses the SAFE process: Screen, Assess, Formulate, and Educate. 2017 2017 SCREEN for medications that may increase fall risk. \u2022 Obtain and reconcile the medication list1 \u2022 Group medications based on medical conditions \u2022 Identify medications that may increase fall risk or have potential interactions \u2022 Consider adjusting medications based on age, kidney, and liver function \u2022 Use labs, health and prescription history, and prescription monitoring data ASSESS the patient to best manage health conditions. Discuss the following: \u2022 Treatment goals \u2022 Current medication regimen \u2022 Side effects experienced \u2022 Non-pharmacologic options \u2022 Patient values and preferences \u2022 Barriers to care2 FORMULATE the patient\u2019s medication action plan. \u2022 STOP medications when possible3 \u2022 SWITCH to safer alternatives \u2022 REDUCE medications to the lowest effective dose \u2022 Simplify the dosing regimen \u2022 Develop a monitoring plan for medication side effects \u2022 Explore non-pharmacologic options to manage medical conditions \u2022 Incorporate patient preferences and solutions to identi\ufb01ed barriers EDUCATE the patient and caregiver about medication changes and fall prevention strategies.",
+    "keywords": [],
+    "feature_directions": {},
+    "source_type": "clinical_pdf"
+  },
+  {
+    "chunk_id": "steadi_factsheet_safemedreview_508_0003",
+    "source": "data\\external\\clinical_guidelines\\pdfs\\npha\\STEADI-FactSheet-SAFEMedReview-508.pdf",
+    "topic": "STEADI FactSheet SAFEMedReview 508",
+    "summary": "ate patient preferences and solutions to identi\ufb01ed barriers EDUCATE the patient and caregiver about medication changes and fall prevention strategies. Discuss the following: \u2022 Steps for implementing an action plan \u2022 Reasons for medication changes \u2022 Importance of referrals to specialists \u2022 Other approaches to reduce fall risk CDC\u2019s STEADI tools and resources can help you screen, assess, and intervene to reduce your patient\u2019s fall risk. For more information, visit www.cdc.gov/steadi 1. Include information about prescription drugs, over-the-counter medications, supplements, allergies, alcohol use, and recreational drug use. 2. Examples include low health literacy, physical or cognitive impairment, and socioeconomic barriers that may aff ect medication adherence. 3. In some instances, gradual dose reduction (tapering) may be advisable. Centers for Disease Stopping Elderly Accidents, Control and Prevention 2017 Deaths & Injuries National Center for Injury Prevention and Control 2017",
+    "keywords": [],
+    "feature_directions": {},
+    "source_type": "clinical_pdf"
+  }
+]

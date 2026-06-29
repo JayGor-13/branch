@@ -17,7 +17,7 @@ class LLMConfig:
     base_url: str = "http://localhost:11434/v1"
     api_key_env: str = "BRANCH_LLM_API_KEY"
     temperature: float = 0.0
-    max_tokens: int = 800
+    max_tokens: int = 1600
     timeout_sec: int = 120
     fallback_to_template: bool = True
     max_retries: int = 3
@@ -116,7 +116,7 @@ def build_llm_config(
     base_url: str | None = None,
     api_key_env: str | None = None,
     temperature: float = 0.0,
-    max_tokens: int = 800,
+    max_tokens: int = 1600,
     timeout_sec: int = 120,
     fallback_to_template: bool = True,
     max_retries: int = 3,
