@@ -1,0 +1,128 @@
+{
+  "dataset": "maternal_health",
+  "features": {
+    "Age": {
+      "type": "numeric",
+      "unit": "years",
+      "mutable": false,
+      "clinical_actionability": "immutable",
+      "permitted_range": [
+        10,
+        70
+      ]
+    },
+    "Systolic BP": {
+      "type": "numeric",
+      "unit": "mmHg",
+      "mutable": true,
+      "clinical_actionability": "potentially_modifiable",
+      "permitted_range": [
+        70,
+        180
+      ]
+    },
+    "Diastolic": {
+      "type": "numeric",
+      "unit": "mmHg",
+      "mutable": true,
+      "clinical_actionability": "potentially_modifiable",
+      "permitted_range": [
+        40,
+        120
+      ]
+    },
+    "BS": {
+      "type": "numeric",
+      "unit": "mmol/L",
+      "mutable": true,
+      "clinical_actionability": "potentially_modifiable",
+      "permitted_range": [
+        4.0,
+        20.0
+      ]
+    },
+    "Body Temp": {
+      "type": "numeric",
+      "unit": "degF",
+      "mutable": true,
+      "clinical_actionability": "clinically_modifiable_signal",
+      "permitted_range": [
+        95.0,
+        105.0
+      ]
+    },
+    "BMI": {
+      "type": "numeric",
+      "unit": "kg/m2",
+      "mutable": true,
+      "clinical_actionability": "potentially_modifiable",
+      "permitted_range": [
+        12.0,
+        60.0
+      ]
+    },
+    "Previous Complications": {
+      "type": "binary",
+      "unit": "indicator",
+      "mutable": false,
+      "clinical_actionability": "historical_nonmodifiable",
+      "permitted_range": [
+        0,
+        1
+      ]
+    },
+    "Preexisting Diabetes": {
+      "type": "binary",
+      "unit": "indicator",
+      "mutable": false,
+      "clinical_actionability": "preexisting_condition",
+      "permitted_range": [
+        0,
+        1
+      ]
+    },
+    "Gestational Diabetes": {
+      "type": "binary",
+      "unit": "indicator",
+      "mutable": true,
+      "clinical_actionability": "clinically_modifiable_signal",
+      "permitted_range": [
+        0,
+        1
+      ]
+    },
+    "Mental Health": {
+      "type": "binary",
+      "unit": "indicator",
+      "mutable": true,
+      "clinical_actionability": "potentially_modifiable_support_need",
+      "permitted_range": [
+        0,
+        1
+      ]
+    },
+    "Heart Rate": {
+      "type": "numeric",
+      "unit": "beats_per_minute",
+      "mutable": true,
+      "clinical_actionability": "clinically_modifiable_signal",
+      "permitted_range": [
+        50,
+        130
+      ]
+    }
+  },
+  "feature_order": [
+    "Age",
+    "Systolic BP",
+    "Diastolic",
+    "BS",
+    "Body Temp",
+    "BMI",
+    "Previous Complications",
+    "Preexisting Diabetes",
+    "Gestational Diabetes",
+    "Mental Health",
+    "Heart Rate"
+  ]
+}

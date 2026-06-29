@@ -1,0 +1,135 @@
+[
+  {
+    "chunk_id": "maternal_bp_001",
+    "source": "curated_maternal_risk_corpus",
+    "topic": "Hypertension in pregnancy",
+    "summary": "Elevated systolic or diastolic blood pressure is a maternal risk signal and should be reviewed in clinical context.",
+    "keywords": [
+      "blood pressure",
+      "systolic",
+      "diastolic",
+      "hypertension"
+    ],
+    "feature_directions": {
+      "Systolic BP": "high_value_increases_risk",
+      "Diastolic": "high_value_increases_risk"
+    }
+  },
+  {
+    "chunk_id": "maternal_glucose_001",
+    "source": "curated_maternal_risk_corpus",
+    "topic": "Blood glucose in pregnancy",
+    "summary": "Elevated blood glucose is clinically associated with greater maternal risk and warrants clinician review.",
+    "keywords": [
+      "blood sugar",
+      "glucose",
+      "BS",
+      "hyperglycemia"
+    ],
+    "feature_directions": {
+      "BS": "high_value_increases_risk"
+    }
+  },
+  {
+    "chunk_id": "maternal_temp_001",
+    "source": "curated_maternal_risk_corpus",
+    "topic": "Body temperature",
+    "summary": "Elevated body temperature may indicate infection or physiologic stress and can increase clinical concern.",
+    "keywords": [
+      "body temperature",
+      "body temp",
+      "fever",
+      "infection"
+    ],
+    "feature_directions": {
+      "Body Temp": "high_value_increases_risk"
+    }
+  },
+  {
+    "chunk_id": "maternal_bmi_001",
+    "source": "curated_maternal_risk_corpus",
+    "topic": "Body mass index in pregnancy",
+    "summary": "Elevated BMI can be associated with higher pregnancy risk and metabolic complications.",
+    "keywords": [
+      "bmi",
+      "body mass index",
+      "metabolic",
+      "weight"
+    ],
+    "feature_directions": {
+      "BMI": "high_value_increases_risk"
+    }
+  },
+  {
+    "chunk_id": "maternal_history_001",
+    "source": "curated_maternal_risk_corpus",
+    "topic": "Prior pregnancy complications",
+    "summary": "A history of previous complications can increase clinical concern in maternal risk assessment.",
+    "keywords": [
+      "previous complications",
+      "history",
+      "maternal complications"
+    ],
+    "feature_directions": {
+      "Previous Complications": "presence_increases_risk"
+    }
+  },
+  {
+    "chunk_id": "maternal_diabetes_001",
+    "source": "curated_maternal_risk_corpus",
+    "topic": "Diabetes and pregnancy risk",
+    "summary": "Preexisting diabetes and gestational diabetes are clinically relevant maternal risk factors.",
+    "keywords": [
+      "preexisting diabetes",
+      "gestational diabetes",
+      "diabetes",
+      "glucose"
+    ],
+    "feature_directions": {
+      "Preexisting Diabetes": "presence_increases_risk",
+      "Gestational Diabetes": "presence_increases_risk"
+    }
+  },
+  {
+    "chunk_id": "maternal_mental_health_001",
+    "source": "curated_maternal_risk_corpus",
+    "topic": "Mental health and pregnancy",
+    "summary": "Mental health concerns can affect maternal well-being and may support closer clinical review.",
+    "keywords": [
+      "mental health",
+      "well-being",
+      "support"
+    ],
+    "feature_directions": {
+      "Mental Health": "presence_increases_risk"
+    }
+  },
+  {
+    "chunk_id": "maternal_hr_001",
+    "source": "curated_maternal_risk_corpus",
+    "topic": "Maternal heart rate",
+    "summary": "Markedly elevated heart rate may reflect physiologic stress and can support higher-risk clinical assessment.",
+    "keywords": [
+      "heart rate",
+      "tachycardia"
+    ],
+    "feature_directions": {
+      "Heart Rate": "high_value_increases_risk"
+    }
+  },
+  {
+    "chunk_id": "maternal_age_001",
+    "source": "curated_maternal_risk_corpus",
+    "topic": "Maternal age",
+    "summary": "Very young or older maternal age can be associated with increased pregnancy risk, but age itself is not modifiable.",
+    "keywords": [
+      "age",
+      "maternal age",
+      "older",
+      "young"
+    ],
+    "feature_directions": {
+      "Age": "extreme_value_increases_risk"
+    }
+  }
+]

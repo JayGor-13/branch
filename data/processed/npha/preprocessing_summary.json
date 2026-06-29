@@ -1,0 +1,47 @@
+{
+  "dataset": "npha",
+  "rows": 714,
+  "train_rows": 571,
+  "test_rows": 143,
+  "test_size": 0.2,
+  "seed": 42,
+  "task_type": "binary_classification",
+  "features": [
+    "Age",
+    "Phyiscal Health",
+    "Mental Health",
+    "Dental Health",
+    "Employment",
+    "Stress Keeps Patient from Sleeping",
+    "Medication Keeps Patient from Sleeping",
+    "Pain Keeps Patient from Sleeping",
+    "Bathroom Needs Keeps Patient from Sleeping",
+    "Uknown Keeps Patient from Sleeping",
+    "Trouble Sleeping",
+    "Prescription Sleep Medication",
+    "Race",
+    "Gender"
+  ],
+  "target": "High Utilizer",
+  "target_id": "HighUtilizerId",
+  "target_distribution": {
+    "0": 503,
+    "1": 211
+  },
+  "target_labels": [
+    {
+      "label": "Not High Utilizer",
+      "id": 0
+    },
+    {
+      "label": "High Utilizer",
+      "id": 1
+    }
+  ],
+  "elapsed_sec": 0.1081,
+  "outputs": {
+    "train": "data\\processed\\npha\\train.csv",
+    "test": "data\\processed\\npha\\test.csv",
+    "feature_metadata": "data\\processed\\npha\\feature_metadata.json"
+  }
+}

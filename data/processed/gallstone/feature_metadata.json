@@ -1,0 +1,425 @@
+{
+  "dataset": "gallstone",
+  "features": {
+    "Age": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": false,
+      "clinical_actionability": "immutable_or_historical",
+      "permitted_range": [
+        20,
+        96
+      ]
+    },
+    "Gender": {
+      "type": "binary",
+      "unit": "dataset_encoded",
+      "mutable": false,
+      "clinical_actionability": "immutable_or_historical",
+      "permitted_range": [
+        0,
+        1
+      ]
+    },
+    "Comorbidity": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": false,
+      "clinical_actionability": "immutable_or_historical",
+      "permitted_range": [
+        0,
+        3
+      ]
+    },
+    "Coronary Artery Disease (CAD)": {
+      "type": "binary",
+      "unit": "dataset_encoded",
+      "mutable": false,
+      "clinical_actionability": "immutable_or_historical",
+      "permitted_range": [
+        0,
+        1
+      ]
+    },
+    "Hypothyroidism": {
+      "type": "binary",
+      "unit": "dataset_encoded",
+      "mutable": false,
+      "clinical_actionability": "immutable_or_historical",
+      "permitted_range": [
+        0,
+        1
+      ]
+    },
+    "Hyperlipidemia": {
+      "type": "binary",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "clinically_modifiable_signal",
+      "permitted_range": [
+        0,
+        1
+      ]
+    },
+    "Diabetes Mellitus (DM)": {
+      "type": "binary",
+      "unit": "dataset_encoded",
+      "mutable": false,
+      "clinical_actionability": "immutable_or_historical",
+      "permitted_range": [
+        0,
+        1
+      ]
+    },
+    "Height": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": false,
+      "clinical_actionability": "immutable_or_historical",
+      "permitted_range": [
+        145,
+        191
+      ]
+    },
+    "Weight": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "potentially_modifiable",
+      "permitted_range": [
+        42.9,
+        143.5
+      ]
+    },
+    "Body Mass Index (BMI)": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "potentially_modifiable",
+      "permitted_range": [
+        17.4,
+        49.7
+      ]
+    },
+    "Total Body Water (TBW)": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "clinically_modifiable_signal",
+      "permitted_range": [
+        13,
+        66.2
+      ]
+    },
+    "Extracellular Water (ECW)": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": false,
+      "clinical_actionability": "immutable_or_historical",
+      "permitted_range": [
+        9,
+        27.8
+      ]
+    },
+    "Intracellular Water (ICW)": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": false,
+      "clinical_actionability": "immutable_or_historical",
+      "permitted_range": [
+        13.8,
+        57.1
+      ]
+    },
+    "Extracellular Fluid/Total Body Water (ECF/TBW)": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": false,
+      "clinical_actionability": "immutable_or_historical",
+      "permitted_range": [
+        29.23,
+        52
+      ]
+    },
+    "Total Body Fat Ratio (TBFR) (%)": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "clinically_modifiable_signal",
+      "permitted_range": [
+        6.3,
+        50.92
+      ]
+    },
+    "Lean Mass (LM) (%)": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "clinically_modifiable_signal",
+      "permitted_range": [
+        48.99,
+        93.67
+      ]
+    },
+    "Body Protein Content (Protein) (%)": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "clinically_modifiable_signal",
+      "permitted_range": [
+        5.56,
+        24.81
+      ]
+    },
+    "Visceral Fat Rating (VFR)": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "clinically_modifiable_signal",
+      "permitted_range": [
+        1,
+        31
+      ]
+    },
+    "Bone Mass (BM)": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "clinically_modifiable_signal",
+      "permitted_range": [
+        1.4,
+        4
+      ]
+    },
+    "Muscle Mass (MM)": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "clinically_modifiable_signal",
+      "permitted_range": [
+        4.7,
+        78.8
+      ]
+    },
+    "Obesity (%)": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "clinically_modifiable_signal",
+      "permitted_range": [
+        0.4,
+        1954
+      ]
+    },
+    "Total Fat Content (TFC)": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "clinically_modifiable_signal",
+      "permitted_range": [
+        3.1,
+        62.5
+      ]
+    },
+    "Visceral Fat Area (VFA)": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "clinically_modifiable_signal",
+      "permitted_range": [
+        0.9,
+        41
+      ]
+    },
+    "Visceral Muscle Area (VMA) (Kg)": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "clinically_modifiable_signal",
+      "permitted_range": [
+        18.9,
+        41.1
+      ]
+    },
+    "Hepatic Fat Accumulation (HFA)": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "clinically_modifiable_signal",
+      "permitted_range": [
+        0,
+        4
+      ]
+    },
+    "Glucose": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "potentially_modifiable",
+      "permitted_range": [
+        69,
+        575
+      ]
+    },
+    "Total Cholesterol (TC)": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "potentially_modifiable",
+      "permitted_range": [
+        60,
+        360
+      ]
+    },
+    "Low Density Lipoprotein (LDL)": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "potentially_modifiable",
+      "permitted_range": [
+        11,
+        293
+      ]
+    },
+    "High Density Lipoprotein (HDL)": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "potentially_modifiable",
+      "permitted_range": [
+        25,
+        273
+      ]
+    },
+    "Triglyceride": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "potentially_modifiable",
+      "permitted_range": [
+        1.39,
+        838
+      ]
+    },
+    "Aspartat Aminotransferaz (AST)": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "clinically_modifiable_signal",
+      "permitted_range": [
+        8,
+        195
+      ]
+    },
+    "Alanin Aminotransferaz (ALT)": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "clinically_modifiable_signal",
+      "permitted_range": [
+        3,
+        372
+      ]
+    },
+    "Alkaline Phosphatase (ALP)": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "clinically_modifiable_signal",
+      "permitted_range": [
+        7,
+        197
+      ]
+    },
+    "Creatinine": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "clinically_modifiable_signal",
+      "permitted_range": [
+        0.46,
+        1.46
+      ]
+    },
+    "Glomerular Filtration Rate (GFR)": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "clinically_modifiable_signal",
+      "permitted_range": [
+        10.6,
+        132
+      ]
+    },
+    "C-Reactive Protein (CRP)": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "clinically_modifiable_signal",
+      "permitted_range": [
+        0,
+        43.4
+      ]
+    },
+    "Hemoglobin (HGB)": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "clinically_modifiable_signal",
+      "permitted_range": [
+        8.5,
+        18.8
+      ]
+    },
+    "Vitamin D": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "clinically_modifiable_signal",
+      "permitted_range": [
+        3.5,
+        53.1
+      ]
+    }
+  },
+  "feature_order": [
+    "Age",
+    "Gender",
+    "Comorbidity",
+    "Coronary Artery Disease (CAD)",
+    "Hypothyroidism",
+    "Hyperlipidemia",
+    "Diabetes Mellitus (DM)",
+    "Height",
+    "Weight",
+    "Body Mass Index (BMI)",
+    "Total Body Water (TBW)",
+    "Extracellular Water (ECW)",
+    "Intracellular Water (ICW)",
+    "Extracellular Fluid/Total Body Water (ECF/TBW)",
+    "Total Body Fat Ratio (TBFR) (%)",
+    "Lean Mass (LM) (%)",
+    "Body Protein Content (Protein) (%)",
+    "Visceral Fat Rating (VFR)",
+    "Bone Mass (BM)",
+    "Muscle Mass (MM)",
+    "Obesity (%)",
+    "Total Fat Content (TFC)",
+    "Visceral Fat Area (VFA)",
+    "Visceral Muscle Area (VMA) (Kg)",
+    "Hepatic Fat Accumulation (HFA)",
+    "Glucose",
+    "Total Cholesterol (TC)",
+    "Low Density Lipoprotein (LDL)",
+    "High Density Lipoprotein (HDL)",
+    "Triglyceride",
+    "Aspartat Aminotransferaz (AST)",
+    "Alanin Aminotransferaz (ALT)",
+    "Alkaline Phosphatase (ALP)",
+    "Creatinine",
+    "Glomerular Filtration Rate (GFR)",
+    "C-Reactive Protein (CRP)",
+    "Hemoglobin (HGB)",
+    "Vitamin D"
+  ]
+}

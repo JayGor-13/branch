@@ -1,0 +1,117 @@
+{
+  "dataset": "load_diabetes",
+  "features": {
+    "age": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": false,
+      "clinical_actionability": "immutable_or_historical",
+      "permitted_range": [
+        -0.1072256316073538,
+        0.11072667545381144
+      ]
+    },
+    "sex": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": false,
+      "clinical_actionability": "immutable_or_historical",
+      "permitted_range": [
+        -0.044641636506989144,
+        0.05068011873981862
+      ]
+    },
+    "bmi": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "potentially_modifiable",
+      "permitted_range": [
+        -0.09027529589850945,
+        0.17055522598064407
+      ]
+    },
+    "bp": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "potentially_modifiable",
+      "permitted_range": [
+        -0.11239880254408448,
+        0.13204361674121307
+      ]
+    },
+    "s1": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "clinically_modifiable_signal",
+      "permitted_range": [
+        -0.12678066991651324,
+        0.15391371315651542
+      ]
+    },
+    "s2": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "clinically_modifiable_signal",
+      "permitted_range": [
+        -0.11561306597939897,
+        0.19878798965729408
+      ]
+    },
+    "s3": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "clinically_modifiable_signal",
+      "permitted_range": [
+        -0.10230705051741597,
+        0.18117906039727852
+      ]
+    },
+    "s4": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "clinically_modifiable_signal",
+      "permitted_range": [
+        -0.0763945037500033,
+        0.18523444326019867
+      ]
+    },
+    "s5": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "clinically_modifiable_signal",
+      "permitted_range": [
+        -0.12609712083330468,
+        0.13359728192191356
+      ]
+    },
+    "s6": {
+      "type": "numeric",
+      "unit": "dataset_encoded",
+      "mutable": true,
+      "clinical_actionability": "clinically_modifiable_signal",
+      "permitted_range": [
+        -0.13776722569000302,
+        0.13561183068907107
+      ]
+    }
+  },
+  "feature_order": [
+    "age",
+    "sex",
+    "bmi",
+    "bp",
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6"
+  ]
+}

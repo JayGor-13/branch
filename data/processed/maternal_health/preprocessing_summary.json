@@ -1,0 +1,28 @@
+{
+  "dataset": "maternal_health",
+  "rows": 1187,
+  "train_rows": 949,
+  "test_rows": 238,
+  "test_size": 0.2,
+  "seed": 42,
+  "target_distribution": {
+    "0": 713,
+    "1": 474
+  },
+  "target_labels": [
+    {
+      "Risk Level": "Low Risk",
+      "RiskLevelId": 0
+    },
+    {
+      "Risk Level": "High Risk",
+      "RiskLevelId": 1
+    }
+  ],
+  "elapsed_sec": 0.154,
+  "outputs": {
+    "train": "data\\processed\\maternal_health\\train.csv",
+    "test": "data\\processed\\maternal_health\\test.csv",
+    "feature_metadata": "data\\processed\\maternal_health\\feature_metadata.json"
+  }
+}
