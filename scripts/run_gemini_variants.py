@@ -58,11 +58,18 @@ def main() -> None:
         help="Use real external RAGAS by default; use local only for smoke tests.",
     )
     parser.add_argument("--ragas-llm-model", default="gemma-4-31b-it")
-    parser.add_argument("--ragas-embedding-model", default="models/text-embedding-004")
+    parser.add_argument("--ragas-embedding-model", default="gemini-embedding-001")
     parser.add_argument("--ragas-api-key-env", default="GEMINI_API_KEY")
+    parser.add_argument("--ragas-timeout-sec", type=int, default=300)
     parser.add_argument("--ragas-max-workers", type=int, default=1)
-    parser.add_argument("--ragas-max-retries", type=int, default=3)
+    parser.add_argument("--ragas-max-retries", type=int, default=1)
     parser.add_argument("--ragas-max-wait", type=int, default=60)
+    parser.add_argument("--ragas-answer-strictness", type=int, default=1)
+    parser.add_argument(
+        "--ragas-stop-on-error",
+        action="store_true",
+        help="Abort if any patient-level RAGAS call fails.",
+    )
     parser.add_argument(
         "--ragas-record-delay-sec",
         type=float,
@@ -210,20 +217,27 @@ def main() -> None:
                     method_label,
                     "--quality-mode",
                     args.quality_mode,
+                    "--limit",
+                    str(args.limit),
                     "--ragas-llm-model",
                     args.ragas_llm_model,
                     "--ragas-embedding-model",
                     args.ragas_embedding_model,
                     "--ragas-api-key-env",
                     args.ragas_api_key_env,
+                    "--ragas-timeout-sec",
+                    str(args.ragas_timeout_sec),
                     "--ragas-max-workers",
                     str(args.ragas_max_workers),
                     "--ragas-max-retries",
                     str(args.ragas_max_retries),
                     "--ragas-max-wait",
                     str(args.ragas_max_wait),
+                    "--ragas-answer-strictness",
+                    str(args.ragas_answer_strictness),
                     "--ragas-record-delay-sec",
                     str(args.ragas_record_delay_sec),
+                    *(["--ragas-stop-on-error"] if args.ragas_stop_on_error else []),
                     "--trace-dir",
                     str(artifact_root / "explanations" / "branch_traces" / dataset),
                     "--narrative-dir",

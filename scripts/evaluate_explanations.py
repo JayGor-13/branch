@@ -45,6 +45,12 @@ def main() -> None:
         default="results/metrics/explanation_quality.csv",
     )
     parser.add_argument(
+        "--limit",
+        type=int,
+        default=None,
+        help="Maximum number of trace files to evaluate.",
+    )
+    parser.add_argument(
         "--method",
         default=None,
         help=(
@@ -68,11 +74,18 @@ def main() -> None:
         ),
     )
     parser.add_argument("--ragas-llm-model", default="gemma-4-31b-it")
-    parser.add_argument("--ragas-embedding-model", default="models/text-embedding-004")
+    parser.add_argument("--ragas-embedding-model", default="gemini-embedding-001")
     parser.add_argument("--ragas-api-key-env", default="GEMINI_API_KEY")
+    parser.add_argument("--ragas-timeout-sec", type=int, default=300)
     parser.add_argument("--ragas-max-workers", type=int, default=1)
-    parser.add_argument("--ragas-max-retries", type=int, default=3)
+    parser.add_argument("--ragas-max-retries", type=int, default=1)
     parser.add_argument("--ragas-max-wait", type=int, default=60)
+    parser.add_argument("--ragas-answer-strictness", type=int, default=1)
+    parser.add_argument(
+        "--ragas-stop-on-error",
+        action="store_true",
+        help="Abort if any patient-level RAGAS call fails.",
+    )
     parser.add_argument(
         "--ragas-record-delay-sec",
         type=float,
@@ -130,7 +143,10 @@ def main() -> None:
 
     rows = []
     ragas_jobs = []
-    for trace_path in sorted(trace_dir.glob("*_trace.json")):
+    trace_paths = sorted(trace_dir.glob("*_trace.json"))
+    if args.limit is not None:
+        trace_paths = trace_paths[: args.limit]
+    for trace_path in trace_paths:
         trace = read_json(trace_path)
         patient_id = trace["patient_id"]
         method_label = args.method or _method_label_from_trace(trace)
@@ -230,13 +246,23 @@ def main() -> None:
             llm_model=args.ragas_llm_model,
             embedding_model=args.ragas_embedding_model,
             api_key_env=args.ragas_api_key_env,
+            timeout_sec=args.ragas_timeout_sec,
             max_workers=args.ragas_max_workers,
             max_retries=args.ragas_max_retries,
             max_wait=args.ragas_max_wait,
             record_delay_sec=args.ragas_record_delay_sec,
+            continue_on_error=not args.ragas_stop_on_error,
+            answer_relevancy_strictness=args.ragas_answer_strictness,
         )
         for job, score in zip(ragas_jobs, scores):
             row = rows[job["row_index"]]
+            row["ragas_error"] = score.error
+            row["ragas_evaluator_model"] = args.ragas_llm_model
+            row["ragas_embedding_model"] = args.ragas_embedding_model
+            if score.error:
+                row["quality_mode"] = "ragas_failed"
+                row["notes"] = _append_note(row.get("notes"), score.error)
+                continue
             if score.faithfulness is not None:
                 row["faithfulness"] = score.faithfulness
             if score.answer_relevancy is not None:
@@ -248,8 +274,6 @@ def main() -> None:
                 float(row["clinical_alignment"]),
             )
             row["quality_mode"] = "ragas"
-            row["ragas_evaluator_model"] = args.ragas_llm_model
-            row["ragas_embedding_model"] = args.ragas_embedding_model
 
     out = Path(args.output_path)
     out.parent.mkdir(parents=True, exist_ok=True)
@@ -295,6 +319,13 @@ def _ragas_contexts(guideline_context: dict) -> list[str]:
 
 def _narrative_for_ragas(narrative: str) -> str:
     return narrative.replace("<thought>", "").replace("</thought>", "").strip()
+
+
+def _append_note(existing: object, note: str) -> str:
+    existing_text = "" if existing is None else str(existing).strip()
+    if not existing_text:
+        return note
+    return f"{existing_text}; {note}"
 
 
 if __name__ == "__main__":

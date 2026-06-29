@@ -36,6 +36,8 @@ Thumbs.db
 .codex/
 
 # Logs and temporary files
+.tmp/
+pytest_tmp*/
 *.log
 *.tmp
 *.bak
@@ -47,10 +49,10 @@ Thumbs.db
 
 # Data files should not be pushed by default.
 # Keep dataset acquisition instructions in README/docs instead.
-#data/raw/
-#data/interim/
-#data/processed/
-#data/external/
+data/raw/
+data/interim/
+data/processed/
+data/external/
 
 # Model artifacts, generated explanations, vector stores, and predictions
 artifacts/

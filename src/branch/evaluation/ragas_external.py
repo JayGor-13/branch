@@ -23,17 +23,21 @@ class RagasRecord:
 class RagasScore:
     faithfulness: float | None
     answer_relevancy: float | None
+    error: str | None = None
 
 
 def evaluate_ragas_records(
     records: list[RagasRecord],
     llm_model: str = "gemma-4-31b-it",
-    embedding_model: str = "models/text-embedding-004",
+    embedding_model: str = "gemini-embedding-001",
     api_key_env: str = "GEMINI_API_KEY",
+    timeout_sec: int = 300,
     max_workers: int = 1,
-    max_retries: int = 3,
+    max_retries: int = 1,
     max_wait: int = 60,
     record_delay_sec: float = 20.0,
+    continue_on_error: bool = True,
+    answer_relevancy_strictness: int = 1,
 ) -> list[RagasScore]:
     """Evaluate records with the real RAGAS package.
 
@@ -50,7 +54,9 @@ def evaluate_ragas_records(
         raise RuntimeError(
             f"External RAGAS evaluation requires {api_key_env} or GOOGLE_API_KEY."
         )
-    os.environ.setdefault("GOOGLE_API_KEY", api_key)
+    # Pass the key explicitly to LangChain/Google clients. Do not mirror it into
+    # GOOGLE_API_KEY, because that can mask the intended GEMINI_API_KEY in shells
+    # where both variables are set.
     _install_ragas_vertexai_import_shim()
 
     try:
@@ -71,7 +77,18 @@ def evaluate_ragas_records(
         ) from exc
 
     evaluator_llm = LangchainLLMWrapper(
-        ChatGoogleGenerativeAI(model=llm_model, google_api_key=api_key)
+        ChatGoogleGenerativeAI(
+            model=llm_model,
+            google_api_key=api_key,
+            candidate_count=1,
+            temperature=0.0,
+            request_timeout=timeout_sec,
+            max_retries=1,
+        ),
+        # Gemma 4 API models reject candidate_count > 1. RAGAS may request
+        # multiple completions internally, so bypass LangChain's `n` mapping and
+        # let the wrapper use repeated single-candidate calls instead.
+        bypass_n=True,
     )
     evaluator_embeddings = LangchainEmbeddingsWrapper(
         GoogleGenerativeAIEmbeddings(
@@ -80,6 +97,7 @@ def evaluate_ragas_records(
         )
     )
     run_config = RunConfig(
+        timeout=timeout_sec,
         max_workers=max_workers,
         max_retries=max_retries,
         max_wait=max_wait,
@@ -88,42 +106,58 @@ def evaluate_ragas_records(
     scores: list[RagasScore] = []
     for index, record in enumerate(records):
         dataset = Dataset.from_dict(_records_to_dataset_dict([record]))
-        result = evaluate(
-            dataset,
-            metrics=_load_ragas_metrics(),
-            llm=evaluator_llm,
-            embeddings=evaluator_embeddings,
-            run_config=run_config,
-            raise_exceptions=True,
-            batch_size=1,
-            show_progress=False,
-        )
-        frame = result.to_pandas() if hasattr(result, "to_pandas") else result
-        scores.extend(
-            RagasScore(
-                faithfulness=_first_float(row, ["faithfulness"]),
-                answer_relevancy=_first_float(
-                    row,
-                    [
-                        "answer_relevancy",
-                        "answer_relevance",
-                        "response_relevancy",
-                        "response_relevance",
-                    ],
-                ),
+        try:
+            result = evaluate(
+                dataset,
+                metrics=_load_ragas_metrics(answer_relevancy_strictness),
+                llm=evaluator_llm,
+                embeddings=evaluator_embeddings,
+                run_config=run_config,
+                raise_exceptions=True,
+                batch_size=1,
+                show_progress=False,
             )
-            for _, row in frame.iterrows()
-        )
+            frame = result.to_pandas() if hasattr(result, "to_pandas") else result
+            scores.extend(
+                RagasScore(
+                    faithfulness=_first_float(row, ["faithfulness"]),
+                    answer_relevancy=_first_float(
+                        row,
+                        [
+                            "answer_relevancy",
+                            "answer_relevance",
+                            "response_relevancy",
+                            "response_relevance",
+                        ],
+                    ),
+                )
+                for _, row in frame.iterrows()
+            )
+        except Exception as exc:
+            if not continue_on_error:
+                raise
+            error_message = f"{type(exc).__name__}: {exc}"
+            print(f"RAGAS failed for record {index + 1}: {error_message}", flush=True)
+            scores.append(
+                RagasScore(
+                    faithfulness=None,
+                    answer_relevancy=None,
+                    error=error_message,
+                )
+            )
         if record_delay_sec > 0 and index < len(records) - 1:
             sleep(record_delay_sec)
     return scores
 
 
-def _load_ragas_metrics() -> list[Any]:
+def _load_ragas_metrics(answer_relevancy_strictness: int = 1) -> list[Any]:
     try:
-        from ragas.metrics import answer_relevancy, faithfulness
+        from ragas.metrics import AnswerRelevancy, Faithfulness
 
-        return [faithfulness, answer_relevancy]
+        return [
+            Faithfulness(),
+            AnswerRelevancy(strictness=answer_relevancy_strictness),
+        ]
     except ImportError:
         pass
 
@@ -132,7 +166,10 @@ def _load_ragas_metrics() -> list[Any]:
     response_relevancy_cls = _import_metric_class(
         ["ResponseRelevancy", "AnswerRelevancy"]
     )
-    return [Faithfulness(), response_relevancy_cls()]
+    return [
+        Faithfulness(),
+        response_relevancy_cls(strictness=answer_relevancy_strictness),
+    ]
 
 
 def _install_ragas_vertexai_import_shim() -> None:

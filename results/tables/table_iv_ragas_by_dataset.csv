@@ -1,13 +1,9 @@
 Method,Dataset,Faithfulness,Answer Relevancy,Clinical Alignment,EQS,Retrieved Chunks
-BRANCH-Gemma4-12B,Average,1.000 ± 0.000,0.896 ± 0.135,0.460 ± 0.137,0.807 ± 0.051,3.000 ± 0.000
-BRANCH-Gemma4-12B,Gallstone Disease,1.000 ± 0.000,0.896 ± 0.135,0.460 ± 0.137,0.807 ± 0.051,3.000 ± 0.000
-BRANCH-Gemma4-12B,Maternal Health,--,--,--,--,--
-BRANCH-Gemma4-12B,NPHA,--,--,--,--,--
-BRANCH-Gemma4-26B,Average,0.000 ± 0.000,0.913 ± 0.182,0.467 ± 0.126,0.414 ± 0.069,3.000 ± 0.000
-BRANCH-Gemma4-26B,Gallstone Disease,0.000 ± 0.000,0.940 ± 0.147,0.400 ± 0.205,0.402 ± 0.086,3.000 ± 0.000
-BRANCH-Gemma4-26B,Maternal Health,0.000 ± 0.000,1.000 ± 0.000,0.500 ± 0.000,0.450 ± 0.000,3.000 ± 0.000
-BRANCH-Gemma4-26B,NPHA,0.000 ± 0.000,0.800 ± 0.243,0.500 ± 0.000,0.390 ± 0.073,3.000 ± 0.000
-BRANCH-Gemma4-31B,Average,0.000 ± 0.000,0.597 ± 0.436,0.475 ± 0.110,0.321 ± 0.135,3.000 ± 0.000
-BRANCH-Gemma4-31B,Gallstone Disease,0.000 ± 0.000,0.630 ± 0.460,0.425 ± 0.183,0.316 ± 0.150,3.000 ± 0.000
-BRANCH-Gemma4-31B,Maternal Health,0.000 ± 0.000,0.730 ± 0.422,0.500 ± 0.000,0.369 ± 0.127,3.000 ± 0.000
-BRANCH-Gemma4-31B,NPHA,0.000 ± 0.000,0.430 ± 0.391,0.500 ± 0.000,0.279 ± 0.117,3.000 ± 0.000
+BRANCH-Gemma4-26B,Average,--,--,--,--,--
+BRANCH-Gemma4-26B,Gallstone Disease,--,--,--,--,--
+BRANCH-Gemma4-26B,Maternal Health,--,--,--,--,--
+BRANCH-Gemma4-26B,NPHA,--,--,--,--,--
+BRANCH-Gemma4-31B,Average,--,--,--,--,--
+BRANCH-Gemma4-31B,Gallstone Disease,--,--,--,--,--
+BRANCH-Gemma4-31B,Maternal Health,--,--,--,--,--
+BRANCH-Gemma4-31B,NPHA,--,--,--,--,--
