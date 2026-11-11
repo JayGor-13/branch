@@ -26,6 +26,7 @@ ENV/
 *.crt
 credentials*.json
 secrets*.json
+new.txt
 
 # IDE, OS, and local agent state
 .vscode/

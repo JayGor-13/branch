@@ -430,19 +430,53 @@ def _build_gemini_ragas_llm(
             stop: list[str] | None,
         ) -> str:
             self._wait_before_call()
-            payload = _gemini_generate_content_payload(
-                prompt_text=prompt_text,
-                temperature=temperature,
-                max_output_tokens=self._max_output_tokens,
-                stop=stop,
-            )
-            response_payload = _post_gemini_generate_content(
-                model=self.model,
-                api_key=self._api_key,
-                payload=payload,
-                timeout_sec=self._timeout_sec,
-            )
-            return _extract_gemini_text(response_payload)
+            if self._api_key.startswith("gsk_"):
+                # Call Groq chat completions endpoint
+                endpoint = "https://api.groq.com/openai/v1/chat/completions"
+                model_id = self.model
+                if "gemma" in model_id or "gemini" in model_id:
+                    model_id = "llama-3.3-70b-versatile"
+                payload = {
+                    "model": model_id,
+                    "messages": [{"role": "user", "content": prompt_text}],
+                    "temperature": temperature,
+                    "max_tokens": self._max_output_tokens,
+                }
+                if stop:
+                    payload["stop"] = stop
+                req = request.Request(
+                    endpoint,
+                    data=json.dumps(payload).encode("utf-8"),
+                    headers={
+                        "Content-Type": "application/json",
+                        "Authorization": f"Bearer {self._api_key}",
+                        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+                    },
+                    method="POST",
+                )
+                try:
+                    with request.urlopen(req, timeout=self._timeout_sec) as response:
+                        res = json.loads(response.read().decode("utf-8"))
+                        return res["choices"][0]["message"]["content"]
+                except Exception as exc:
+                    if hasattr(exc, 'read'):
+                        details = exc.read().decode('utf-8', errors='replace')
+                        raise RuntimeError(f"Groq RAGAS evaluator returned error: {details}") from exc
+                    raise RuntimeError(f"Groq RAGAS request failed: {exc}") from exc
+            else:
+                payload = _gemini_generate_content_payload(
+                    prompt_text=prompt_text,
+                    temperature=temperature,
+                    max_output_tokens=self._max_output_tokens,
+                    stop=stop,
+                )
+                response_payload = _post_gemini_generate_content(
+                    model=self.model,
+                    api_key=self._api_key,
+                    payload=payload,
+                    timeout_sec=self._timeout_sec,
+                )
+                return _extract_gemini_text(response_payload)
 
         def _wait_before_call(self) -> None:
             if self._min_interval_sec <= 0:
